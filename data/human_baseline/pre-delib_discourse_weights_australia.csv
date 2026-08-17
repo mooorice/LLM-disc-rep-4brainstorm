@@ -1,0 +1,5 @@
+discourse,label,moderate_pct,high_pct,total_pct,weight_all_loadings,weight_high_only
+A,Scientific Progress,11,4,15,0.4167,0.5714
+B,Principled Concern,12,2,14,0.3889,0.2857
+C,Profound Concern,6,1,7,0.1944,0.1429
+D,Agnosticism,0,0,0,0.0000,0.0000

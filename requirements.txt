@@ -1,0 +1,13 @@
+# LLM generation via OpenRouter
+openai
+python-dotenv
+
+# Embeddings
+torch
+sentence-transformers
+transformers
+accelerate
+
+# Analysis
+pandas
+numpy
