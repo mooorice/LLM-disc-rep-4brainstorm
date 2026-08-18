@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 3,
+  "discourse": "A",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:12:35.814750+00:00",
+  "judge_id": "gen-1787047952-PVQXraOTodyH9Ka98sDQ",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 187,
+    "prompt_tokens": 2245,
+    "total_tokens": 2432,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00026563,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00026563,
+      "upstream_inference_prompt_cost": 0.00020205,
+      "upstream_inference_completions_cost": 6.358e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"For people living with sickle cell disease, beta thalassaemia, some inherited blindness, certain cancers and other serious conditions, genome editing is not distant speculation but a source of real hope. Somatic therapies can correct or disrupt a gene in a person’s own cells. Some have moved from trials into approved treatments in other countries, and Australian researchers are involved in this work. The language here is often about relief from suffering, the chance to avoid painful procedures, and the possibility of tackling diseases that currently have few effective options.\",\n  \"reason\": \"The briefing articulates the reasoning driven by the desire to reduce human suffering and the hope for medical benefits, including the pursuit of somatic and heritable editing for serious conditions.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "For people living with sickle cell disease, beta thalassaemia, some inherited blindness, certain cancers and other serious conditions, genome editing is not distant speculation but a source of real hope. Somatic therapies can correct or disrupt a gene in a person’s own cells. Some have moved from trials into approved treatments in other countries, and Australian researchers are involved in this work. The language here is often about relief from suffering, the chance to avoid painful procedures, and the possibility of tackling diseases that currently have few effective options.",
+  "reason": "The briefing articulates the reasoning driven by the desire to reduce human suffering and the hope for medical benefits, including the pursuit of somatic and heritable editing for serious conditions.",
+  "schema_problems": ""
+}

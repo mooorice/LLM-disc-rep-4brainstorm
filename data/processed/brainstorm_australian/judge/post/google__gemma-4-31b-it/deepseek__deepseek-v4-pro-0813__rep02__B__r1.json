@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 2,
+  "discourse": "B",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:12:30.370538+00:00",
+  "judge_id": "gen-1787047943-IcRWNJQi3vpbKhgRVZ0B",
+  "provider": "Chutes",
+  "usage": {
+    "completion_tokens": 135,
+    "prompt_tokens": 2052,
+    "total_tokens": 2187,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 367,
+      "video_tokens": 0
+    },
+    "cost": 0.000256554,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.000256554,
+      "upstream_inference_prompt_cost": 0.000206604,
+      "upstream_inference_completions_cost": 4.995e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"If genome editing becomes available, it may be expensive, and access might be limited to those who can pay. This could create a new form of inequality in which genetic protections or advantages are available to some but not others.\",\n  \"reason\": \"The briefing develops the reasoning regarding social inequality (haves vs have-nots), the distinction between medical therapy and enhancement, and the need for safety/governance, all of which are central to the described position.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "If genome editing becomes available, it may be expensive, and access might be limited to those who can pay. This could create a new form of inequality in which genetic protections or advantages are available to some but not others.",
+  "reason": "The briefing develops the reasoning regarding social inequality (haves vs have-nots), the distinction between medical therapy and enhancement, and the need for safety/governance, all of which are central to the described position.",
+  "schema_problems": ""
+}

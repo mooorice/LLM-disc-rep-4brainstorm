@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 2,
+  "discourse": "F",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:14:35.819629+00:00",
+  "judge_id": "gen-1787048072-rNpAqzYKNo07Szv4x3oM",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 2031,
+    "total_tokens": 2159,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00022631,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00022631,
+      "upstream_inference_prompt_cost": 0.00018279,
+      "upstream_inference_completions_cost": 4.352e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"Others respond that risk is inherent in all new medicine, that early IVF faced similar warnings, and that rigorous trials and oversight can manage uncertainty better than prohibition.\",\n  \"reason\": \"The briefing outlines the specific logic of this position, including the prioritization of reproductive autonomy, the dismissal of the 'future generations' consent argument, the belief that oversight can manage risk, and the view that cost should be solved via investment rather than prohibition.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "Others respond that risk is inherent in all new medicine, that early IVF faced similar warnings, and that rigorous trials and oversight can manage uncertainty better than prohibition.",
+  "reason": "The briefing outlines the specific logic of this position, including the prioritization of reproductive autonomy, the dismissal of the 'future generations' consent argument, the belief that oversight can manage risk, and the view that cost should be solved via investment rather than prohibition.",
+  "schema_problems": ""
+}

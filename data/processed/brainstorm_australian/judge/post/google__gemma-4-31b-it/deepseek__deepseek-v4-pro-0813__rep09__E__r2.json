@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 9,
+  "discourse": "E",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:13:55.970289+00:00",
+  "judge_id": "gen-1787048029-s9TCBIcmp9yqCQoPUGYL",
+  "provider": "CoreWeave",
+  "usage": {
+    "completion_tokens": 184,
+    "prompt_tokens": 1979,
+    "total_tokens": 2163,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 288,
+      "video_tokens": 0
+    },
+    "cost": 0.00026046,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00026046,
+      "upstream_inference_prompt_cost": 0.0001979,
+      "upstream_inference_completions_cost": 6.256e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"There are also fears that genome editing could widen existing inequalities. If genetic enhancements or even therapeutic edits are expensive, they may be available only to the wealthy, creating new forms of biological privilege. Historical attempts to control human reproduction, often targeting marginalised groups, make this a particularly sensitive issue. People from communities that have experienced discrimination or forced sterilisation may view the promise of genetic improvement with suspicion, seeing echoes of past eugenic ideologies dressed up in scientific language.\",\n  \"reason\": \"The briefing articulates the fear that genome editing could lead to a dystopian-style societal decline via biological privilege and the resurgence of eugenic ideologies, while separately acknowledging the acceptance of non-heritable/somatic therapies.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "There are also fears that genome editing could widen existing inequalities. If genetic enhancements or even therapeutic edits are expensive, they may be available only to the wealthy, creating new forms of biological privilege. Historical attempts to control human reproduction, often targeting marginalised groups, make this a particularly sensitive issue. People from communities that have experienced discrimination or forced sterilisation may view the promise of genetic improvement with suspicion, seeing echoes of past eugenic ideologies dressed up in scientific language.",
+  "reason": "The briefing articulates the fear that genome editing could lead to a dystopian-style societal decline via biological privilege and the resurgence of eugenic ideologies, while separately acknowledging the acceptance of non-heritable/somatic therapies.",
+  "schema_problems": ""
+}

@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 7,
+  "discourse": "C",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:38:53.770753+00:00",
+  "judge_id": "gen-1787049527-18uEcLrptELjeZnsCZyf",
+  "provider": "Parasail",
+  "usage": {
+    "completion_tokens": 660,
+    "prompt_tokens": 2019,
+    "total_tokens": 2679,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 771,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 416,
+      "video_tokens": 0
+    },
+    "cost": 0.00067818,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00067818,
+      "upstream_inference_prompt_cost": 0.00018318,
+      "upstream_inference_completions_cost": 0.000495
+    }
+  },
+  "parse_error": "",
+  "quote_verified": false,
+  "quote_match": 0.0,
+  "raw_response": "{\n  \"presence\": \"absent\",\n  \"treatment\": \"not_applicable\",\n  \"extent\": \"none\",\n  \"quote\": null,\n  \"reason\": \"The briefing does not articulate a unified position that opposes all genome editing on cultural, safety, and ethical grounds while favoring only research and non‑heritable clinical use as described.\"\n}",
+  "presence": "absent",
+  "treatment": "not_applicable",
+  "extent": "none",
+  "quote": "",
+  "reason": "The briefing does not articulate a unified position that opposes all genome editing on cultural, safety, and ethical grounds while favoring only research and non‑heritable clinical use as described.",
+  "schema_problems": ""
+}

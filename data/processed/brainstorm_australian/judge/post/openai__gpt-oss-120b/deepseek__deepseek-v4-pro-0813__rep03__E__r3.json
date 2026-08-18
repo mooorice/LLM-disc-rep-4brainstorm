@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 3,
+  "discourse": "E",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:32:49.137639+00:00",
+  "judge_id": "gen-1787049163-C6Qo07FGjhAyuukrK3A3",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 1095,
+    "prompt_tokens": 2247,
+    "total_tokens": 3342,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1284,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00099405,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00099405,
+      "upstream_inference_prompt_cost": 0.00033705,
+      "upstream_inference_completions_cost": 0.000657
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"For somatic therapy, those risks are largely borne by the consenting patient. For heritable editing, the risks would extend to a child who has no say, and to that child’s children.\",\n  \"reason\": \"The briefing develops the concern that heritable editing could harm society and future generations while presenting somatic (non‑heritable) editing and mitochondrial donation as acceptable, reflecting the described reasoning.\"\n}",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "For somatic therapy, those risks are largely borne by the consenting patient. For heritable editing, the risks would extend to a child who has no say, and to that child’s children.",
+  "reason": "The briefing develops the concern that heritable editing could harm society and future generations while presenting somatic (non‑heritable) editing and mitochondrial donation as acceptable, reflecting the described reasoning.",
+  "schema_problems": ""
+}

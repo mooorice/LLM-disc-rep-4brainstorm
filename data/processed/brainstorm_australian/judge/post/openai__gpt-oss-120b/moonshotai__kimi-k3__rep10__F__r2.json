@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 10,
+  "discourse": "F",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:46:23.835200+00:00",
+  "judge_id": "gen-1787049964-n14finlyxY2BHDVaquOp",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 1219,
+    "prompt_tokens": 2015,
+    "total_tokens": 3234,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1099,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1984,
+      "video_tokens": 0
+    },
+    "cost": 0.0005107,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.0005107,
+      "upstream_inference_prompt_cost": 4.1385e-05,
+      "upstream_inference_completions_cost": 0.000469315
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"some bioethicists argue for \\\"procreative beneficence\\\", a principle that parents should choose the best prospects for their children, and see editing as an extension of parental freedom that liberal societies should protect unless it clearly harms others.\",\n  \"reason\": \"The briefing refers to a view that emphasizes parental rights and a permissive stance on editing, but it does not develop the full high‑risk‑tolerant, socially‑unconcerned reasoning described.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "some bioethicists argue for \"procreative beneficence\", a principle that parents should choose the best prospects for their children, and see editing as an extension of parental freedom that liberal societies should protect unless it clearly harms others.",
+  "reason": "The briefing refers to a view that emphasizes parental rights and a permissive stance on editing, but it does not develop the full high‑risk‑tolerant, socially‑unconcerned reasoning described.",
+  "schema_problems": ""
+}

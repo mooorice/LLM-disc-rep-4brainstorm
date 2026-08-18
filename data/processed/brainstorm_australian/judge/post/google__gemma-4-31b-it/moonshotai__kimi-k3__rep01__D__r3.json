@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 1,
+  "discourse": "D",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:14:20.697453+00:00",
+  "judge_id": "gen-1787048056-Pop4bVH56qPL43WMkRjB",
+  "provider": "CoreWeave",
+  "usage": {
+    "completion_tokens": 148,
+    "prompt_tokens": 1904,
+    "total_tokens": 2052,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 320,
+      "video_tokens": 0
+    },
+    "cost": 0.00024072,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00024072,
+      "upstream_inference_prompt_cost": 0.0001904,
+      "upstream_inference_completions_cost": 5.032e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"The hopes invested in this technology are powerful and often personal. Families who have watched children suffer with cystic fibrosis, muscular dystrophy or Tay-Sachs disease see the possibility that such suffering could be prevented altogether, not just managed... On this view, refusing to act is itself a choice with moral weight, because it consigns future children to preventable pain.\",\n  \"reason\": \"The briefing articulates the drive to eradicate genetic disease, the moral obligation to prevent suffering for future generations, and the contrast between mere management and total prevention.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "The hopes invested in this technology are powerful and often personal. Families who have watched children suffer with cystic fibrosis, muscular dystrophy or Tay-Sachs disease see the possibility that such suffering could be prevented altogether, not just managed... On this view, refusing to act is itself a choice with moral weight, because it consigns future children to preventable pain.",
+  "reason": "The briefing articulates the drive to eradicate genetic disease, the moral obligation to prevent suffering for future generations, and the contrast between mere management and total prevention.",
+  "schema_problems": ""
+}

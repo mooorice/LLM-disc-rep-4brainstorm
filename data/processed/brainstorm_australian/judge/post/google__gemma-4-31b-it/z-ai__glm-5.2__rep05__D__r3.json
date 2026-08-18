@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 5,
+  "discourse": "D",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:16:49.503823+00:00",
+  "judge_id": "gen-1787048206-UkmXgsdPdbzo4ffTqVMH",
+  "provider": "Friendli",
+  "usage": {
+    "completion_tokens": 144,
+    "prompt_tokens": 1866,
+    "total_tokens": 2010,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 320,
+      "video_tokens": 0
+    },
+    "cost": 0.00031884,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00031884,
+      "upstream_inference_prompt_cost": 0.00026124,
+      "upstream_inference_completions_cost": 5.76e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a sentence or two\",\n  \"quote\": \"From this perspective, the moral imperative is clear: if we possess the ability to cure a child of a painful disease before they are even born, or to prevent a family from passing on a tragic genetic legacy, we have a duty to do so.\",\n  \"reason\": \"While the briefing mentions the moral duty to eradicate disease, it fails to include the other critical components of this specific reasoning: trust in experts, preference for conditional regulation over blanket bans, and an explicit rejection of the value of adversity.\"\n}\n```",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a sentence or two",
+  "quote": "From this perspective, the moral imperative is clear: if we possess the ability to cure a child of a painful disease before they are even born, or to prevent a family from passing on a tragic genetic legacy, we have a duty to do so.",
+  "reason": "While the briefing mentions the moral duty to eradicate disease, it fails to include the other critical components of this specific reasoning: trust in experts, preference for conditional regulation over blanket bans, and an explicit rejection of the value of adversity.",
+  "schema_problems": ""
+}

@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 3,
+  "discourse": "C",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:16:26.490985+00:00",
+  "judge_id": "gen-1787048183-u8Kpsh92ZpOwnD7Ttbsu",
+  "provider": "Friendli",
+  "usage": {
+    "completion_tokens": 226,
+    "prompt_tokens": 2037,
+    "total_tokens": 2263,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 352,
+      "video_tokens": 0
+    },
+    "cost": 0.00037558,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00037558,
+      "upstream_inference_prompt_cost": 0.00028518,
+      "upstream_inference_completions_cost": 9.04e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"Deeply held moral, religious, and philosophical views also form a crucial part of this landscape. For some, the human genome is sacred, and altering it represents an unacceptable overreach into the natural order. This perspective is often framed as a concern about playing God. Proponents argue that human beings do not have the wisdom to safely and ethically manipulate the fundamental code of life, and that doing so exhibits dangerous hubris. They might argue that we should accept the genetic hand we are dealt as part of the human condition or a divine plan. While this view does not necessarily oppose all medicine, it draws a line at the permanent alteration of the human blueprint, emphasizing the need for reverence and restraint.\",\n  \"reason\": \"The briefing articulates the reasoning of those who oppose genome editing based on cultural/religious beliefs, the idea of accepting the human condition, and the belief that altering the genome is an unacceptable overreach.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "Deeply held moral, religious, and philosophical views also form a crucial part of this landscape. For some, the human genome is sacred, and altering it represents an unacceptable overreach into the natural order. This perspective is often framed as a concern about playing God. Proponents argue that human beings do not have the wisdom to safely and ethically manipulate the fundamental code of life, and that doing so exhibits dangerous hubris. They might argue that we should accept the genetic hand we are dealt as part of the human condition or a divine plan. While this view does not necessarily oppose all medicine, it draws a line at the permanent alteration of the human blueprint, emphasizing the need for reverence and restraint.",
+  "reason": "The briefing articulates the reasoning of those who oppose genome editing based on cultural/religious beliefs, the idea of accepting the human condition, and the belief that altering the genome is an unacceptable overreach.",
+  "schema_problems": ""
+}

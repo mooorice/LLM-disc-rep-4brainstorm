@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 4,
+  "discourse": "F",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:12:57.710838+00:00",
+  "judge_id": "gen-1787047974-tpPEQmdeBarPj4akIEDj",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 2096,
+    "total_tokens": 2224,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00023216,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00023216,
+      "upstream_inference_prompt_cost": 0.00018864,
+      "upstream_inference_completions_cost": 4.352e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a sentence or two\",\n  \"quote\": \"Reproductive freedom is also central here: many people believe parents should be able to use the best available medical options to give their children a healthy start in life.\",\n  \"reason\": \"While the briefing mentions parental rights to use medical options, it does not articulate the specific high-risk tolerance, the disregard for wealth-based inequality, or the explicit rejection of the 'future generations' consent argument found in the reasoning description.\"\n}\n```",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a sentence or two",
+  "quote": "Reproductive freedom is also central here: many people believe parents should be able to use the best available medical options to give their children a healthy start in life.",
+  "reason": "While the briefing mentions parental rights to use medical options, it does not articulate the specific high-risk tolerance, the disregard for wealth-based inequality, or the explicit rejection of the 'future generations' consent argument found in the reasoning description.",
+  "schema_problems": ""
+}

@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 6,
+  "discourse": "B",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:38:13.656809+00:00",
+  "judge_id": "gen-1787049466-kzTcd5G1PMKA9AGff6Td",
+  "provider": "Mancer 2",
+  "usage": {
+    "completion_tokens": 1178,
+    "prompt_tokens": 2113,
+    "total_tokens": 3291,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1464,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.0007675,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.0007675,
+      "upstream_inference_prompt_cost": 0.0001793467873615186,
+      "upstream_inference_completions_cost": 0.0005881532126384814
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"If genome editing becomes available mainly to those who can pay large sums, it could deepen existing health inequalities.\",\n  \"reason\": \"The briefing raises concerns about unequal access, health benefits, safety, and the need for more research, matching key elements of the reasoning, but it does not present the full cohesive stance (e.g., private‑investment worries or specific policy preferences), so the reasoning is only mentioned.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "If genome editing becomes available mainly to those who can pay large sums, it could deepen existing health inequalities.",
+  "reason": "The briefing raises concerns about unequal access, health benefits, safety, and the need for more research, matching key elements of the reasoning, but it does not present the full cohesive stance (e.g., private‑investment worries or specific policy preferences), so the reasoning is only mentioned.",
+  "schema_problems": ""
+}

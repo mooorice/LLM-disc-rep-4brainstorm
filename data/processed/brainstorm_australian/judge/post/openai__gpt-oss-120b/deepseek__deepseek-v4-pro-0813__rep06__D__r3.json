@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 6,
+  "discourse": "D",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:38:41.151462+00:00",
+  "judge_id": "gen-1787049503-rAVuzLgiRvMQiVECYXHd",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 942,
+    "prompt_tokens": 2077,
+    "total_tokens": 3019,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 827,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 2048,
+      "video_tokens": 0
+    },
+    "cost": 0.000405225,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.000405225,
+      "upstream_inference_prompt_cost": 4.2555e-05,
+      "upstream_inference_completions_cost": 0.00036267
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"Some argue that if a safe intervention can prevent serious disease, there is a moral obligation to develop it.\",\n  \"reason\": \"The briefing outlines a view that emphasizes the positive potential of genome editing to prevent disease, frames it as a moral obligation, expresses concerns about safety and enhancements, and favors conditional permission rather than blanket bans, presenting this reasoning alongside other perspectives without endorsing it.\"\n}",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "Some argue that if a safe intervention can prevent serious disease, there is a moral obligation to develop it.",
+  "reason": "The briefing outlines a view that emphasizes the positive potential of genome editing to prevent disease, frames it as a moral obligation, expresses concerns about safety and enhancements, and favors conditional permission rather than blanket bans, presenting this reasoning alongside other perspectives without endorsing it.",
+  "schema_problems": ""
+}

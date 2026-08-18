@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 6,
+  "discourse": "D",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:48:27.822446+00:00",
+  "judge_id": "gen-1787050097-3BQMwYtZSBqmjo8N7RJc",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 602,
+    "prompt_tokens": 1935,
+    "total_tokens": 2537,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 496,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1920,
+      "video_tokens": 0
+    },
+    "cost": 0.000270995,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.000270995,
+      "upstream_inference_prompt_cost": 3.9225e-05,
+      "upstream_inference_completions_cost": 0.00023177
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"Proponents argue that we have a moral imperative to alleviate human suffering when we possess the technological means to do so.\",\n  \"reason\": \"The briefing presents a supportive view focused on disease prevention and mentions concerns about enhancements, but does not develop the full configuration of reasons, values, and policy preferences described in the target reasoning.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "Proponents argue that we have a moral imperative to alleviate human suffering when we possess the technological means to do so.",
+  "reason": "The briefing presents a supportive view focused on disease prevention and mentions concerns about enhancements, but does not develop the full configuration of reasons, values, and policy preferences described in the target reasoning.",
+  "schema_problems": ""
+}

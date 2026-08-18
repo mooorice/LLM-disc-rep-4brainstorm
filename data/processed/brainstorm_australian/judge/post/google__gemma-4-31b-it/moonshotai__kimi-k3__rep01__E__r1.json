@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 1,
+  "discourse": "E",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:14:23.429912+00:00",
+  "judge_id": "gen-1787048059-wAb4wXN4D6t4npgrq4QC",
+  "provider": "Friendli",
+  "usage": {
+    "completion_tokens": 165,
+    "prompt_tokens": 1868,
+    "total_tokens": 2033,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 288,
+      "video_tokens": 0
+    },
+    "cost": 0.00032752,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00032752,
+      "upstream_inference_prompt_cost": 0.00026152,
+      "upstream_inference_completions_cost": 6.6e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"If editing becomes available only to the wealthy, some fear a society stratified not just by money but by biology, in which advantages are literally inherited. Disability communities have offered some of the most searching critiques: many deaf people, people with dwarfism and others argue that their lives are rich and valuable, and that a drive to edit out their conditions sends a painful message that people like them should not exist.\",\n  \"reason\": \"The briefing articulates the fear of a dystopian, stratified society and the danger of pursuing 'perfection' over difference, while also distinguishing between heritable and somatic editing elsewhere in the text.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "If editing becomes available only to the wealthy, some fear a society stratified not just by money but by biology, in which advantages are literally inherited. Disability communities have offered some of the most searching critiques: many deaf people, people with dwarfism and others argue that their lives are rich and valuable, and that a drive to edit out their conditions sends a painful message that people like them should not exist.",
+  "reason": "The briefing articulates the fear of a dystopian, stratified society and the danger of pursuing 'perfection' over difference, while also distinguishing between heritable and somatic editing elsewhere in the text.",
+  "schema_problems": ""
+}

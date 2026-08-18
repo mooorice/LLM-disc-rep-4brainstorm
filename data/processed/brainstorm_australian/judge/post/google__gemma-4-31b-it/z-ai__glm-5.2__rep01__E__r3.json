@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 1,
+  "discourse": "E",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:16:11.666687+00:00",
+  "judge_id": "gen-1787048165-0y2rHjXfKEjuU59Rjq0s",
+  "provider": "Friendli",
+  "usage": {
+    "completion_tokens": 135,
+    "prompt_tokens": 2032,
+    "total_tokens": 2167,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 288,
+      "video_tokens": 0
+    },
+    "cost": 0.00033848,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00033848,
+      "upstream_inference_prompt_cost": 0.00028448,
+      "upstream_inference_completions_cost": 5.4e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a sentence or two\",\n  \"quote\": \"While there is broad public consensus that treating a severe illness is a worthy goal, the prospect of designer babies engineered for higher intelligence, athletic prowess, or specific physical traits triggers deep discomfort.\",\n  \"reason\": \"While the briefing captures the fear of a dystopian future (designer babies) and the acceptance of therapeutic use, it does not articulate the specific configuration of supporting non-heritable editing based on individual right to decide or the preference for non-profit provision.\"\n}\n```",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a sentence or two",
+  "quote": "While there is broad public consensus that treating a severe illness is a worthy goal, the prospect of designer babies engineered for higher intelligence, athletic prowess, or specific physical traits triggers deep discomfort.",
+  "reason": "While the briefing captures the fear of a dystopian future (designer babies) and the acceptance of therapeutic use, it does not articulate the specific configuration of supporting non-heritable editing based on individual right to decide or the preference for non-profit provision.",
+  "schema_problems": ""
+}

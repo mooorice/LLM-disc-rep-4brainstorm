@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 1,
+  "discourse": "D",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:41:29.530961+00:00",
+  "judge_id": "gen-1787049666-Ra8VMkms9ULKMK8i752S",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 876,
+    "prompt_tokens": 1947,
+    "total_tokens": 2823,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 785,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 320,
+      "video_tokens": 0
+    },
+    "cost": 0.000433145,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.000433145,
+      "upstream_inference_prompt_cost": 9.5885e-05,
+      "upstream_inference_completions_cost": 0.00033726
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"On this view, refusing to act is itself a choice with moral weight, because it consigns future children to preventable pain.\",\n  \"reason\": \"The briefing references the focus on preventing disease and a moral duty to future generations, but does not develop the full coherent position described.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "On this view, refusing to act is itself a choice with moral weight, because it consigns future children to preventable pain.",
+  "reason": "The briefing references the focus on preventing disease and a moral duty to future generations, but does not develop the full coherent position described.",
+  "schema_problems": ""
+}

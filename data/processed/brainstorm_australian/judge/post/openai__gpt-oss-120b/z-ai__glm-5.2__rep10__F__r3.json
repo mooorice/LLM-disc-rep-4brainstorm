@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 10,
+  "discourse": "F",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:50:10.253038+00:00",
+  "judge_id": "gen-1787050201-ubDlvmfNU9zyPiOu7tZG",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 446,
+    "prompt_tokens": 1881,
+    "total_tokens": 2327,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 357,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1856,
+      "video_tokens": 0
+    },
+    "cost": 0.000210205,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.000210205,
+      "upstream_inference_prompt_cost": 3.8495e-05,
+      "upstream_inference_completions_cost": 0.00017171
+    }
+  },
+  "parse_error": "",
+  "quote_verified": false,
+  "quote_match": 0.0,
+  "raw_response": "{\n  \"presence\": \"absent\",\n  \"treatment\": \"not_applicable\",\n  \"extent\": \"none\",\n  \"quote\": null,\n  \"reason\": \"The briefing does not present a high‑risk‑tolerance, pro‑unrestricted genome‑editing stance that downplays equity or safety concerns, nor does it mention parental rights to edit embryos in the way described.\"\n}",
+  "presence": "absent",
+  "treatment": "not_applicable",
+  "extent": "none",
+  "quote": "",
+  "reason": "The briefing does not present a high‑risk‑tolerance, pro‑unrestricted genome‑editing stance that downplays equity or safety concerns, nor does it mention parental rights to edit embryos in the way described.",
+  "schema_problems": ""
+}

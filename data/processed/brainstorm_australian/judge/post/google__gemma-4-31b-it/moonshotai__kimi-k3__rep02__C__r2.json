@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 2,
+  "discourse": "C",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:14:34.120022+00:00",
+  "judge_id": "gen-1787048067-Nol75nCCxqsWFpHV5VtH",
+  "provider": "CoreWeave",
+  "usage": {
+    "completion_tokens": 153,
+    "prompt_tokens": 2134,
+    "total_tokens": 2287,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 352,
+      "video_tokens": 0
+    },
+    "cost": 0.00026542,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00026542,
+      "upstream_inference_prompt_cost": 0.0002134,
+      "upstream_inference_completions_cost": 5.202e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"Religious, cultural and Indigenous perspectives add further depth. Faith traditions diverge: some hold that embryos possess full moral status and that editing usurps a divine role, while others see healing as a sacred duty and distinguish therapy from redesign. Secular traditions raise parallel questions about human dignity and whether there is wisdom in limits.\",\n  \"reason\": \"The briefing articulates the use of cultural and religious beliefs to oppose editing, specifically mentioning the 'divine role' and questions of 'human dignity' and 'wisdom in limits,' which aligns with the described way of reasoning.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "Religious, cultural and Indigenous perspectives add further depth. Faith traditions diverge: some hold that embryos possess full moral status and that editing usurps a divine role, while others see healing as a sacred duty and distinguish therapy from redesign. Secular traditions raise parallel questions about human dignity and whether there is wisdom in limits.",
+  "reason": "The briefing articulates the use of cultural and religious beliefs to oppose editing, specifically mentioning the 'divine role' and questions of 'human dignity' and 'wisdom in limits,' which aligns with the described way of reasoning.",
+  "schema_problems": ""
+}

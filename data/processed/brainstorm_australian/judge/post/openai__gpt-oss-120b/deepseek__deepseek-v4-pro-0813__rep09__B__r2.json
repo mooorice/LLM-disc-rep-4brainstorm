@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 9,
+  "discourse": "B",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:40:21.489085+00:00",
+  "judge_id": "gen-1787049597-o8LDAqUoYseWPoy2QVFe",
+  "provider": "CoreWeave",
+  "usage": {
+    "completion_tokens": 1058,
+    "prompt_tokens": 2084,
+    "total_tokens": 3142,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1296,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 64,
+      "video_tokens": 0
+    },
+    "cost": 0.00024238,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00024238,
+      "upstream_inference_prompt_cost": 6.252e-05,
+      "upstream_inference_completions_cost": 0.00017986
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"There are also fears that genome editing could widen existing inequalities. If genetic enhancements or even therapeutic edits are expensive, they may be available only to the wealthy, creating new forms of biological privilege.\",\n  \"reason\": \"The briefing refers to inequality concerns and social risks but does not fully articulate the specific bundle of reasons, values, and policy preferences described in the target reasoning.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "There are also fears that genome editing could widen existing inequalities. If genetic enhancements or even therapeutic edits are expensive, they may be available only to the wealthy, creating new forms of biological privilege.",
+  "reason": "The briefing refers to inequality concerns and social risks but does not fully articulate the specific bundle of reasons, values, and policy preferences described in the target reasoning.",
+  "schema_problems": ""
+}

@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 8,
+  "discourse": "D",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:39:47.069926+00:00",
+  "judge_id": "gen-1787049571-2stmpaF53n5isV4M4otV",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 841,
+    "prompt_tokens": 2269,
+    "total_tokens": 3110,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 737,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 320,
+      "video_tokens": 0
+    },
+    "cost": 0.00043738,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00043738,
+      "upstream_inference_prompt_cost": 0.000113595,
+      "upstream_inference_completions_cost": 0.000323785
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"Patient advocacy groups sometimes argue that once a technology is safe enough, there is a moral duty to use it to prevent severe illness and premature death.\",\n  \"reason\": \"The briefing develops a view that emphasizes disease prevention as a moral duty, expresses concern about enhancements, and calls for strict oversight and conditional permission, matching the described reasoning configuration.\"\n}",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "Patient advocacy groups sometimes argue that once a technology is safe enough, there is a moral duty to use it to prevent severe illness and premature death.",
+  "reason": "The briefing develops a view that emphasizes disease prevention as a moral duty, expresses concern about enhancements, and calls for strict oversight and conditional permission, matching the described reasoning configuration.",
+  "schema_problems": ""
+}

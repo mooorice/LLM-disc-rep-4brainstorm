@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 8,
+  "discourse": "E",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:45:20.285529+00:00",
+  "judge_id": "gen-1787049906-k04y93hyFv23ofLd9Urv",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 580,
+    "prompt_tokens": 2166,
+    "total_tokens": 2746,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 516,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 2112,
+      "video_tokens": 0
+    },
+    "cost": 0.00026851,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00026851,
+      "upstream_inference_prompt_cost": 4.521e-05,
+      "upstream_inference_completions_cost": 0.0002233
+    }
+  },
+  "parse_error": "",
+  "quote_verified": false,
+  "quote_match": 0.0,
+  "raw_response": "{\n  \"presence\": \"absent\",\n  \"treatment\": \"not_applicable\",\n  \"extent\": \"none\",\n  \"quote\": null,\n  \"reason\": \"The briefing does not present the specific stance that worries about a dystopian perfect society coexist with support for non‑heritable editing and mitochondrial donation only if provided not for profit.\"\n}",
+  "presence": "absent",
+  "treatment": "not_applicable",
+  "extent": "none",
+  "quote": "",
+  "reason": "The briefing does not present the specific stance that worries about a dystopian perfect society coexist with support for non‑heritable editing and mitochondrial donation only if provided not for profit.",
+  "schema_problems": ""
+}

@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 10,
+  "discourse": "B",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:40:37.132167+00:00",
+  "judge_id": "gen-1787049635-3vL9C7IP9pu4dREGZvkg",
+  "provider": "Groq",
+  "usage": {
+    "completion_tokens": 553,
+    "prompt_tokens": 2112,
+    "total_tokens": 2665,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 444,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.0006486,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.0006486,
+      "upstream_inference_prompt_cost": 0.0003168,
+      "upstream_inference_completions_cost": 0.0003318
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"If heritable editing or costly somatic therapies become available privately, they could widen gaps between those who can afford them and those who cannot.\",\n  \"reason\": \"The briefing notes concerns about unequal access and private/commercial influence, matching key elements of the reasoning, but does not develop the full policy preference or the claim that safety alone is insufficient.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "If heritable editing or costly somatic therapies become available privately, they could widen gaps between those who can afford them and those who cannot.",
+  "reason": "The briefing notes concerns about unequal access and private/commercial influence, matching key elements of the reasoning, but does not develop the full policy preference or the claim that safety alone is insufficient.",
+  "schema_problems": ""
+}

@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 1,
+  "discourse": "E",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:46:51.885302+00:00",
+  "judge_id": "gen-1787049986-TTXsuLx8krS1XpnaMBAu",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 1121,
+    "prompt_tokens": 2070,
+    "total_tokens": 3191,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1030,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 320,
+      "video_tokens": 0
+    },
+    "cost": 0.000534235,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.000534235,
+      "upstream_inference_prompt_cost": 0.00010265,
+      "upstream_inference_completions_cost": 0.000431585
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"Critics argue that pursuing enhancement risks reigniting the dark history of eugenics, where the definition of a good or desirable human is dictated by societal prejudices rather than medical necessity.\",\n  \"reason\": \"The briefing raises dystopian concerns about enhancement but does not develop the specific reasoning about supporting non‑heritable editing by personal choice or non‑profit conditions.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "Critics argue that pursuing enhancement risks reigniting the dark history of eugenics, where the definition of a good or desirable human is dictated by societal prejudices rather than medical necessity.",
+  "reason": "The briefing raises dystopian concerns about enhancement but does not develop the specific reasoning about supporting non‑heritable editing by personal choice or non‑profit conditions.",
+  "schema_problems": ""
+}

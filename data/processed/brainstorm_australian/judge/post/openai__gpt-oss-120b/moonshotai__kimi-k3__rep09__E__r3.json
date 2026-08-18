@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 9,
+  "discourse": "E",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:45:54.093773+00:00",
+  "judge_id": "gen-1787049933-KamoagCB1gZeG3NPOyGe",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 1103,
+    "prompt_tokens": 2111,
+    "total_tokens": 3214,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 970,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 320,
+      "video_tokens": 0
+    },
+    "cost": 0.00052956,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00052956,
+      "upstream_inference_prompt_cost": 0.000104905,
+      "upstream_inference_completions_cost": 0.000424655
+    }
+  },
+  "parse_error": "",
+  "quote_verified": false,
+  "quote_match": 0.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"History shadows the debate. Twentieth‑century eugenics—including in Australia, where racist science, institutionalisation and policies targeting Indigenous people caused lasting harm—makes any talk of improving the human stock radioactive.\",\n  \"reason\": \"The briefing references dystopian/eugenic fears and also notes that adults may consent to non‑heritable (somatic) editing, but it does not present the full coherent stance combining those concerns with a specific policy of approving non‑heritable editing and mitochondrial donation only if not for profit.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "History shadows the debate. Twentieth‑century eugenics—including in Australia, where racist science, institutionalisation and policies targeting Indigenous people caused lasting harm—makes any talk of improving the human stock radioactive.",
+  "reason": "The briefing references dystopian/eugenic fears and also notes that adults may consent to non‑heritable (somatic) editing, but it does not present the full coherent stance combining those concerns with a specific policy of approving non‑heritable editing and mitochondrial donation only if not for profit.",
+  "schema_problems": ""
+}

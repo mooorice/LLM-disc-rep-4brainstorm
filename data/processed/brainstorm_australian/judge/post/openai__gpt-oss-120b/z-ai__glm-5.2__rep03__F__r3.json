@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 3,
+  "discourse": "F",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:47:29.086808+00:00",
+  "judge_id": "gen-1787050042-F3TKKRg8cGSEXlB9yT6j",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 345,
+    "prompt_tokens": 1973,
+    "total_tokens": 2318,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 261,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1920,
+      "video_tokens": 0
+    },
+    "cost": 0.00017414,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00017414,
+      "upstream_inference_prompt_cost": 4.1315e-05,
+      "upstream_inference_completions_cost": 0.000132825
+    }
+  },
+  "parse_error": "",
+  "quote_verified": false,
+  "quote_match": 0.0,
+  "raw_response": "{\n  \"presence\": \"absent\",\n  \"treatment\": \"not_applicable\",\n  \"extent\": \"none\",\n  \"quote\": null,\n  \"reason\": \"The briefing does not present a viewpoint that embraces high risk tolerance, downplays equity concerns, or argues that parental rights to edit embryos are paramount and that inherited editing is unproblematic.\"\n}",
+  "presence": "absent",
+  "treatment": "not_applicable",
+  "extent": "none",
+  "quote": "",
+  "reason": "The briefing does not present a viewpoint that embraces high risk tolerance, downplays equity concerns, or argues that parental rights to edit embryos are paramount and that inherited editing is unproblematic.",
+  "schema_problems": ""
+}

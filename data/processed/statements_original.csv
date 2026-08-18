@@ -1,0 +1,47 @@
+statement_id,text,transformation,A,B,C,D
+1,Mitochondrial donation doesn't fundamentally change our genetics should be viewed like any other organ transplant.,repaired,0.62,-0.61,1.35,-0.31
+2,It's a slippery slope from genome editing for medical reasons to using it for other reasons.,unchanged,-0.05,0.86,1.35,-1.26
+3,Parents and guardians have a right to edit the genes of their children before they are born.,unchanged,0.36,-1.84,-0.8,-0.88
+4,Parents want 'designer babies' with certain traits out of vanity.,unchanged,-0.09,-0.14,-1.16,1.2
+5,I'm concerned that genome editing will lead to a reduction in genetic diversity.,stripped,-0.74,0.89,0.63,-1.17
+6,I think it would be amazing to have a choice in the way someone behaves.,recast,-0.7,-1.51,-1.16,-0.31
+7,The idea that gene editing can make perfect people and societies is extremely dangerous.,unchanged,0.25,1.24,-0.09,-1.36
+8,I think it's okay to use genome editing to change someone's appearance.,stripped,-0.66,-1.91,-1.52,0.35
+9,I'm concerned that gene editing will be used as a quick techno-fix without actually dealing with real problems.,stripped,-0.7,0.57,0.63,-0.13
+10,"My concern is that as we start to tinker with the genome, we're going to accidentally introduce a whole host of other problems.",stripped,0.28,1.47,0.27,1.29
+11,"If this technology is available then it should be available to everyone who needs it, not just those who can afford it.",unchanged,1.77,1.39,0.27,-0.6
+12,I'm worried that genetic technology will widen the gap between those who can afford it and those who can't,stripped,0.3,1.27,0.63,-0.13
+13,If we open the box of genome editing we will not know where to draw the line.,unchanged,-0.57,0.81,-0.45,0.54
+14,I am concerned that the use of genome editing will advantage one group over another.,stripped,0.05,1.25,0.99,-0.13
+15,Decisions about the use of genome editing are best left to the experts.,unchanged,1.23,0.39,-1.52,0.63
+16,"If genome editing works, the future will be like a dystopian movie.",unchanged,-1.47,-0.19,-0.45,-0.69
+17,Genome editing is really cool science.,unchanged,0.8,0.12,1.35,1.29
+18,The real aim of genome editing will be enhancement for wealthy people.,unchanged,-1.26,-0.12,-1.52,-1.26
+19,I have a very different feeling about gene editing in humans than I do for animals or plants,recast,-0.28,-0.32,-0.45,0.25
+20,Editing genes that will be inherited is problematic because it means making decisions for future people who don't exist yet.,unchanged,-0.6,0.77,-0.45,-0.6
+21,My cultural beliefs make me cautious about genome editing.,recast,-1.81,-1.5,1.35,0.16
+22,When you change someone's genes you are fundamentally changing who they are.,unchanged,-1.17,0.87,0.63,0.54
+23,Genome editing in agriculture will have the biggest impact on people's health.,unchanged,0.37,-0.33,-0.45,0.73
+24,Anything that's been artificially created in a lab gives me Frankenstein vibes.,recast,-1.78,-0.92,-0.8,-0.79
+25,I worry that something will go terribly wrong with this technology.,stripped,-0.8,1.32,0.99,-1.36
+26,It's better to prevent a disease from happening rather than it happening and then having to treat it.,unchanged,1.85,0.93,1.71,1.48
+27,The idea that people with genetic conditions might get cured in my lifetime is miraculous and incredible!,stripped,1.66,1.27,0.63,0.63
+28,Genome editing technologies gives us power over human life itself.,repaired,-0.56,-0.04,0.27,-1.17
+29,It makes me sick to hear that genome editing will 'cure' disability.,recast,-1.27,-1.08,-1.88,-0.79
+30,I would be OK with using genome editing to speed up evolution.,stripped,-0.27,-2.01,-0.8,-2.02
+31,"As a society, we have an obligation to help strengthen coming generations by eradicating diseases.",unchanged,1.42,-0.84,-0.09,0.44
+32,We find strength when we face illness and adversity. It makes us who we are.,unchanged,-0.24,-0.28,-0.09,1.77
+33,"If genome editing is proven to be safe, then I see no reason to oppose it.",stripped,1.7,-0.58,-0.8,-0.69
+34,It is better to accept our genes the way they are than to tamper with things we don't understand.,unchanged,-1.06,-0.13,-1.16,0.35
+35,I would strongly consider using genome editing for my children if it could safely give them an advantage in life.,recast,0.87,-0.64,-1.16,-0.79
+36,I don't think we know enough about genetic diseases or the long-term consequences of genome editing,stripped,0.46,1.17,-0.09,1.29
+37,I think we should keep an open mind about new discoveries.,stripped,1.82,0.76,1.35,1.86
+38,I would be OK with having my own genome edited.,recast,0.88,-0.64,0.27,0.63
+39,Each individual has a right to decide for themselves whether to undergo gene editing.,unchanged,1.38,0.94,0.99,1.58
+40,Interfering in people's genes is intervening a bit too far in human creation.,unchanged,-1.41,-0.56,0.99,0.06
+41,I admit that the idea of editing the human genome is a bit scary.,stripped,-0.01,0.52,0.27,-0.6
+42,The use of gene editing for non-medical reasons reminds me of the Nazis during the Second World War.,stripped,-0.99,-0.92,-0.09,-0.03
+43,Science and technology are controlling our lives.,unchanged,-0.49,-0.55,1.71,0.44
+44,I believe that future humans will need genome editing to survive.,stripped,0.03,-1.31,-1.88,-2.21
+45,I believe we should remain as natural as possible but we should not shy away from furthering medicine and the chance to save lives.,stripped,0.57,1.18,0.99,1.2
+46,"If you can have strong genes, you will have wellbeing.",unchanged,0.33,-1.05,-0.8,0.54

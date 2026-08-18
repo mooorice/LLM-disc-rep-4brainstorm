@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 5,
+  "discourse": "B",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:13:05.135883+00:00",
+  "judge_id": "gen-1787047978-tmzPKlRFx5og32tGFCoS",
+  "provider": "Chutes",
+  "usage": {
+    "completion_tokens": 161,
+    "prompt_tokens": 2177,
+    "total_tokens": 2338,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 6,
+      "video_tokens": 0
+    },
+    "cost": 0.000320162,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.000320162,
+      "upstream_inference_prompt_cost": 0.000260592,
+      "upstream_inference_completions_cost": 5.957e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"If genome editing becomes available only to those who can afford it, it could deepen existing health inequalities... There is also concern that the pursuit of high-tech genetic interventions could divert attention and resources from proven public health measures... Others respond that enhancement could create new forms of genetic inequality, commodify children and repeat the injustices of the past in new biological forms.\",\n  \"reason\": \"The briefing explicitly develops the reasoning regarding unequal access creating a society of 'haves and have-nots', the diversion of resources from the public good, and the distinction between health benefits and the risks of enhancement.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "If genome editing becomes available only to those who can afford it, it could deepen existing health inequalities... There is also concern that the pursuit of high-tech genetic interventions could divert attention and resources from proven public health measures... Others respond that enhancement could create new forms of genetic inequality, commodify children and repeat the injustices of the past in new biological forms.",
+  "reason": "The briefing explicitly develops the reasoning regarding unequal access creating a society of 'haves and have-nots', the diversion of resources from the public good, and the distinction between health benefits and the risks of enhancement.",
+  "schema_problems": ""
+}

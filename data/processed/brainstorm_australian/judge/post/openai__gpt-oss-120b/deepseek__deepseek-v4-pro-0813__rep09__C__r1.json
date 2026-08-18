@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 9,
+  "discourse": "C",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:40:06.864045+00:00",
+  "judge_id": "gen-1787049599-sN54bkoYo6mAz7vk5y1j",
+  "provider": "Parasail",
+  "usage": {
+    "completion_tokens": 1313,
+    "prompt_tokens": 2089,
+    "total_tokens": 3402,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1511,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 416,
+      "video_tokens": 0
+    },
+    "cost": 0.00117493,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00117493,
+      "upstream_inference_prompt_cost": 0.00019018,
+      "upstream_inference_completions_cost": 0.00098475
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"Safety is not the only concern. For many people, the human embryo has special moral status, and manipulating its genome raises profound questions about the sanctity of life and the limits of human intervention. Religious and spiritual traditions differ, but many hold that human life at its earliest stages should not be treated as a mere object of experimentation. Even among people who do not share this view, there is unease about the idea of “playing God” or altering the fundamental fabric of human beings. In Australia, Aboriginal and Torres Strait Islander peoples bring distinctive cultural and spiritual perspectives to questions about genetic heritage, kinship, and the relationship between people, ancestors, and future generations.\",\n  \"reason\": \"The briefing presents opposition based on safety and deep social/ethical concerns, including cultural/spiritual viewpoints, but does not develop the specific cultural belief pattern or policy nuances described in the target reasoning.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "Safety is not the only concern. For many people, the human embryo has special moral status, and manipulating its genome raises profound questions about the sanctity of life and the limits of human intervention. Religious and spiritual traditions differ, but many hold that human life at its earliest stages should not be treated as a mere object of experimentation. Even among people who do not share this view, there is unease about the idea of “playing God” or altering the fundamental fabric of human beings. In Australia, Aboriginal and Torres Strait Islander peoples bring distinctive cultural and spiritual perspectives to questions about genetic heritage, kinship, and the relationship between people, ancestors, and future generations.",
+  "reason": "The briefing presents opposition based on safety and deep social/ethical concerns, including cultural/spiritual viewpoints, but does not develop the specific cultural belief pattern or policy nuances described in the target reasoning.",
+  "schema_problems": ""
+}

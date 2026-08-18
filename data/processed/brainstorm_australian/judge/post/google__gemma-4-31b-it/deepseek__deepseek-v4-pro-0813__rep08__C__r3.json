@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 8,
+  "discourse": "C",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:13:40.536842+00:00",
+  "judge_id": "gen-1787048015-uvE9KrrwzFKG7bvQOcT3",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 258,
+    "prompt_tokens": 2271,
+    "total_tokens": 2529,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00029211,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00029211,
+      "upstream_inference_prompt_cost": 0.00020439,
+      "upstream_inference_completions_cost": 8.772e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"Religious, spiritual and philosophical traditions also shape many Australians’ views. For some, editing an embryo raises deep concerns about the moral status of the embryo and about whether humans are overstepping their proper limits. The language of “playing God” is sometimes used to express a worry that we are treating human life as a manufactured product rather than as a gift. Some religious thinkers, however, interpret the call to heal the sick as supporting therapeutic genome editing, provided it is not used to destroy embryos or to redesign human nature. Others from secular traditions may not appeal to God but still worry about hubris, unintended consequences and the commodification of children. These perspectives remind us that the debate is not only about safety and effectiveness; it is also about what it means to be human, to be a parent and to accept limits.\",\n  \"reason\": \"The briefing articulates the reasoning of those who oppose genome editing based on cultural, spiritual, and philosophical beliefs, specifically the ideas of overstepping limits, treating life as a product rather than a gift, and the fundamental nature of being human.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "Religious, spiritual and philosophical traditions also shape many Australians’ views. For some, editing an embryo raises deep concerns about the moral status of the embryo and about whether humans are overstepping their proper limits. The language of “playing God” is sometimes used to express a worry that we are treating human life as a manufactured product rather than as a gift. Some religious thinkers, however, interpret the call to heal the sick as supporting therapeutic genome editing, provided it is not used to destroy embryos or to redesign human nature. Others from secular traditions may not appeal to God but still worry about hubris, unintended consequences and the commodification of children. These perspectives remind us that the debate is not only about safety and effectiveness; it is also about what it means to be human, to be a parent and to accept limits.",
+  "reason": "The briefing articulates the reasoning of those who oppose genome editing based on cultural, spiritual, and philosophical beliefs, specifically the ideas of overstepping limits, treating life as a product rather than a gift, and the fundamental nature of being human.",
+  "schema_problems": ""
+}

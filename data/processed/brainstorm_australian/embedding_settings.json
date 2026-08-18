@@ -1,0 +1,9 @@
+{
+  "embedding_model": "infgrad/Jasper-Token-Compression-600M",
+  "compression_ratio": 0.3333,
+  "use_asymmetric_prompts": false,
+  "baseline": "pre",
+  "n_discourses": 4,
+  "n_paragraphs": 297,
+  "embedding_dim": 2048
+}

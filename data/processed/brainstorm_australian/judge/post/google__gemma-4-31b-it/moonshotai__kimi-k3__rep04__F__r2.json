@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 4,
+  "discourse": "F",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:15:02.854456+00:00",
+  "judge_id": "gen-1787048098-LA45xo7hHT2y02qWIlbE",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 151,
+    "prompt_tokens": 2088,
+    "total_tokens": 2239,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00023926,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00023926,
+      "upstream_inference_prompt_cost": 0.00018792,
+      "upstream_inference_completions_cost": 5.134e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"Some philosophers defend procreative liberty: parents, they argue, should be free to use safe technologies to give children the healthiest possible start, just as they use diet, education and medicine. Others invoke \\\"procreative beneficence\\\", the idea that parents have reason to create the best available genetic prospects for a future child.\",\n  \"reason\": \"The briefing explains the reasoning behind supporting parental rights to edit embryos (procreative liberty and beneficence) and explicitly addresses the counter-argument regarding future generations' consent by noting defenders' views on comparative risk.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "Some philosophers defend procreative liberty: parents, they argue, should be free to use safe technologies to give children the healthiest possible start, just as they use diet, education and medicine. Others invoke \"procreative beneficence\", the idea that parents have reason to create the best available genetic prospects for a future child.",
+  "reason": "The briefing explains the reasoning behind supporting parental rights to edit embryos (procreative liberty and beneficence) and explicitly addresses the counter-argument regarding future generations' consent by noting defenders' views on comparative risk.",
+  "schema_problems": ""
+}

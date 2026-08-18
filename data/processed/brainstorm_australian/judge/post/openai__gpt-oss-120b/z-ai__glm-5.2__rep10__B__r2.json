@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 10,
+  "discourse": "B",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:49:58.820488+00:00",
+  "judge_id": "gen-1787050185-KV1MHc5fc0JH5vhQB0ut",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 861,
+    "prompt_tokens": 1982,
+    "total_tokens": 2843,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 754,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1920,
+      "video_tokens": 0
+    },
+    "cost": 0.000373295,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.000373295,
+      "upstream_inference_prompt_cost": 4.181e-05,
+      "upstream_inference_completions_cost": 0.000331485
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"If genome editing therapies are exorbitantly expensive, they could exacerbate existing inequalities, creating a biological divide between the genetically enhanced rich and the unenhanced poor.\",\n  \"reason\": \"The briefing notes concerns about unequal access and societal division, but does not develop the full configuration of support, research‑first stance, private‑investment worries, and specific policy preferences described.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "If genome editing therapies are exorbitantly expensive, they could exacerbate existing inequalities, creating a biological divide between the genetically enhanced rich and the unenhanced poor.",
+  "reason": "The briefing notes concerns about unequal access and societal division, but does not develop the full configuration of support, research‑first stance, private‑investment worries, and specific policy preferences described.",
+  "schema_problems": ""
+}

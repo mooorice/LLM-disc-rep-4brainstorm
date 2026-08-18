@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 9,
+  "discourse": "B",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:45:35.092581+00:00",
+  "judge_id": "gen-1787049920-Zryl3bGVWkXTR9Arqyio",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 774,
+    "prompt_tokens": 2182,
+    "total_tokens": 2956,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 683,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 2176,
+      "video_tokens": 0
+    },
+    "cost": 0.00034184,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00034184,
+      "upstream_inference_prompt_cost": 4.385e-05,
+      "upstream_inference_completions_cost": 0.00029799
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"Some fear a \\\"genetic divide\\\" in which wealth purchases heritable advantage, converting social inequality into biology.\",\n  \"reason\": \"The briefing develops concerns about unequal access, market‑driven enhancement, and support for health‑benefiting editing, mirroring the described reasoning.\"\n}",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "Some fear a \"genetic divide\" in which wealth purchases heritable advantage, converting social inequality into biology.",
+  "reason": "The briefing develops concerns about unequal access, market‑driven enhancement, and support for health‑benefiting editing, mirroring the described reasoning.",
+  "schema_problems": ""
+}

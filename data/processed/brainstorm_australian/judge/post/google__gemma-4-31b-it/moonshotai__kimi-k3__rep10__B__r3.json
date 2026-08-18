@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 10,
+  "discourse": "B",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:15:56.221436+00:00",
+  "judge_id": "gen-1787048151-ycIGraeN8GDdc72jMu9a",
+  "provider": "Chutes",
+  "usage": {
+    "completion_tokens": 148,
+    "prompt_tokens": 2077,
+    "total_tokens": 2225,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 2076,
+      "video_tokens": 0
+    },
+    "cost": 7.9792e-05,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 7.9792e-05,
+      "upstream_inference_prompt_cost": 2.5032e-05,
+      "upstream_inference_completions_cost": 5.476e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"Questions of justice cut across everything else. If editing becomes available, who gets it? Advanced reproductive technology is expensive, and Australia already has a two-tier pattern in which access to IVF varies with income and postcode. Critics foresee a genetic class divide, in which the affluent buy resilience and advantage while others cannot, hardening inequality into biology itself.\",\n  \"reason\": \"The briefing articulates the core of this reasoning: the fear that unequal access to genome editing will create a biological class divide of haves and have-nots.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "Questions of justice cut across everything else. If editing becomes available, who gets it? Advanced reproductive technology is expensive, and Australia already has a two-tier pattern in which access to IVF varies with income and postcode. Critics foresee a genetic class divide, in which the affluent buy resilience and advantage while others cannot, hardening inequality into biology itself.",
+  "reason": "The briefing articulates the core of this reasoning: the fear that unequal access to genome editing will create a biological class divide of haves and have-nots.",
+  "schema_problems": ""
+}

@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 8,
+  "discourse": "B",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:39:30.607989+00:00",
+  "judge_id": "gen-1787049559-lS6YLKuvFdzp9PxkjAHS",
+  "provider": "Mancer 2",
+  "usage": {
+    "completion_tokens": 859,
+    "prompt_tokens": 2305,
+    "total_tokens": 3164,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1107,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.000625,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.000625,
+      "upstream_inference_prompt_cost": 0.00019579186153415677,
+      "upstream_inference_completions_cost": 0.0004292081384658432
+    }
+  },
+  "parse_error": "",
+  "quote_verified": false,
+  "quote_match": 0.0,
+  "raw_response": "{\n  \"presence\": \"absent\",\n  \"treatment\": \"not_applicable\",\n  \"extent\": \"none\",\n  \"quote\": null,\n  \"reason\": \"The briefing discusses social equity, health benefits, and safety, but does not present the specific reasoning about private investment steering research toward enhancements, the detailed policy ranking, or the view that safety alone is insufficient, which are central to the described position.\"\n}",
+  "presence": "absent",
+  "treatment": "not_applicable",
+  "extent": "none",
+  "quote": "",
+  "reason": "The briefing discusses social equity, health benefits, and safety, but does not present the specific reasoning about private investment steering research toward enhancements, the detailed policy ranking, or the view that safety alone is insufficient, which are central to the described position.",
+  "schema_problems": ""
+}

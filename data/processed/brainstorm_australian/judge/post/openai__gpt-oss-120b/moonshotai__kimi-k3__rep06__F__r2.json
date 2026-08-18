@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 6,
+  "discourse": "F",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:44:23.191373+00:00",
+  "judge_id": "gen-1787049848-z9WyoBOputEPMDK2N0MI",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 845,
+    "prompt_tokens": 2147,
+    "total_tokens": 2992,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 728,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 256,
+      "video_tokens": 0
+    },
+    "cost": 0.00043445,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00043445,
+      "upstream_inference_prompt_cost": 0.000109125,
+      "upstream_inference_completions_cost": 0.000325325
+    }
+  },
+  "parse_error": "",
+  "quote_verified": false,
+  "quote_match": 0.0,
+  "raw_response": "{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"Liberal societies generally let parents make far‑reaching choices for their children, through diet, schooling, religion and medical care, so why should genetic influence be singled out as uniquely illegitimate?\",\n  \"reason\": \"The briefing develops a freedom‑based perspective that backs parental rights to edit embryos and treats equity concerns as a policy issue, presenting the view without endorsing or dismissing it.\"\n}",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "Liberal societies generally let parents make far‑reaching choices for their children, through diet, schooling, religion and medical care, so why should genetic influence be singled out as uniquely illegitimate?",
+  "reason": "The briefing develops a freedom‑based perspective that backs parental rights to edit embryos and treats equity concerns as a policy issue, presenting the view without endorsing or dismissing it.",
+  "schema_problems": ""
+}

@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 1,
+  "discourse": "C",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:12:17.054374+00:00",
+  "judge_id": "gen-1787047934-yRsVsmeSYvhTeltX0W6j",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 134,
+    "prompt_tokens": 2103,
+    "total_tokens": 2237,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00023483,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00023483,
+      "upstream_inference_prompt_cost": 0.00018927,
+      "upstream_inference_completions_cost": 4.556e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"Some religious traditions regard the human genome as sacred or as a gift from God, and view deliberate alteration of the germline as overstepping human authority. Others emphasise the calling to heal the sick and may support somatic editing while opposing heritable changes.\",\n  \"reason\": \"The briefing articulates the reasoning of those opposed to genome editing based on cultural/religious beliefs and the idea of the genome as sacred, reflecting the specific configuration of values in the described reasoning.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "Some religious traditions regard the human genome as sacred or as a gift from God, and view deliberate alteration of the germline as overstepping human authority. Others emphasise the calling to heal the sick and may support somatic editing while opposing heritable changes.",
+  "reason": "The briefing articulates the reasoning of those opposed to genome editing based on cultural/religious beliefs and the idea of the genome as sacred, reflecting the specific configuration of values in the described reasoning.",
+  "schema_problems": ""
+}

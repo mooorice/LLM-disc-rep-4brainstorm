@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 2,
+  "discourse": "B",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:31:42.963722+00:00",
+  "judge_id": "gen-1787049006-84sKOC6K80F8hup8yrG5",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 857,
+    "prompt_tokens": 2075,
+    "total_tokens": 2932,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 928,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.000222465,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.000222465,
+      "upstream_inference_prompt_cost": 7.6775e-05,
+      "upstream_inference_completions_cost": 0.00014569
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"Justice and equity are also prominent concerns. If genome editing becomes available, it may be expensive, and access might be limited to those who can pay. This could create a new form of inequality in which genetic protections or advantages are available to some but not others. In Australia, questions about public funding, Medicare and the role of private clinics would shape who benefits. Internationally, the gap between wealthy and poorer countries could widen if the technology is unevenly distributed. Some participants may emphasise that benefits should be shared fairly; others may worry that any use of germline editing would inevitably favour the privileged.\",\n  \"reason\": \"The briefing mentions concerns about unequal access and societal inequality, matching part of the described reasoning, but does not develop the full configuration of values, policy preferences, or other specifics.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "Justice and equity are also prominent concerns. If genome editing becomes available, it may be expensive, and access might be limited to those who can pay. This could create a new form of inequality in which genetic protections or advantages are available to some but not others. In Australia, questions about public funding, Medicare and the role of private clinics would shape who benefits. Internationally, the gap between wealthy and poorer countries could widen if the technology is unevenly distributed. Some participants may emphasise that benefits should be shared fairly; others may worry that any use of germline editing would inevitably favour the privileged.",
+  "reason": "The briefing mentions concerns about unequal access and societal inequality, matching part of the described reasoning, but does not develop the full configuration of values, policy preferences, or other specifics.",
+  "schema_problems": ""
+}

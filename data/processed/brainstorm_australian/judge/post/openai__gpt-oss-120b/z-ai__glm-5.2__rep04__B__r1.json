@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 4,
+  "discourse": "B",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:47:40.096685+00:00",
+  "judge_id": "gen-1787050043-ZOAO3JLUPQpJABHV8fWA",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 865,
+    "prompt_tokens": 2050,
+    "total_tokens": 2915,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 738,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 128,
+      "video_tokens": 0
+    },
+    "cost": 0.000441295,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.000441295,
+      "upstream_inference_prompt_cost": 0.00010827,
+      "upstream_inference_completions_cost": 0.000333025
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"A major thread running through the public discourse is the concern for equity, access, and social justice. In a society that values egalitarianism, there is deep apprehension that genome editing could exacerbate existing disparities, creating a genetic divide between the rich and the poor.\",\n  \"reason\": \"The briefing raises equity and access concerns similar to the described reasoning but does not develop the full configuration of private‑investment worries, policy preferences, or the claim that safety alone is insufficient.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "A major thread running through the public discourse is the concern for equity, access, and social justice. In a society that values egalitarianism, there is deep apprehension that genome editing could exacerbate existing disparities, creating a genetic divide between the rich and the poor.",
+  "reason": "The briefing raises equity and access concerns similar to the described reasoning but does not develop the full configuration of private‑investment worries, policy preferences, or the claim that safety alone is insufficient.",
+  "schema_problems": ""
+}

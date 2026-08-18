@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 6,
+  "discourse": "F",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:13:20.136346+00:00",
+  "judge_id": "gen-1787047996-hncTRG19S8r2cke9u5OZ",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 111,
+    "prompt_tokens": 1976,
+    "total_tokens": 2087,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00021558,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00021558,
+      "upstream_inference_prompt_cost": 0.00017784,
+      "upstream_inference_completions_cost": 3.774e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a sentence or two\",\n  \"quote\": \"Others argue that blanket prohibitions prevent responsible research that could eventually relieve suffering.\",\n  \"reason\": \"The briefing mentions the view that prohibitions on heritable editing hinder beneficial research, but it does not articulate the specific configuration of high risk-tolerance, dismissal of equity/cost concerns, or the specific rejection of the 'future generations' consent argument.\"\n}\n```",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a sentence or two",
+  "quote": "Others argue that blanket prohibitions prevent responsible research that could eventually relieve suffering.",
+  "reason": "The briefing mentions the view that prohibitions on heritable editing hinder beneficial research, but it does not articulate the specific configuration of high risk-tolerance, dismissal of equity/cost concerns, or the specific rejection of the 'future generations' consent argument.",
+  "schema_problems": ""
+}

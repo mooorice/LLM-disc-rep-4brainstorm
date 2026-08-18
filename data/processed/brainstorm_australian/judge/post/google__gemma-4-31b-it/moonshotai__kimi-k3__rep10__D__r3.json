@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 10,
+  "discourse": "D",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:15:58.644244+00:00",
+  "judge_id": "gen-1787048155-nQ2DcU13bEy1JC2RThlc",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 193,
+    "prompt_tokens": 2038,
+    "total_tokens": 2231,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00024904,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00024904,
+      "upstream_inference_prompt_cost": 0.00018342,
+      "upstream_inference_completions_cost": 6.562e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"The most powerful hope driving this technology comes from families who know genetic disease intimately. Cystic fibrosis, Huntington's disease, spinal muscular atrophy, Duchenne muscular dystrophy and countless rare conditions cause suffering that medicine can often only manage, not cure. For parents who carry a serious mutation, each pregnancy can be a lottery. Editing could, in principle, remove a disease-causing variant from a family line forever. Proponents speak of compassion and of a duty to heal: if we can spare a child a short and painful life, they ask, how could we refuse?\",\n  \"reason\": \"The briefing articulates the core of this reasoning: the focus on eradicating suffering, the duty to heal, and the moral imperative to prevent genetic disease.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "The most powerful hope driving this technology comes from families who know genetic disease intimately. Cystic fibrosis, Huntington's disease, spinal muscular atrophy, Duchenne muscular dystrophy and countless rare conditions cause suffering that medicine can often only manage, not cure. For parents who carry a serious mutation, each pregnancy can be a lottery. Editing could, in principle, remove a disease-causing variant from a family line forever. Proponents speak of compassion and of a duty to heal: if we can spare a child a short and painful life, they ask, how could we refuse?",
+  "reason": "The briefing articulates the core of this reasoning: the focus on eradicating suffering, the duty to heal, and the moral imperative to prevent genetic disease.",
+  "schema_problems": ""
+}

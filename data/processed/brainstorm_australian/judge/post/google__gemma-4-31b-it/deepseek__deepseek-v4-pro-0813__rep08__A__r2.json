@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 8,
+  "discourse": "A",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:13:37.253038+00:00",
+  "judge_id": "gen-1787048010-EF2VKmiP1kST6ildeXVW",
+  "provider": "CoreWeave",
+  "usage": {
+    "completion_tokens": 227,
+    "prompt_tokens": 2220,
+    "total_tokens": 2447,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 288,
+      "video_tokens": 0
+    },
+    "cost": 0.00029918,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00029918,
+      "upstream_inference_prompt_cost": 0.000222,
+      "upstream_inference_completions_cost": 7.718e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"For many people, the strongest hope is that genome editing could relieve profound human suffering. Parents who carry genes for serious conditions such as cystic fibrosis, Huntington’s disease, Tay-Sachs disease or certain inherited cancers often describe the anguish of watching a child become ill or of deciding whether to risk passing a condition on. Some see germline editing as a natural extension of existing reproductive choices, offering families the chance to have children who are biologically related to them without transmitting a devastating disease. Patient advocacy groups sometimes argue that once a technology is safe enough, there is a moral duty to use it to prevent severe illness and premature death. From this perspective, not pursuing a technology that could spare future children from suffering would itself be ethically troubling.\",\n  \"reason\": \"The briefing explicitly articulates the reasoning driven by the desire to reduce human suffering and the moral imperative to use the technology once safe, including support for germline editing.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "For many people, the strongest hope is that genome editing could relieve profound human suffering. Parents who carry genes for serious conditions such as cystic fibrosis, Huntington’s disease, Tay-Sachs disease or certain inherited cancers often describe the anguish of watching a child become ill or of deciding whether to risk passing a condition on. Some see germline editing as a natural extension of existing reproductive choices, offering families the chance to have children who are biologically related to them without transmitting a devastating disease. Patient advocacy groups sometimes argue that once a technology is safe enough, there is a moral duty to use it to prevent severe illness and premature death. From this perspective, not pursuing a technology that could spare future children from suffering would itself be ethically troubling.",
+  "reason": "The briefing explicitly articulates the reasoning driven by the desire to reduce human suffering and the moral imperative to use the technology once safe, including support for germline editing.",
+  "schema_problems": ""
+}

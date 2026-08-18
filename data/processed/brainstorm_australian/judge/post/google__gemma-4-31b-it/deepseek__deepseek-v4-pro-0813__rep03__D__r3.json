@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 3,
+  "discourse": "D",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:12:50.111254+00:00",
+  "judge_id": "gen-1787047957-07TIdm4viBY6D368LRgn",
+  "provider": "CoreWeave",
+  "usage": {
+    "completion_tokens": 209,
+    "prompt_tokens": 2255,
+    "total_tokens": 2464,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 320,
+      "video_tokens": 0
+    },
+    "cost": 0.00029656,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00029656,
+      "upstream_inference_prompt_cost": 0.0002255,
+      "upstream_inference_completions_cost": 7.106e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"For some parents and patient advocates, the strongest argument is the desire to spare a child from severe genetic disease. They ask why a couple who knows they carry a serious condition should be denied the chance to have a genetically related child who is free of that condition, particularly when other options such as prenatal testing and embryo selection may not work or may involve termination. In this view, freedom from foreseeable suffering is a compassionate goal, and parents are best placed to make decisions about their own family. Some argue that, once the technology is safe, preventing a devastating disease by altering an embryo could be morally comparable to preventing disease through vaccination or surgery.\",\n  \"reason\": \"The briefing articulates the reasoning that preventing disease is a compassionate goal and a moral obligation comparable to vaccination, focusing on the positive potential to eradicate suffering without assigning value to adversity.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "For some parents and patient advocates, the strongest argument is the desire to spare a child from severe genetic disease. They ask why a couple who knows they carry a serious condition should be denied the chance to have a genetically related child who is free of that condition, particularly when other options such as prenatal testing and embryo selection may not work or may involve termination. In this view, freedom from foreseeable suffering is a compassionate goal, and parents are best placed to make decisions about their own family. Some argue that, once the technology is safe, preventing a devastating disease by altering an embryo could be morally comparable to preventing disease through vaccination or surgery.",
+  "reason": "The briefing articulates the reasoning that preventing disease is a compassionate goal and a moral obligation comparable to vaccination, focusing on the positive potential to eradicate suffering without assigning value to adversity.",
+  "schema_problems": ""
+}

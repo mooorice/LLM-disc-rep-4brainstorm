@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 9,
+  "discourse": "D",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:49:43.994278+00:00",
+  "judge_id": "gen-1787050166-MVrNqgWL7Lbczh7LpWdT",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 1039,
+    "prompt_tokens": 2046,
+    "total_tokens": 3085,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 829,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1984,
+      "video_tokens": 0
+    },
+    "cost": 0.000443105,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.000443105,
+      "upstream_inference_prompt_cost": 4.309e-05,
+      "upstream_inference_completions_cost": 0.000400015
+    }
+  },
+  "parse_error": "",
+  "quote_verified": false,
+  "quote_match": 0.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"For many, the most compelling argument in favor of genome editing is rooted in compassion and the deep desire to alleviate human suffering. Proponents argue that we have a moral imperative to use this technology to cure devastating hereditary diseases, such as Huntington’s disease, cystic fibrosis, sickle cell anemia, and muscular dystrophy. From this perspective, failing to use a safe and effective tool to prevent a child from being born with a painful, life‑shortening condition is itself ethically questionable. The hope here is a future where families are freed from the burden of genetic diseases, where the first months of a child's life are not spent in a hospital, and where the emotional and financial toll of chronic illness is reduced.\",\n  \"reason\": \"The briefing mentions a pro‑disease‑prevention stance but does not elaborate the full singular‑focus, expert‑trust, and conditional‑policy reasoning described.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "For many, the most compelling argument in favor of genome editing is rooted in compassion and the deep desire to alleviate human suffering. Proponents argue that we have a moral imperative to use this technology to cure devastating hereditary diseases, such as Huntington’s disease, cystic fibrosis, sickle cell anemia, and muscular dystrophy. From this perspective, failing to use a safe and effective tool to prevent a child from being born with a painful, life‑shortening condition is itself ethically questionable. The hope here is a future where families are freed from the burden of genetic diseases, where the first months of a child's life are not spent in a hospital, and where the emotional and financial toll of chronic illness is reduced.",
+  "reason": "The briefing mentions a pro‑disease‑prevention stance but does not elaborate the full singular‑focus, expert‑trust, and conditional‑policy reasoning described.",
+  "schema_problems": ""
+}

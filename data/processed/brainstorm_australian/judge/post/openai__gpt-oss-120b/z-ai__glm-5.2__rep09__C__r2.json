@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 9,
+  "discourse": "C",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:49:32.983378+00:00",
+  "judge_id": "gen-1787050162-MZtOewNpdtIJqXQEGpH5",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 643,
+    "prompt_tokens": 2087,
+    "total_tokens": 2730,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 542,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 128,
+      "video_tokens": 0
+    },
+    "cost": 0.00035786,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00035786,
+      "upstream_inference_prompt_cost": 0.000110305,
+      "upstream_inference_completions_cost": 0.000247555
+    }
+  },
+  "parse_error": "",
+  "quote_verified": false,
+  "quote_match": 0.0,
+  "raw_response": "{\n  \"presence\": \"absent\",\n  \"treatment\": \"not_applicable\",\n  \"extent\": \"none\",\n  \"quote\": null,\n  \"reason\": \"The briefing does not present a unified, explicitly oppositional stance that rejects all clinical and non‑clinical genome editing, relies on cultural beliefs about illness and identity, or prioritises a prohibition‑except‑research policy; instead it offers a range of mixed views.\"\n}",
+  "presence": "absent",
+  "treatment": "not_applicable",
+  "extent": "none",
+  "quote": "",
+  "reason": "The briefing does not present a unified, explicitly oppositional stance that rejects all clinical and non‑clinical genome editing, relies on cultural beliefs about illness and identity, or prioritises a prohibition‑except‑research policy; instead it offers a range of mixed views.",
+  "schema_problems": ""
+}

@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 9,
+  "discourse": "F",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:45:50.557770+00:00",
+  "judge_id": "gen-1787049934-Kpey3fj4G3PAV4Jrdb3K",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 843,
+    "prompt_tokens": 2081,
+    "total_tokens": 2924,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 710,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 256,
+      "video_tokens": 0
+    },
+    "cost": 0.00043005,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00043005,
+      "upstream_inference_prompt_cost": 0.000105495,
+      "upstream_inference_completions_cost": 0.000324555
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"Defenders reply that parents already make irreversible choices for children simply by conceiving them, through preimplantation genetic diagnosis, which is already permitted in Australia, and through every environmental exposure; the child who would otherwise be born with the disease cannot be consulted either.\",\n  \"reason\": \"The briefing develops pro‑editing arguments about parental rights, low concern for future‑person consent, and a view that cost barriers will lessen, presenting them alongside counter‑arguments without endorsing or dismissing them.\"\n}",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "Defenders reply that parents already make irreversible choices for children simply by conceiving them, through preimplantation genetic diagnosis, which is already permitted in Australia, and through every environmental exposure; the child who would otherwise be born with the disease cannot be consulted either.",
+  "reason": "The briefing develops pro‑editing arguments about parental rights, low concern for future‑person consent, and a view that cost barriers will lessen, presenting them alongside counter‑arguments without endorsing or dismissing them.",
+  "schema_problems": ""
+}

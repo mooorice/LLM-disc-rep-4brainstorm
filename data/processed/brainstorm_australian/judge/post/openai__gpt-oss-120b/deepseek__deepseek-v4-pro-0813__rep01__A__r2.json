@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 1,
+  "discourse": "A",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:29:53.216708+00:00",
+  "judge_id": "gen-1787048967-GPTcmDT1R3GGfAf32Prl",
+  "provider": "CoreWeave",
+  "usage": {
+    "completion_tokens": 975,
+    "prompt_tokens": 2094,
+    "total_tokens": 3069,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1196,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 32,
+      "video_tokens": 0
+    },
+    "cost": 0.00022857,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00022857,
+      "upstream_inference_prompt_cost": 6.282e-05,
+      "upstream_inference_completions_cost": 0.00016575
+    }
+  },
+  "parse_error": "",
+  "quote_verified": false,
+  "quote_match": 0.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"From this perspective, refusing to develop safe and effective editing technologies could be seen as withholding a potentially life‑changing therapy from people who desperately need it.\",\n  \"reason\": \"The briefing notes enthusiasm for medical benefits and desire to reduce disease, but does not articulate the broader stance of low concern for social/ethical issues or a permissive policy preference.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "From this perspective, refusing to develop safe and effective editing technologies could be seen as withholding a potentially life‑changing therapy from people who desperately need it.",
+  "reason": "The briefing notes enthusiasm for medical benefits and desire to reduce disease, but does not articulate the broader stance of low concern for social/ethical issues or a permissive policy preference.",
+  "schema_problems": ""
+}

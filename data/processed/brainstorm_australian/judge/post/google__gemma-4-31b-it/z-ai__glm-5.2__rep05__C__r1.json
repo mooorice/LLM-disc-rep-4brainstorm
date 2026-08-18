@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 5,
+  "discourse": "C",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:16:47.104352+00:00",
+  "judge_id": "gen-1787048203-fT2Q6vK7bvy0Klu51TCc",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 188,
+    "prompt_tokens": 1907,
+    "total_tokens": 2095,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00023555,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00023555,
+      "upstream_inference_prompt_cost": 0.00017163,
+      "upstream_inference_completions_cost": 6.392e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"Philosophical and religious viewpoints also deeply inform the public’s stance on human genome editing. For some, the idea of altering the fundamental building blocks of human life represents an unacceptable overreach, a modern-day version of playing God. These perspectives often emphasize the sanctity of the natural order and the inherent dignity of human life in its unmodified state. They caution against the hubris of believing we can improve upon nature, warning that such attempts often lead to unforeseen moral and societal decay.\",\n  \"reason\": \"The briefing articulates the core of this reasoning: the opposition based on cultural/religious beliefs, the sanctity of the natural order, the idea that altering genes is an unacceptable overreach, and the potential for moral decay.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "Philosophical and religious viewpoints also deeply inform the public’s stance on human genome editing. For some, the idea of altering the fundamental building blocks of human life represents an unacceptable overreach, a modern-day version of playing God. These perspectives often emphasize the sanctity of the natural order and the inherent dignity of human life in its unmodified state. They caution against the hubris of believing we can improve upon nature, warning that such attempts often lead to unforeseen moral and societal decay.",
+  "reason": "The briefing articulates the core of this reasoning: the opposition based on cultural/religious beliefs, the sanctity of the natural order, the idea that altering genes is an unacceptable overreach, and the potential for moral decay.",
+  "schema_problems": ""
+}

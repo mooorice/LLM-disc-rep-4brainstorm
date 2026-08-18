@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 3,
+  "discourse": "B",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:12:45.459864+00:00",
+  "judge_id": "gen-1787047953-HppYrcuxqZsRwX0NFvMF",
+  "provider": "Chutes",
+  "usage": {
+    "completion_tokens": 172,
+    "prompt_tokens": 2294,
+    "total_tokens": 2466,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 367,
+      "video_tokens": 0
+    },
+    "cost": 0.000299284,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.000299284,
+      "upstream_inference_prompt_cost": 0.000235644,
+      "upstream_inference_completions_cost": 6.364e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"If genome editing is expensive, it may be available only to those who can pay, or only in countries with advanced health systems. In Australia, a publicly funded health system might make some therapies accessible, but the cost of clinical development is high and pressure to limit expensive treatments is real. There is also an international dimension: wealthy nations could drive research priorities, while poorer countries continue to struggle with basic healthcare, clean water and infectious disease.\",\n  \"reason\": \"The briefing articulates the specific concern that unequal access and the influence of wealthy nations/private costs could create societal divides and misdirect research priorities, while also acknowledging the potential for health benefits.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "If genome editing is expensive, it may be available only to those who can pay, or only in countries with advanced health systems. In Australia, a publicly funded health system might make some therapies accessible, but the cost of clinical development is high and pressure to limit expensive treatments is real. There is also an international dimension: wealthy nations could drive research priorities, while poorer countries continue to struggle with basic healthcare, clean water and infectious disease.",
+  "reason": "The briefing articulates the specific concern that unequal access and the influence of wealthy nations/private costs could create societal divides and misdirect research priorities, while also acknowledging the potential for health benefits.",
+  "schema_problems": ""
+}

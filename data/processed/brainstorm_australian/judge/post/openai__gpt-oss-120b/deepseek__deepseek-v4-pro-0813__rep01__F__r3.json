@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 1,
+  "discourse": "F",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:31:04.731800+00:00",
+  "judge_id": "gen-1787048980-8lEBejY5tZ2qGBbEMJgd",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 716,
+    "prompt_tokens": 2026,
+    "total_tokens": 2742,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 824,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.000196682,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.000196682,
+      "upstream_inference_prompt_cost": 7.4962e-05,
+      "upstream_inference_completions_cost": 0.00012172
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a sentence or two\",\n  \"quote\": \"Some people see no sharp line between treating disease and enhancing human capacities; they argue that parents already shape their children’s development through education, nutrition and other choices, and that genetic enhancement could be a legitimate expression of reproductive freedom or a way to improve human wellbeing.\",\n  \"reason\": \"The briefing notes a view supporting parental reproductive freedom, but does not develop the broader high‑risk‑tolerant, equity‑unconcerned reasoning.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a sentence or two",
+  "quote": "Some people see no sharp line between treating disease and enhancing human capacities; they argue that parents already shape their children’s development through education, nutrition and other choices, and that genetic enhancement could be a legitimate expression of reproductive freedom or a way to improve human wellbeing.",
+  "reason": "The briefing notes a view supporting parental reproductive freedom, but does not develop the broader high‑risk‑tolerant, equity‑unconcerned reasoning.",
+  "schema_problems": ""
+}

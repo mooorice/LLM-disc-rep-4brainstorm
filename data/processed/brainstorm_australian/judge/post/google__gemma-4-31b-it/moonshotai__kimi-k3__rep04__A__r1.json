@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 4,
+  "discourse": "A",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:14:52.951717+00:00",
+  "judge_id": "gen-1787048087-KCdNjP4x58GcgLS2w1ID",
+  "provider": "CoreWeave",
+  "usage": {
+    "completion_tokens": 161,
+    "prompt_tokens": 2140,
+    "total_tokens": 2301,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 288,
+      "video_tokens": 0
+    },
+    "cost": 0.00026874,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00026874,
+      "upstream_inference_prompt_cost": 0.000214,
+      "upstream_inference_completions_cost": 5.474e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"The strongest current of support flows from medicine's oldest impulse: relieving suffering. ... Advocates argue that editing is continuous with vaccination, surgery and IVF: a tool for sparing children pain and early death. Some go further and speak of a duty, not merely a permission, holding that withholding a safe and effective means of preventing serious disease would itself be a moral failure\",\n  \"reason\": \"The briefing develops the reasoning based on the desire to reduce human suffering, the view of genome editing as a continuation of medical progress, and the argument for the permissibility of both somatic and heritable editing.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "The strongest current of support flows from medicine's oldest impulse: relieving suffering. ... Advocates argue that editing is continuous with vaccination, surgery and IVF: a tool for sparing children pain and early death. Some go further and speak of a duty, not merely a permission, holding that withholding a safe and effective means of preventing serious disease would itself be a moral failure",
+  "reason": "The briefing develops the reasoning based on the desire to reduce human suffering, the view of genome editing as a continuation of medical progress, and the argument for the permissibility of both somatic and heritable editing.",
+  "schema_problems": ""
+}

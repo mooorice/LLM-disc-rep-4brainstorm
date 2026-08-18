@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 1,
+  "discourse": "A",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:41:00.934060+00:00",
+  "judge_id": "gen-1787049658-xL8o1Rc8Rrw2Vnq8dID0",
+  "provider": "Groq",
+  "usage": {
+    "completion_tokens": 1047,
+    "prompt_tokens": 1941,
+    "total_tokens": 2988,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 922,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1792,
+      "video_tokens": 0
+    },
+    "cost": 0.00078495,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00078495,
+      "upstream_inference_prompt_cost": 0.00015675,
+      "upstream_inference_completions_cost": 0.0006282
+    }
+  },
+  "parse_error": "",
+  "quote_verified": false,
+  "quote_match": 0.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"The hopes invested in this technology are powerful and often personal. Families who have watched children suffer with cystic fibrosis, muscular dystrophy or Tay‑Sachs disease see the possibility that such suffering could be prevented altogether, not just managed.\",\n  \"reason\": \"The briefing notes enthusiastic hopes for medical benefit but does not fully develop the specific reasoning about permissive heritable editing, low ethical concern, or rejection of a blanket prohibition.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "The hopes invested in this technology are powerful and often personal. Families who have watched children suffer with cystic fibrosis, muscular dystrophy or Tay‑Sachs disease see the possibility that such suffering could be prevented altogether, not just managed.",
+  "reason": "The briefing notes enthusiastic hopes for medical benefit but does not fully develop the specific reasoning about permissive heritable editing, low ethical concern, or rejection of a blanket prohibition.",
+  "schema_problems": ""
+}

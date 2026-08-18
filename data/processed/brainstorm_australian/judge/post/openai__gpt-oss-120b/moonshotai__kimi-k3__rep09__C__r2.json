@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 9,
+  "discourse": "C",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:45:28.099507+00:00",
+  "judge_id": "gen-1787049921-5ekgvLsUuft1wVzX8nPK",
+  "provider": "Parasail",
+  "usage": {
+    "completion_tokens": 727,
+    "prompt_tokens": 2187,
+    "total_tokens": 2914,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 845,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 2176,
+      "video_tokens": 0
+    },
+    "cost": 0.00066603,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00066603,
+      "upstream_inference_prompt_cost": 0.00012078,
+      "upstream_inference_completions_cost": 0.00054525
+    }
+  },
+  "parse_error": "",
+  "quote_verified": false,
+  "quote_match": 0.0,
+  "raw_response": "{\n  \"presence\": \"absent\",\n  \"treatment\": \"not_applicable\",\n  \"extent\": \"none\",\n  \"quote\": null,\n  \"reason\": \"The briefing does not present a distinct, articulated viewpoint that opposes all human genome editing on cultural and risk grounds, favours only research, and prioritises non‑heritable over heritable applications as described.\"\n}",
+  "presence": "absent",
+  "treatment": "not_applicable",
+  "extent": "none",
+  "quote": "",
+  "reason": "The briefing does not present a distinct, articulated viewpoint that opposes all human genome editing on cultural and risk grounds, favours only research, and prioritises non‑heritable over heritable applications as described.",
+  "schema_problems": ""
+}

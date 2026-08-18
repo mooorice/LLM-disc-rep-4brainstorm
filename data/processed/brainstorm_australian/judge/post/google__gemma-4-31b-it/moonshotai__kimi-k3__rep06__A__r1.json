@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 6,
+  "discourse": "A",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:15:13.569013+00:00",
+  "judge_id": "gen-1787048110-mLb2AQ5JBUq9UjkrPAxs",
+  "provider": "Friendli",
+  "usage": {
+    "completion_tokens": 103,
+    "prompt_tokens": 2165,
+    "total_tokens": 2268,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.0003443,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.0003443,
+      "upstream_inference_prompt_cost": 0.0003031,
+      "upstream_inference_completions_cost": 4.12e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"For them, editing carries a straightforward moral logic: if we can safely prevent such suffering, refusing to do so is itself a moral failure.\",\n  \"reason\": \"The briefing articulates the reasoning of those driven by the desire to reduce human suffering and the moral imperative to use the technology to prevent disease.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "For them, editing carries a straightforward moral logic: if we can safely prevent such suffering, refusing to do so is itself a moral failure.",
+  "reason": "The briefing articulates the reasoning of those driven by the desire to reduce human suffering and the moral imperative to use the technology to prevent disease.",
+  "schema_problems": ""
+}

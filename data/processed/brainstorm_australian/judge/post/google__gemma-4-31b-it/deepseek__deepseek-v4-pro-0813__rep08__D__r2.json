@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 8,
+  "discourse": "D",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:13:41.206846+00:00",
+  "judge_id": "gen-1787048016-HfIEtnTLx5VnVyoAYuiG",
+  "provider": "CoreWeave",
+  "usage": {
+    "completion_tokens": 126,
+    "prompt_tokens": 2230,
+    "total_tokens": 2356,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 2208,
+      "video_tokens": 0
+    },
+    "cost": 0.00026584,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00026584,
+      "upstream_inference_prompt_cost": 0.000223,
+      "upstream_inference_completions_cost": 4.284e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"Patient advocacy groups sometimes argue that once a technology is safe enough, there is a moral duty to use it to prevent severe illness and premature death. From this perspective, not pursuing a technology that could spare future children from suffering would itself be ethically troubling.\",\n  \"reason\": \"The briefing articulates the core logic of this position: the moral obligation to eradicate disease and relieve suffering as a primary driver for supporting genome editing.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "Patient advocacy groups sometimes argue that once a technology is safe enough, there is a moral duty to use it to prevent severe illness and premature death. From this perspective, not pursuing a technology that could spare future children from suffering would itself be ethically troubling.",
+  "reason": "The briefing articulates the core logic of this position: the moral obligation to eradicate disease and relieve suffering as a primary driver for supporting genome editing.",
+  "schema_problems": ""
+}

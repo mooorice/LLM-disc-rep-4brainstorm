@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 3,
+  "discourse": "D",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:47:23.908357+00:00",
+  "judge_id": "gen-1787050031-UkZ9vHHAnujjT9DkB86U",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 758,
+    "prompt_tokens": 2038,
+    "total_tokens": 2796,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 653,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1984,
+      "video_tokens": 0
+    },
+    "cost": 0.00033448,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00033448,
+      "upstream_inference_prompt_cost": 4.265e-05,
+      "upstream_inference_completions_cost": 0.00029183
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"Proponents argue that if we have the tools to eliminate these conditions, we have a moral obligation to use them.\",\n  \"reason\": \"The briefing presents the pro‑therapy view with a moral duty to eradicate disease but does not develop the full reasoning (no value in illness, expert‑only decision‑making, specific policy preferences) of the target position.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "Proponents argue that if we have the tools to eliminate these conditions, we have a moral obligation to use them.",
+  "reason": "The briefing presents the pro‑therapy view with a moral duty to eradicate disease but does not develop the full reasoning (no value in illness, expert‑only decision‑making, specific policy preferences) of the target position.",
+  "schema_problems": ""
+}

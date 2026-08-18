@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 1,
+  "discourse": "D",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:41:33.753686+00:00",
+  "judge_id": "gen-1787049670-2YxCeZ6zZf4zBhsIAyhz",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 962,
+    "prompt_tokens": 1947,
+    "total_tokens": 2909,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 860,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 320,
+      "video_tokens": 0
+    },
+    "cost": 0.000466255,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.000466255,
+      "upstream_inference_prompt_cost": 9.5885e-05,
+      "upstream_inference_completions_cost": 0.00037037
+    }
+  },
+  "parse_error": "",
+  "quote_verified": false,
+  "quote_match": 0.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"Families who have watched children suffer with cystic fibrosis, muscular dystrophy or Tay‑Sachs disease see the possibility that such suffering could be prevented altogether, not just managed.\",\n  \"reason\": \"The briefing refers to the hope of preventing disease but does not develop the full singular‑focus, obligation‑to‑eradicate, expert‑trust, and conditional‑policy reasoning of the described position.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "Families who have watched children suffer with cystic fibrosis, muscular dystrophy or Tay‑Sachs disease see the possibility that such suffering could be prevented altogether, not just managed.",
+  "reason": "The briefing refers to the hope of preventing disease but does not develop the full singular‑focus, obligation‑to‑eradicate, expert‑trust, and conditional‑policy reasoning of the described position.",
+  "schema_problems": ""
+}

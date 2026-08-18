@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 7,
+  "discourse": "E",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:17:11.785487+00:00",
+  "judge_id": "gen-1787048227-jNdSbhptXXYpTNaA72JN",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 165,
+    "prompt_tokens": 1875,
+    "total_tokens": 2040,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00022485,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00022485,
+      "upstream_inference_prompt_cost": 0.00016875,
+      "upstream_inference_completions_cost": 5.61e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"Critics warn of a slippery slope leading to designer babies, where children are treated as commodities engineered to meet parental expectations... The fear is that a societal embrace of genome editing could diminish diversity and lead to a less tolerant society... Those who advocate caution argue for prioritizing somatic therapies while placing strict moratoriums on heritable edits\",\n  \"reason\": \"The briefing articulates the core logic of this position: the fear of a dystopian future of 'designer babies' and a less tolerant society, while explicitly distinguishing between the acceptability of somatic (non-heritable) editing versus the dangers of germline (heritable) editing.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "Critics warn of a slippery slope leading to designer babies, where children are treated as commodities engineered to meet parental expectations... The fear is that a societal embrace of genome editing could diminish diversity and lead to a less tolerant society... Those who advocate caution argue for prioritizing somatic therapies while placing strict moratoriums on heritable edits",
+  "reason": "The briefing articulates the core logic of this position: the fear of a dystopian future of 'designer babies' and a less tolerant society, while explicitly distinguishing between the acceptability of somatic (non-heritable) editing versus the dangers of germline (heritable) editing.",
+  "schema_problems": ""
+}

@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 7,
+  "discourse": "B",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:15:29.053163+00:00",
+  "judge_id": "gen-1787048123-2W71yiayFZxro0ru4daP",
+  "provider": "Chutes",
+  "usage": {
+    "completion_tokens": 160,
+    "prompt_tokens": 2341,
+    "total_tokens": 2501,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 2340,
+      "video_tokens": 0
+    },
+    "cost": 8.74e-05,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 8.74e-05,
+      "upstream_inference_prompt_cost": 2.82e-05,
+      "upstream_inference_completions_cost": 5.92e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"If editing becomes available only to those who can pay, critics foresee a genetic divide layered on top of existing inequalities, with advantages concentrating across generations in ways that ordinary inequality does not. Regional and remote Australians, who already struggle to access specialist care, may be left further behind.\",\n  \"reason\": \"The briefing articulates the specific concerns regarding a 'genetic divide' caused by unequal access, the risk of a 'consumer-driven eugenics' (enhancement) driven by social pressure, and the support for a cautious, research-first approach similar to Maeve's Law.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "If editing becomes available only to those who can pay, critics foresee a genetic divide layered on top of existing inequalities, with advantages concentrating across generations in ways that ordinary inequality does not. Regional and remote Australians, who already struggle to access specialist care, may be left further behind.",
+  "reason": "The briefing articulates the specific concerns regarding a 'genetic divide' caused by unequal access, the risk of a 'consumer-driven eugenics' (enhancement) driven by social pressure, and the support for a cautious, research-first approach similar to Maeve's Law.",
+  "schema_problems": ""
+}

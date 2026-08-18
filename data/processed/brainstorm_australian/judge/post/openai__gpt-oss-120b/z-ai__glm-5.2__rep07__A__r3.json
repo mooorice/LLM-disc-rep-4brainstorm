@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 7,
+  "discourse": "A",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:48:32.819311+00:00",
+  "judge_id": "gen-1787050110-h8kKjMnexe69Dw2BNvPi",
+  "provider": "Groq",
+  "usage": {
+    "completion_tokens": 825,
+    "prompt_tokens": 1954,
+    "total_tokens": 2779,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 722,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 256,
+      "video_tokens": 0
+    },
+    "cost": 0.0007689,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.0007689,
+      "upstream_inference_prompt_cost": 0.0002739,
+      "upstream_inference_completions_cost": 0.000495
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"Proponents argue that if we possess the tools to correct the genetic mutations that cause immense pain and early death, we have a moral imperative to use them.\",\n  \"reason\": \"The briefing references enthusiastic, disease‑focused supporters but does not develop their broader policy stance or relative lack of concern for social/ethical issues.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "Proponents argue that if we possess the tools to correct the genetic mutations that cause immense pain and early death, we have a moral imperative to use them.",
+  "reason": "The briefing references enthusiastic, disease‑focused supporters but does not develop their broader policy stance or relative lack of concern for social/ethical issues.",
+  "schema_problems": ""
+}

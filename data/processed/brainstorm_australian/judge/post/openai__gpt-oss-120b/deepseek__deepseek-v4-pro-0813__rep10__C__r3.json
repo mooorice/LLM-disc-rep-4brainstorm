@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 10,
+  "discourse": "C",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:40:45.361210+00:00",
+  "judge_id": "gen-1787049637-4LBMZhUBdjT8WHaGbOH4",
+  "provider": "Parasail",
+  "usage": {
+    "completion_tokens": 763,
+    "prompt_tokens": 2113,
+    "total_tokens": 2876,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 879,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 2112,
+      "video_tokens": 0
+    },
+    "cost": 0.00068851,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00068851,
+      "upstream_inference_prompt_cost": 0.00011626,
+      "upstream_inference_completions_cost": 0.00057225
+    }
+  },
+  "parse_error": "",
+  "quote_verified": false,
+  "quote_match": 0.0,
+  "raw_response": "{\n  \"presence\": \"absent\",\n  \"treatment\": \"not_applicable\",\n  \"extent\": \"none\",\n  \"quote\": null,\n  \"reason\": \"The briefing does not present a viewpoint that expressly opposes all human genome editing, cites personal unwillingness to edit one's own or children's genomes, emphasizes cultural beliefs about adversity, and advocates a policy of prohibiting editing except for research; it only mentions caution, moral/faith concerns, and safety without the full configuration of the described reasoning.\"\n}",
+  "presence": "absent",
+  "treatment": "not_applicable",
+  "extent": "none",
+  "quote": "",
+  "reason": "The briefing does not present a viewpoint that expressly opposes all human genome editing, cites personal unwillingness to edit one's own or children's genomes, emphasizes cultural beliefs about adversity, and advocates a policy of prohibiting editing except for research; it only mentions caution, moral/faith concerns, and safety without the full configuration of the described reasoning.",
+  "schema_problems": ""
+}

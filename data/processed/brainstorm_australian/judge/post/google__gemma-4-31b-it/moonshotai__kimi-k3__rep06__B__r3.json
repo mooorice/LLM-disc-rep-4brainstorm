@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 6,
+  "discourse": "B",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:15:27.888505+00:00",
+  "judge_id": "gen-1787048113-3nCUY64XoZNmbVxOMWAA",
+  "provider": "Chutes",
+  "usage": {
+    "completion_tokens": 192,
+    "prompt_tokens": 2214,
+    "total_tokens": 2406,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 364,
+      "video_tokens": 0
+    },
+    "cost": 0.000297408,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.000297408,
+      "upstream_inference_prompt_cost": 0.000226368,
+      "upstream_inference_completions_cost": 7.104e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"The fear is a future stratified by genetics, where the wealthy buy not just better schools and better postcodes but better genomes, a fear that resonates in a country that prides itself on the fair go. Access for rural and remote communities, and for poorer countries, compounds the concern. Yet others reply that inequity is a policy choice rather than a technological inevitability: many medicines began expensive and became universal, and a well-designed public system could make editing a tool for reducing, rather than deepening, inequality.\",\n  \"reason\": \"The briefing articulates the specific concern that unequal access will lead to a stratified society of genetic 'haves and have-nots' while balancing this against the potential for a public system to ensure benefit for all.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "The fear is a future stratified by genetics, where the wealthy buy not just better schools and better postcodes but better genomes, a fear that resonates in a country that prides itself on the fair go. Access for rural and remote communities, and for poorer countries, compounds the concern. Yet others reply that inequity is a policy choice rather than a technological inevitability: many medicines began expensive and became universal, and a well-designed public system could make editing a tool for reducing, rather than deepening, inequality.",
+  "reason": "The briefing articulates the specific concern that unequal access will lead to a stratified society of genetic 'haves and have-nots' while balancing this against the potential for a public system to ensure benefit for all.",
+  "schema_problems": ""
+}

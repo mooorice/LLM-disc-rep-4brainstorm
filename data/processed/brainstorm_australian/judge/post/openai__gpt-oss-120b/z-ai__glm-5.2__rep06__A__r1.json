@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 6,
+  "discourse": "A",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:48:09.612078+00:00",
+  "judge_id": "gen-1787050085-5zCQpMJO8VYDVL8DgDGx",
+  "provider": "Groq",
+  "usage": {
+    "completion_tokens": 1389,
+    "prompt_tokens": 1929,
+    "total_tokens": 3318,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1232,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 256,
+      "video_tokens": 0
+    },
+    "cost": 0.00110355,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00110355,
+      "upstream_inference_prompt_cost": 0.00027015,
+      "upstream_inference_completions_cost": 0.0008334
+    }
+  },
+  "parse_error": "",
+  "quote_verified": false,
+  "quote_match": 0.0,
+  "raw_response": "{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"At the heart of enthusiastic support for genome editing is a profound hope for healing. Proponents argue that we have a moral imperative to alleviate human suffering when we possess the technological means to do so. Supporters emphasize the values of compassion, biomedical progress, and autonomy, arguing that individuals should have the right to access cutting‑edge treatments to secure their own health and the health of their children.\",\n  \"reason\": \"The briefing develops an enthusiastic, medical‑benefit‑focused perspective that embraces genome editing, stresses reducing disease burden, and advocates keeping an open mind about the technology.\"\n}",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "At the heart of enthusiastic support for genome editing is a profound hope for healing. Proponents argue that we have a moral imperative to alleviate human suffering when we possess the technological means to do so. Supporters emphasize the values of compassion, biomedical progress, and autonomy, arguing that individuals should have the right to access cutting‑edge treatments to secure their own health and the health of their children.",
+  "reason": "The briefing develops an enthusiastic, medical‑benefit‑focused perspective that embraces genome editing, stresses reducing disease burden, and advocates keeping an open mind about the technology.",
+  "schema_problems": ""
+}

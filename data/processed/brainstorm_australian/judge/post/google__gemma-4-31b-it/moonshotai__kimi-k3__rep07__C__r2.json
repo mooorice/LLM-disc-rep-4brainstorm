@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 7,
+  "discourse": "C",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:15:27.358465+00:00",
+  "judge_id": "gen-1787048124-LOsBU1vUc4noG2jnR4tE",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 130,
+    "prompt_tokens": 2343,
+    "total_tokens": 2473,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00025507,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00025507,
+      "upstream_inference_prompt_cost": 0.00021087,
+      "upstream_inference_completions_cost": 4.42e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"Some traditions see the human genome as part of a created order that humans should steward but not rewrite, and worry about \\\"playing God\\\"; many place moral weight on the status of the embryo, since heritable editing typically involves creating and sometimes destroying embryos.\",\n  \"reason\": \"The briefing articulates the core of this reasoning by linking opposition to genome editing to cultural/religious beliefs about the created order and the fundamental nature of the human genome.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "Some traditions see the human genome as part of a created order that humans should steward but not rewrite, and worry about \"playing God\"; many place moral weight on the status of the embryo, since heritable editing typically involves creating and sometimes destroying embryos.",
+  "reason": "The briefing articulates the core of this reasoning by linking opposition to genome editing to cultural/religious beliefs about the created order and the fundamental nature of the human genome.",
+  "schema_problems": ""
+}

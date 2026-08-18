@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 5,
+  "discourse": "A",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:16:45.837618+00:00",
+  "judge_id": "gen-1787048201-2wobN5JPpUarvBB61ntd",
+  "provider": "Friendli",
+  "usage": {
+    "completion_tokens": 208,
+    "prompt_tokens": 1856,
+    "total_tokens": 2064,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 288,
+      "video_tokens": 0
+    },
+    "cost": 0.00034304,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00034304,
+      "upstream_inference_prompt_cost": 0.00025984,
+      "upstream_inference_completions_cost": 8.32e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"For many, the most compelling argument in favor of genome editing is the profound hope to alleviate human suffering. The technology holds the potential to correct genetic mutations that cause devastating, often fatal, hereditary conditions such as cystic fibrosis, Huntington’s disease, and sickle cell anemia. From this perspective, the moral imperative is clear: if we possess the ability to cure a child of a painful disease before they are even born, or to prevent a family from passing on a tragic genetic legacy, we have a duty to do so. Proponents argue that genome editing is simply the next step in the long history of medical innovation, a tool to improve human health and extend lives.\",\n  \"reason\": \"The briefing articulates the reasoning driven by the desire to reduce human suffering and the view of genome editing as a natural progression of medical innovation.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "For many, the most compelling argument in favor of genome editing is the profound hope to alleviate human suffering. The technology holds the potential to correct genetic mutations that cause devastating, often fatal, hereditary conditions such as cystic fibrosis, Huntington’s disease, and sickle cell anemia. From this perspective, the moral imperative is clear: if we possess the ability to cure a child of a painful disease before they are even born, or to prevent a family from passing on a tragic genetic legacy, we have a duty to do so. Proponents argue that genome editing is simply the next step in the long history of medical innovation, a tool to improve human health and extend lives.",
+  "reason": "The briefing articulates the reasoning driven by the desire to reduce human suffering and the view of genome editing as a natural progression of medical innovation.",
+  "schema_problems": ""
+}

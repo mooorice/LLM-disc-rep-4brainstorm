@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 3,
+  "discourse": "D",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:32:31.878013+00:00",
+  "judge_id": "gen-1787049148-ukzZrTLRWNXbX9O6GYdL",
+  "provider": "Groq",
+  "usage": {
+    "completion_tokens": 977,
+    "prompt_tokens": 2299,
+    "total_tokens": 3276,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 784,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00093105,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00093105,
+      "upstream_inference_prompt_cost": 0.00034485,
+      "upstream_inference_completions_cost": 0.0005862
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"For some parents and patient advocates, the strongest argument is the desire to spare a child from severe genetic disease. They ask why a couple who knows they carry a serious condition should be denied the chance to have a genetically related child who is free of that condition, particularly when other options such as prenatal testing and embryo selection may not work or may involve termination. In this view, freedom from foreseeable suffering is a compassionate goal, and parents are best placed to make decisions about their own family.\",\n  \"reason\": \"The briefing presents the pro‑disease‑prevention stance with concerns about enhancements and calls for careful regulation, but does not develop the full configuration of trust in experts, obligation to eradicate disease, or policy preferences, so it is only mentioned as one view.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "For some parents and patient advocates, the strongest argument is the desire to spare a child from severe genetic disease. They ask why a couple who knows they carry a serious condition should be denied the chance to have a genetically related child who is free of that condition, particularly when other options such as prenatal testing and embryo selection may not work or may involve termination. In this view, freedom from foreseeable suffering is a compassionate goal, and parents are best placed to make decisions about their own family.",
+  "reason": "The briefing presents the pro‑disease‑prevention stance with concerns about enhancements and calls for careful regulation, but does not develop the full configuration of trust in experts, obligation to eradicate disease, or policy preferences, so it is only mentioned as one view.",
+  "schema_problems": ""
+}

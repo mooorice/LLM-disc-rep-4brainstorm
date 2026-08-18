@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 10,
+  "discourse": "C",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:17:41.242105+00:00",
+  "judge_id": "gen-1787048258-NCNOHK6RHtdBthA6cVl7",
+  "provider": "Friendli",
+  "usage": {
+    "completion_tokens": 216,
+    "prompt_tokens": 1935,
+    "total_tokens": 2151,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 352,
+      "video_tokens": 0
+    },
+    "cost": 0.0003573,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.0003573,
+      "upstream_inference_prompt_cost": 0.0002709,
+      "upstream_inference_completions_cost": 8.64e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"Intertwined with these social and medical arguments are profound philosophical and religious objections. For some, the human genome possesses an intrinsic sanctity, and altering it represents an unacceptable overreach into the natural order. This playing God argument suggests that humanity lacks the wisdom to safely and ethically manage the power to rewrite our own genetic code. Various faith traditions may view the genome as a divine creation that should not be tampered with, while secular philosophies might caution against a hubristic faith in technological progress. These viewpoints remind us that the debate involves fundamental questions of human nature, our relationship with the natural world, and the ethical limits of human ambition.\",\n  \"reason\": \"The briefing articulates the reasoning of those opposed based on the intrinsic sanctity of the genome, the 'playing God' argument, and the belief that altering the genome is an unacceptable overreach into the natural order.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "Intertwined with these social and medical arguments are profound philosophical and religious objections. For some, the human genome possesses an intrinsic sanctity, and altering it represents an unacceptable overreach into the natural order. This playing God argument suggests that humanity lacks the wisdom to safely and ethically manage the power to rewrite our own genetic code. Various faith traditions may view the genome as a divine creation that should not be tampered with, while secular philosophies might caution against a hubristic faith in technological progress. These viewpoints remind us that the debate involves fundamental questions of human nature, our relationship with the natural world, and the ethical limits of human ambition.",
+  "reason": "The briefing articulates the reasoning of those opposed based on the intrinsic sanctity of the genome, the 'playing God' argument, and the belief that altering the genome is an unacceptable overreach into the natural order.",
+  "schema_problems": ""
+}

@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 8,
+  "discourse": "B",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:13:39.801532+00:00",
+  "judge_id": "gen-1787048011-UZIML3aBumCJ5H3D57aM",
+  "provider": "Chutes",
+  "usage": {
+    "completion_tokens": 143,
+    "prompt_tokens": 2269,
+    "total_tokens": 2412,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 364,
+      "video_tokens": 0
+    },
+    "cost": 0.000285878,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.000285878,
+      "upstream_inference_prompt_cost": 0.000232968,
+      "upstream_inference_completions_cost": 5.291e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"New genetic technologies are often expensive, and if genome editing becomes available only through private clinics, the benefits may flow mainly to wealthy families. This could deepen existing health inequalities, both within Australia and between wealthy and poorer countries... Some fear the emergence of a genetic underclass.\",\n  \"reason\": \"The briefing explicitly articulates the concerns regarding unequal access creating 'haves and have-nots', the risk of private clinics driving a 'genetic underclass', and the tension between treating serious disease versus enhancement.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "New genetic technologies are often expensive, and if genome editing becomes available only through private clinics, the benefits may flow mainly to wealthy families. This could deepen existing health inequalities, both within Australia and between wealthy and poorer countries... Some fear the emergence of a genetic underclass.",
+  "reason": "The briefing explicitly articulates the concerns regarding unequal access creating 'haves and have-nots', the risk of private clinics driving a 'genetic underclass', and the tension between treating serious disease versus enhancement.",
+  "schema_problems": ""
+}

@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 3,
+  "discourse": "E",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:16:31.556442+00:00",
+  "judge_id": "gen-1787048187-aJlpgkDqVrljL2X2MY4v",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 94,
+    "prompt_tokens": 1960,
+    "total_tokens": 2054,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00020836,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00020836,
+      "upstream_inference_prompt_cost": 0.0001764,
+      "upstream_inference_completions_cost": 3.196e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": false,
+  "quote_match": 0.0,
+  "raw_response": "```json\n{\n  \"presence\": \"absent\",\n  \"treatment\": \"not_applicable\",\n  \"extent\": \"none\",\n  \"quote\": null,\n  \"reason\": \"While the briefing discusses dystopian fears and the somatic/germline distinction, it does not combine them into the specific reasoning that genome editing is acceptable specifically for non-heritable use and should be provided not-for-profit.\"\n}\n```",
+  "presence": "absent",
+  "treatment": "not_applicable",
+  "extent": "none",
+  "quote": "",
+  "reason": "While the briefing discusses dystopian fears and the somatic/germline distinction, it does not combine them into the specific reasoning that genome editing is acceptable specifically for non-heritable use and should be provided not-for-profit.",
+  "schema_problems": ""
+}

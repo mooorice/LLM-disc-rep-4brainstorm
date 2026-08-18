@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 9,
+  "discourse": "F",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:40:37.739980+00:00",
+  "judge_id": "gen-1787049621-B1oNqvJfTmfGQyPuVvmJ",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 723,
+    "prompt_tokens": 1983,
+    "total_tokens": 2706,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 593,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1920,
+      "video_tokens": 0
+    },
+    "cost": 0.00032022,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00032022,
+      "upstream_inference_prompt_cost": 4.1865e-05,
+      "upstream_inference_completions_cost": 0.000278355
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a sentence or two\",\n  \"quote\": \"A small minority, including some transhumanists and libertarians, argues that parents should be free to enhance their children’s genetic endowments, just as they already seek to improve them through education, nutrition, and other means.\",\n  \"reason\": \"The briefing cites a minority view that supports parental freedom to edit genes, but does not develop the high‑risk‑tolerant, cost‑unconcerned reasoning; it is presented neutrally in a brief mention.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a sentence or two",
+  "quote": "A small minority, including some transhumanists and libertarians, argues that parents should be free to enhance their children’s genetic endowments, just as they already seek to improve them through education, nutrition, and other means.",
+  "reason": "The briefing cites a minority view that supports parental freedom to edit genes, but does not develop the high‑risk‑tolerant, cost‑unconcerned reasoning; it is presented neutrally in a brief mention.",
+  "schema_problems": ""
+}

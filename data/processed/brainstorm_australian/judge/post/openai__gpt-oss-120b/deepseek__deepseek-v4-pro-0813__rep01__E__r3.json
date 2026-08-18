@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 1,
+  "discourse": "E",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:31:49.670243+00:00",
+  "judge_id": "gen-1787048978-nPlUceEt2dN2eFsLNUXn",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 1084,
+    "prompt_tokens": 2056,
+    "total_tokens": 3140,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1218,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.000260352,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.000260352,
+      "upstream_inference_prompt_cost": 7.6072e-05,
+      "upstream_inference_completions_cost": 0.00018428
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"Many worry that the drive to edit out genes associated with disability sends a powerful message that disabled lives are less valuable or less worth living… There is concern that widespread genetic editing could revive eugenic thinking, pressuring parents to select or engineer children who fit narrow norms of health and ability.\",\n  \"reason\": \"The briefing raises concerns about dystopian, eugenic outcomes, but does not develop the full reasoning about accepting non‑heritable editing, personal choice, or profit‑free provision.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "Many worry that the drive to edit out genes associated with disability sends a powerful message that disabled lives are less valuable or less worth living… There is concern that widespread genetic editing could revive eugenic thinking, pressuring parents to select or engineer children who fit narrow norms of health and ability.",
+  "reason": "The briefing raises concerns about dystopian, eugenic outcomes, but does not develop the full reasoning about accepting non‑heritable editing, personal choice, or profit‑free provision.",
+  "schema_problems": ""
+}

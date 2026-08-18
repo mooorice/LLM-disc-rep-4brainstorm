@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 3,
+  "discourse": "D",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:42:41.887441+00:00",
+  "judge_id": "gen-1787049742-CiHal4d5YiLY88Nm0cV5",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 1101,
+    "prompt_tokens": 2273,
+    "total_tokens": 3374,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 986,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 320,
+      "video_tokens": 0
+    },
+    "cost": 0.0005377,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.0005377,
+      "upstream_inference_prompt_cost": 0.000113815,
+      "upstream_inference_completions_cost": 0.000423885
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"Some philosophers go further, arguing that parents have a duty to give children the best possible start in life, and that if safe prevention exists, refusing it is itself a moral choice with consequences.\",\n  \"reason\": \"The briefing develops the reasoning that disease‑preventing genome editing is a moral duty, expresses concern about enhancements, and discusses policy options favoring regulated permission rather than blanket bans or permits.\"\n}",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "Some philosophers go further, arguing that parents have a duty to give children the best possible start in life, and that if safe prevention exists, refusing it is itself a moral choice with consequences.",
+  "reason": "The briefing develops the reasoning that disease‑preventing genome editing is a moral duty, expresses concern about enhancements, and discusses policy options favoring regulated permission rather than blanket bans or permits.",
+  "schema_problems": ""
+}

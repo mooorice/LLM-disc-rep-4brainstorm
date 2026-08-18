@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 3,
+  "discourse": "D",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:32:36.711867+00:00",
+  "judge_id": "gen-1787049151-luHWzJG5inoPSujylakt",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 1184,
+    "prompt_tokens": 2282,
+    "total_tokens": 3466,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1399,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.0010527,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.0010527,
+      "upstream_inference_prompt_cost": 0.0003423,
+      "upstream_inference_completions_cost": 0.0007104
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"For some parents and patient advocates, the strongest argument is the desire to spare a child from severe genetic disease. They ask why a couple who knows they carry a serious condition should be denied the chance to have a genetically related child who is free of that condition, particularly when other options such as prenatal testing and embryo selection may not work or may involve termination. In this view, freedom from foreseeable suffering is a compassionate goal, and parents are best placed to make decisions about their own family.\",\n  \"reason\": \"The briefing presents a view focused on disease prevention and concerns about enhancements, but it does not develop the full singular, expert‑driven position described.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "For some parents and patient advocates, the strongest argument is the desire to spare a child from severe genetic disease. They ask why a couple who knows they carry a serious condition should be denied the chance to have a genetically related child who is free of that condition, particularly when other options such as prenatal testing and embryo selection may not work or may involve termination. In this view, freedom from foreseeable suffering is a compassionate goal, and parents are best placed to make decisions about their own family.",
+  "reason": "The briefing presents a view focused on disease prevention and concerns about enhancements, but it does not develop the full singular, expert‑driven position described.",
+  "schema_problems": ""
+}

@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 2,
+  "discourse": "A",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:12:27.526838+00:00",
+  "judge_id": "gen-1787047941-ytt2wIYXhAuE6ZZMlPWH",
+  "provider": "CoreWeave",
+  "usage": {
+    "completion_tokens": 179,
+    "prompt_tokens": 2003,
+    "total_tokens": 2182,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 288,
+      "video_tokens": 0
+    },
+    "cost": 0.00026116,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00026116,
+      "upstream_inference_prompt_cost": 0.0002003,
+      "upstream_inference_completions_cost": 6.086e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"The hopes associated with genome editing are often focused on the relief of serious suffering. For families affected by genetic conditions such as cystic fibrosis, Huntington disease or muscular dystrophy, the ability to correct a single faulty gene could be life-changing. Somatic therapies might treat disease in a living child or adult, while germline editing might allow parents who carry a serious genetic condition to have a biologically related child without passing that condition on. From this perspective, compassion and the desire to reduce suffering support careful development of the technology.\",\n  \"reason\": \"The briefing develops the reasoning that the desire to reduce human suffering and compassion for affected families justifies the development of both somatic and germline genome editing.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "The hopes associated with genome editing are often focused on the relief of serious suffering. For families affected by genetic conditions such as cystic fibrosis, Huntington disease or muscular dystrophy, the ability to correct a single faulty gene could be life-changing. Somatic therapies might treat disease in a living child or adult, while germline editing might allow parents who carry a serious genetic condition to have a biologically related child without passing that condition on. From this perspective, compassion and the desire to reduce suffering support careful development of the technology.",
+  "reason": "The briefing develops the reasoning that the desire to reduce human suffering and compassion for affected families justifies the development of both somatic and germline genome editing.",
+  "schema_problems": ""
+}

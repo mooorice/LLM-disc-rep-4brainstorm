@@ -1,0 +1,181 @@
+model,repetition,discourse,presence,treatment,extent,replicates,presence_agreement,treatment_agreement,quote_verified,quote_match,parse_failures,presence_score,extent_score,available,present_any
+deepseek/deepseek-v4-pro-0813,1,A,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.0,0.0,0,0,0,False,False
+deepseek/deepseek-v4-pro-0813,1,B,mentioned,neutral,several paragraphs,3,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666,0,1,3,False,True
+deepseek/deepseek-v4-pro-0813,1,C,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+deepseek/deepseek-v4-pro-0813,1,D,mentioned,neutral,several paragraphs,3,0.6666666666666666,1.0,0.6666666666666666,0.6666666666666666,0,1,3,False,True
+deepseek/deepseek-v4-pro-0813,1,E,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+deepseek/deepseek-v4-pro-0813,1,F,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+deepseek/deepseek-v4-pro-0813,2,A,mentioned,neutral,a paragraph,3,1.0,1.0,0.0,0.09366666666666668,0,1,2,False,True
+deepseek/deepseek-v4-pro-0813,2,B,absent,neutral,a paragraph,3,0.3333333333333333,0.6666666666666666,0.6666666666666666,0.6666666666666666,0,0,2,False,False
+deepseek/deepseek-v4-pro-0813,2,C,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+deepseek/deepseek-v4-pro-0813,2,D,mentioned,neutral,a paragraph,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,1,2,False,True
+deepseek/deepseek-v4-pro-0813,2,E,mentioned,neutral,a paragraph,3,1.0,1.0,1.0,1.0,0,1,2,False,True
+deepseek/deepseek-v4-pro-0813,2,F,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+deepseek/deepseek-v4-pro-0813,3,A,mentioned,neutral,a paragraph,3,1.0,1.0,0.6666666666666666,0.6666666666666666,0,1,2,False,True
+deepseek/deepseek-v4-pro-0813,3,B,mentioned,neutral,several paragraphs,3,0.6666666666666666,1.0,1.0,1.0,0,1,3,False,True
+deepseek/deepseek-v4-pro-0813,3,C,mentioned,neutral,several paragraphs,3,0.6666666666666666,1.0,1.0,1.0,0,1,3,False,True
+deepseek/deepseek-v4-pro-0813,3,D,mentioned,neutral,a paragraph,3,0.6666666666666666,1.0,1.0,1.0,0,1,2,False,True
+deepseek/deepseek-v4-pro-0813,3,E,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+deepseek/deepseek-v4-pro-0813,3,F,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+deepseek/deepseek-v4-pro-0813,4,A,mentioned,neutral,a paragraph,3,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666,0,1,2,False,True
+deepseek/deepseek-v4-pro-0813,4,B,mentioned,neutral,several paragraphs,3,0.6666666666666666,1.0,0.6666666666666666,0.8476666666666667,0,1,3,False,True
+deepseek/deepseek-v4-pro-0813,4,C,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+deepseek/deepseek-v4-pro-0813,4,D,mentioned,neutral,a paragraph,3,0.6666666666666666,1.0,0.3333333333333333,0.3333333333333333,0,1,2,False,True
+deepseek/deepseek-v4-pro-0813,4,E,mentioned,neutral,a paragraph,3,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666,0,1,2,False,True
+deepseek/deepseek-v4-pro-0813,4,F,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+deepseek/deepseek-v4-pro-0813,5,A,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+deepseek/deepseek-v4-pro-0813,5,B,articulated,neutral,several paragraphs,3,0.6666666666666666,1.0,1.0,1.0,0,2,3,True,True
+deepseek/deepseek-v4-pro-0813,5,C,mentioned,neutral,several paragraphs,3,1.0,1.0,1.0,1.0,0,1,3,False,True
+deepseek/deepseek-v4-pro-0813,5,D,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+deepseek/deepseek-v4-pro-0813,5,E,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.0,0.0,0,0,0,False,False
+deepseek/deepseek-v4-pro-0813,5,F,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+deepseek/deepseek-v4-pro-0813,6,A,mentioned,neutral,a sentence or two,3,1.0,1.0,0.3333333333333333,0.3333333333333333,0,1,1,False,True
+deepseek/deepseek-v4-pro-0813,6,B,mentioned,neutral,none,3,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666,0,1,0,False,True
+deepseek/deepseek-v4-pro-0813,6,C,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+deepseek/deepseek-v4-pro-0813,6,D,mentioned,neutral,a sentence or two,3,0.6666666666666666,1.0,1.0,1.0,0,1,1,False,True
+deepseek/deepseek-v4-pro-0813,6,E,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+deepseek/deepseek-v4-pro-0813,6,F,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+deepseek/deepseek-v4-pro-0813,7,A,articulated,neutral,several paragraphs,3,1.0,1.0,0.0,0.09899999999999999,0,2,3,True,True
+deepseek/deepseek-v4-pro-0813,7,B,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+deepseek/deepseek-v4-pro-0813,7,C,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+deepseek/deepseek-v4-pro-0813,7,D,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+deepseek/deepseek-v4-pro-0813,7,E,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+deepseek/deepseek-v4-pro-0813,7,F,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+deepseek/deepseek-v4-pro-0813,8,A,mentioned,neutral,several paragraphs,3,0.6666666666666666,1.0,1.0,1.0,0,1,3,False,True
+deepseek/deepseek-v4-pro-0813,8,B,absent,neutral,several paragraphs,3,0.3333333333333333,0.6666666666666666,0.6666666666666666,0.6666666666666666,0,0,3,False,False
+deepseek/deepseek-v4-pro-0813,8,C,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+deepseek/deepseek-v4-pro-0813,8,D,articulated,neutral,several paragraphs,3,0.6666666666666666,1.0,1.0,1.0,0,2,3,True,True
+deepseek/deepseek-v4-pro-0813,8,E,mentioned,neutral,several paragraphs,3,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666,0,1,3,False,True
+deepseek/deepseek-v4-pro-0813,8,F,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+deepseek/deepseek-v4-pro-0813,9,A,mentioned,neutral,a paragraph,3,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666,0,1,2,False,True
+deepseek/deepseek-v4-pro-0813,9,B,mentioned,neutral,a paragraph,3,1.0,1.0,1.0,1.0,0,1,2,False,True
+deepseek/deepseek-v4-pro-0813,9,C,absent,neutral,several paragraphs,3,0.3333333333333333,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,3,False,False
+deepseek/deepseek-v4-pro-0813,9,D,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+deepseek/deepseek-v4-pro-0813,9,E,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.0,0.0,0,0,0,False,False
+deepseek/deepseek-v4-pro-0813,9,F,mentioned,neutral,a sentence or two,3,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666,0,1,1,False,True
+deepseek/deepseek-v4-pro-0813,10,A,absent,neutral,a paragraph,3,0.3333333333333333,0.6666666666666666,0.6666666666666666,0.6666666666666666,0,0,2,False,False
+deepseek/deepseek-v4-pro-0813,10,B,mentioned,neutral,several paragraphs,3,0.6666666666666666,1.0,1.0,1.0,0,1,3,False,True
+deepseek/deepseek-v4-pro-0813,10,C,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+deepseek/deepseek-v4-pro-0813,10,D,mentioned,neutral,a paragraph,3,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666,0,1,2,False,True
+deepseek/deepseek-v4-pro-0813,10,E,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+deepseek/deepseek-v4-pro-0813,10,F,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+moonshotai/kimi-k3,1,A,mentioned,neutral,a paragraph,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,1,2,False,True
+moonshotai/kimi-k3,1,B,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+moonshotai/kimi-k3,1,C,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+moonshotai/kimi-k3,1,D,mentioned,neutral,a paragraph,3,1.0,1.0,0.6666666666666666,0.6666666666666666,0,1,2,False,True
+moonshotai/kimi-k3,1,E,mentioned,neutral,a paragraph,3,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666,0,1,2,False,True
+moonshotai/kimi-k3,1,F,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+moonshotai/kimi-k3,2,A,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+moonshotai/kimi-k3,2,B,mentioned,neutral,a paragraph,3,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666,0,1,2,False,True
+moonshotai/kimi-k3,2,C,absent,neutral,none,2,0.5,0.5,0.5,0.5,0,0,0,False,False
+moonshotai/kimi-k3,2,D,mentioned,neutral,a paragraph,3,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666,0,1,2,False,True
+moonshotai/kimi-k3,2,E,mentioned,neutral,none,3,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666,0,1,0,False,True
+moonshotai/kimi-k3,2,F,mentioned,neutral,a paragraph,3,0.6666666666666666,1.0,1.0,1.0,0,1,2,False,True
+moonshotai/kimi-k3,3,A,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+moonshotai/kimi-k3,3,B,mentioned,neutral,several paragraphs,3,0.6666666666666666,1.0,1.0,1.0,0,1,3,False,True
+moonshotai/kimi-k3,3,C,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+moonshotai/kimi-k3,3,D,articulated,neutral,several paragraphs,3,0.6666666666666666,1.0,1.0,1.0,0,2,3,True,True
+moonshotai/kimi-k3,3,E,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+moonshotai/kimi-k3,3,F,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+moonshotai/kimi-k3,4,A,mentioned,neutral,several paragraphs,3,0.6666666666666666,1.0,0.6666666666666666,0.6666666666666666,0,1,3,False,True
+moonshotai/kimi-k3,4,B,mentioned,neutral,a paragraph,3,1.0,1.0,1.0,1.0,0,1,2,False,True
+moonshotai/kimi-k3,4,C,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+moonshotai/kimi-k3,4,D,articulated,neutral,a paragraph,3,1.0,1.0,1.0,1.0,0,2,2,True,True
+moonshotai/kimi-k3,4,E,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+moonshotai/kimi-k3,4,F,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+moonshotai/kimi-k3,5,A,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+moonshotai/kimi-k3,5,B,articulated,neutral,several paragraphs,3,1.0,1.0,1.0,1.0,0,2,3,True,True
+moonshotai/kimi-k3,5,C,articulated,neutral,several paragraphs,3,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666,0,2,3,True,True
+moonshotai/kimi-k3,5,D,mentioned,neutral,a paragraph,3,0.6666666666666666,1.0,0.6666666666666666,0.6666666666666666,0,1,2,False,True
+moonshotai/kimi-k3,5,E,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+moonshotai/kimi-k3,5,F,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+moonshotai/kimi-k3,6,A,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+moonshotai/kimi-k3,6,B,mentioned,neutral,a paragraph,3,0.6666666666666666,1.0,1.0,1.0,0,1,2,False,True
+moonshotai/kimi-k3,6,C,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+moonshotai/kimi-k3,6,D,articulated,neutral,several paragraphs,3,0.6666666666666666,1.0,1.0,1.0,0,2,3,True,True
+moonshotai/kimi-k3,6,E,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+moonshotai/kimi-k3,6,F,articulated,neutral,a paragraph,3,0.6666666666666666,1.0,0.0,0.0,0,2,2,True,True
+moonshotai/kimi-k3,7,A,mentioned,neutral,a paragraph,3,1.0,1.0,0.3333333333333333,0.3333333333333333,0,1,2,False,True
+moonshotai/kimi-k3,7,B,mentioned,neutral,several paragraphs,3,0.6666666666666666,1.0,1.0,1.0,0,1,3,False,True
+moonshotai/kimi-k3,7,C,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+moonshotai/kimi-k3,7,D,articulated,neutral,several paragraphs,3,0.6666666666666666,0.6666666666666666,0.0,0.0,0,2,3,True,True
+moonshotai/kimi-k3,7,E,absent,neutral,several paragraphs,3,0.3333333333333333,0.6666666666666666,0.6666666666666666,0.6666666666666666,0,0,3,False,False
+moonshotai/kimi-k3,7,F,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+moonshotai/kimi-k3,8,A,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+moonshotai/kimi-k3,8,B,mentioned,neutral,none,3,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666,0,1,0,False,True
+moonshotai/kimi-k3,8,C,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+moonshotai/kimi-k3,8,D,absent,neutral,none,3,0.3333333333333333,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+moonshotai/kimi-k3,8,E,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+moonshotai/kimi-k3,8,F,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+moonshotai/kimi-k3,9,A,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+moonshotai/kimi-k3,9,B,mentioned,neutral,a paragraph,3,0.6666666666666666,1.0,1.0,1.0,0,1,2,False,True
+moonshotai/kimi-k3,9,C,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+moonshotai/kimi-k3,9,D,mentioned,neutral,a paragraph,3,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666,0,1,2,False,True
+moonshotai/kimi-k3,9,E,mentioned,neutral,several paragraphs,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,1,3,False,True
+moonshotai/kimi-k3,9,F,mentioned,neutral,a paragraph,3,0.6666666666666666,1.0,1.0,1.0,0,1,2,False,True
+moonshotai/kimi-k3,10,A,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+moonshotai/kimi-k3,10,B,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+moonshotai/kimi-k3,10,C,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+moonshotai/kimi-k3,10,D,articulated,neutral,several paragraphs,3,0.6666666666666666,1.0,1.0,1.0,0,2,3,True,True
+moonshotai/kimi-k3,10,E,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+moonshotai/kimi-k3,10,F,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+z-ai/glm-5.2,1,A,mentioned,neutral,a paragraph,3,1.0,1.0,0.3333333333333333,0.3333333333333333,0,1,2,False,True
+z-ai/glm-5.2,1,B,mentioned,neutral,a paragraph,3,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666,0,1,2,False,True
+z-ai/glm-5.2,1,C,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+z-ai/glm-5.2,1,D,articulated,neutral,several paragraphs,3,0.6666666666666666,1.0,1.0,1.0,0,2,3,True,True
+z-ai/glm-5.2,1,E,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+z-ai/glm-5.2,1,F,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+z-ai/glm-5.2,2,A,articulated,neutral,several paragraphs,3,0.6666666666666666,1.0,1.0,1.0,0,2,3,True,True
+z-ai/glm-5.2,2,B,articulated,neutral,several paragraphs,3,1.0,1.0,0.6666666666666666,0.6666666666666666,0,2,3,True,True
+z-ai/glm-5.2,2,C,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+z-ai/glm-5.2,2,D,absent,neutral,none,3,0.3333333333333333,0.6666666666666666,0.6666666666666666,0.6666666666666666,0,0,0,False,False
+z-ai/glm-5.2,2,E,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.0,0.0,0,0,0,False,False
+z-ai/glm-5.2,2,F,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+z-ai/glm-5.2,3,A,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+z-ai/glm-5.2,3,B,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+z-ai/glm-5.2,3,C,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+z-ai/glm-5.2,3,D,mentioned,neutral,a paragraph,3,1.0,1.0,1.0,1.0,0,1,2,False,True
+z-ai/glm-5.2,3,E,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+z-ai/glm-5.2,3,F,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+z-ai/glm-5.2,4,A,mentioned,neutral,a paragraph,3,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666,0,1,2,False,True
+z-ai/glm-5.2,4,B,mentioned,neutral,a paragraph,3,1.0,1.0,1.0,1.0,0,1,2,False,True
+z-ai/glm-5.2,4,C,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+z-ai/glm-5.2,4,D,mentioned,neutral,a paragraph,3,1.0,1.0,1.0,1.0,0,1,2,False,True
+z-ai/glm-5.2,4,E,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+z-ai/glm-5.2,4,F,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+z-ai/glm-5.2,5,A,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+z-ai/glm-5.2,5,B,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+z-ai/glm-5.2,5,C,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+z-ai/glm-5.2,5,D,mentioned,neutral,a paragraph,3,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666,0,1,2,False,True
+z-ai/glm-5.2,5,E,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+z-ai/glm-5.2,5,F,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+z-ai/glm-5.2,6,A,articulated,neutral,a paragraph,3,1.0,1.0,0.6666666666666666,0.6666666666666666,0,2,2,True,True
+z-ai/glm-5.2,6,B,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+z-ai/glm-5.2,6,C,articulated,neutral,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,2,0,True,True
+z-ai/glm-5.2,6,D,mentioned,neutral,a paragraph,3,0.6666666666666666,1.0,1.0,1.0,0,1,2,False,True
+z-ai/glm-5.2,6,E,articulated,neutral,several paragraphs,3,0.6666666666666666,0.6666666666666666,0.0,0.0,0,2,3,True,True
+z-ai/glm-5.2,6,F,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+z-ai/glm-5.2,7,A,mentioned,neutral,a paragraph,3,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666,0,1,2,False,True
+z-ai/glm-5.2,7,B,mentioned,neutral,none,3,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666,0,1,0,False,True
+z-ai/glm-5.2,7,C,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+z-ai/glm-5.2,7,D,mentioned,neutral,a paragraph,3,0.6666666666666666,1.0,1.0,1.0,0,1,2,False,True
+z-ai/glm-5.2,7,E,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.0,0.0,0,0,0,False,False
+z-ai/glm-5.2,7,F,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+z-ai/glm-5.2,8,A,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+z-ai/glm-5.2,8,B,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.0,0.0,0,0,0,False,False
+z-ai/glm-5.2,8,C,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+z-ai/glm-5.2,8,D,articulated,neutral,several paragraphs,3,0.6666666666666666,1.0,1.0,1.0,0,2,3,True,True
+z-ai/glm-5.2,8,E,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+z-ai/glm-5.2,8,F,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+z-ai/glm-5.2,9,A,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+z-ai/glm-5.2,9,B,mentioned,neutral,none,3,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666,0,1,0,False,True
+z-ai/glm-5.2,9,C,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+z-ai/glm-5.2,9,D,mentioned,neutral,a paragraph,3,1.0,1.0,0.3333333333333333,0.3333333333333333,0,1,2,False,True
+z-ai/glm-5.2,9,E,absent,not_applicable,none,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,0,0,False,False
+z-ai/glm-5.2,9,F,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+z-ai/glm-5.2,10,A,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+z-ai/glm-5.2,10,B,mentioned,neutral,a paragraph,3,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666,0,1,2,False,True
+z-ai/glm-5.2,10,C,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+z-ai/glm-5.2,10,D,mentioned,neutral,a paragraph,3,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0,1,2,False,True
+z-ai/glm-5.2,10,E,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False
+z-ai/glm-5.2,10,F,absent,not_applicable,none,3,1.0,1.0,0.0,0.0,0,0,0,False,False

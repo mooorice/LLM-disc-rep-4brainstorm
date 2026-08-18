@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 6,
+  "discourse": "C",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:38:08.392177+00:00",
+  "judge_id": "gen-1787049483-qiN0tBD0MdSrNYbWI5cQ",
+  "provider": "Parasail",
+  "usage": {
+    "completion_tokens": 702,
+    "prompt_tokens": 2118,
+    "total_tokens": 2820,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 792,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 64,
+      "video_tokens": 0
+    },
+    "cost": 0.00073542,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00073542,
+      "upstream_inference_prompt_cost": 0.00020892,
+      "upstream_inference_completions_cost": 0.0005265
+    }
+  },
+  "parse_error": "",
+  "quote_verified": false,
+  "quote_match": 0.0,
+  "raw_response": "{\n  \"presence\": \"absent\",\n  \"treatment\": \"not_applicable\",\n  \"extent\": \"none\",\n  \"quote\": null,\n  \"reason\": \"The briefing discusses various concerns and cultural views, but does not present a unified, explicitly oppositional position that rejects all genome editing (clinical and non‑clinical), foregrounds cultural beliefs about illness as strength, or outlines the specific policy preferences described.\"\n}",
+  "presence": "absent",
+  "treatment": "not_applicable",
+  "extent": "none",
+  "quote": "",
+  "reason": "The briefing discusses various concerns and cultural views, but does not present a unified, explicitly oppositional position that rejects all genome editing (clinical and non‑clinical), foregrounds cultural beliefs about illness as strength, or outlines the specific policy preferences described.",
+  "schema_problems": ""
+}

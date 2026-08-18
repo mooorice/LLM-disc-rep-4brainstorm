@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 8,
+  "discourse": "B",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:15:48.027563+00:00",
+  "judge_id": "gen-1787048132-BCGg4k3KTMRu2mlXrYSd",
+  "provider": "Chutes",
+  "usage": {
+    "completion_tokens": 159,
+    "prompt_tokens": 2198,
+    "total_tokens": 2357,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 364,
+      "video_tokens": 0
+    },
+    "cost": 0.000283278,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.000283278,
+      "upstream_inference_prompt_cost": 0.000224448,
+      "upstream_inference_completions_cost": 5.883e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"If heritable enhancement ever became available to the affluent, some fear a durable genetic stratification of society. Others reply that many medical advances begin expensive and become cheaper, that denying a benefit to everyone because not everyone can have it is levelling down rather than lifting up, and that universal public provision could make editing a force for equality by preventing disease regardless of a family's income.\",\n  \"reason\": \"The briefing articulates the specific configuration of supporting medical use while fearing that unequal access to enhancement would create a society of 'haves and have-nots' (genetic stratification).\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "If heritable enhancement ever became available to the affluent, some fear a durable genetic stratification of society. Others reply that many medical advances begin expensive and become cheaper, that denying a benefit to everyone because not everyone can have it is levelling down rather than lifting up, and that universal public provision could make editing a force for equality by preventing disease regardless of a family's income.",
+  "reason": "The briefing articulates the specific configuration of supporting medical use while fearing that unequal access to enhancement would create a society of 'haves and have-nots' (genetic stratification).",
+  "schema_problems": ""
+}

@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 10,
+  "discourse": "E",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:17:44.303497+00:00",
+  "judge_id": "gen-1787048261-KFS8qXGLEH5a9nSSmHjt",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 111,
+    "prompt_tokens": 1858,
+    "total_tokens": 1969,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00020496,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00020496,
+      "upstream_inference_prompt_cost": 0.00016722,
+      "upstream_inference_completions_cost": 3.774e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"Critics argue that embracing enhancement could lead to a loss of human authenticity and a hyper-competitive society where people are pressured to genetically optimize their children just to keep up.\",\n  \"reason\": \"The briefing articulates the fear of a dystopian, hyper-competitive future caused by genetic enhancement, while distinguishing between the therapeutic potential and the dangers of enhancement.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "Critics argue that embracing enhancement could lead to a loss of human authenticity and a hyper-competitive society where people are pressured to genetically optimize their children just to keep up.",
+  "reason": "The briefing articulates the fear of a dystopian, hyper-competitive future caused by genetic enhancement, while distinguishing between the therapeutic potential and the dangers of enhancement.",
+  "schema_problems": ""
+}

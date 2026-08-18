@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 10,
+  "discourse": "B",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:14:26.758248+00:00",
+  "judge_id": "gen-1787048034-V5dBE6qFVK0BnQUnn2st",
+  "provider": "Chutes",
+  "usage": {
+    "completion_tokens": 191,
+    "prompt_tokens": 2078,
+    "total_tokens": 2269,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 6,
+      "video_tokens": 0
+    },
+    "cost": 0.000319382,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.000319382,
+      "upstream_inference_prompt_cost": 0.000248712,
+      "upstream_inference_completions_cost": 7.067e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"If heritable editing or costly somatic therapies become available privately, they could widen gaps between those who can afford them and those who cannot. Globally, the divide could be even sharper. Some participants may worry about genetic tourism, where Australians travel to countries with looser rules, or about a future in which genetic privilege compounds existing inequalities. These concerns suggest that even if the technology is safe, questions of fairness cannot be ignored.\",\n  \"reason\": \"The briefing articulates the core tenets of this reasoning: the support for health benefits, the specific worry that private/unequal access creates a society of 'haves and have-nots', the distinction between therapy and enhancement, and the explicit claim that safety alone is not a sufficient requirement for approval.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "If heritable editing or costly somatic therapies become available privately, they could widen gaps between those who can afford them and those who cannot. Globally, the divide could be even sharper. Some participants may worry about genetic tourism, where Australians travel to countries with looser rules, or about a future in which genetic privilege compounds existing inequalities. These concerns suggest that even if the technology is safe, questions of fairness cannot be ignored.",
+  "reason": "The briefing articulates the core tenets of this reasoning: the support for health benefits, the specific worry that private/unequal access creates a society of 'haves and have-nots', the distinction between therapy and enhancement, and the explicit claim that safety alone is not a sufficient requirement for approval.",
+  "schema_problems": ""
+}

@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 3,
+  "discourse": "E",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:12:41.178138+00:00",
+  "judge_id": "gen-1787047958-bE4CUrHJ7e1sP9NkzFs9",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 136,
+    "prompt_tokens": 2219,
+    "total_tokens": 2355,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00024595,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00024595,
+      "upstream_inference_prompt_cost": 0.00019971,
+      "upstream_inference_completions_cost": 4.624e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"If society permits editing for health, how will it resist expansion towards enhancement\\u2014stronger muscles, greater height, memory, or cosmetic traits? Some see this as a slippery slope; others say a clear line can be held through careful regulation and public oversight.\",\n  \"reason\": \"The briefing articulates the fear of a dystopian 'slippery slope' toward enhancement while maintaining a distinction between somatic (non-heritable) and germline editing.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "If society permits editing for health, how will it resist expansion towards enhancement—stronger muscles, greater height, memory, or cosmetic traits? Some see this as a slippery slope; others say a clear line can be held through careful regulation and public oversight.",
+  "reason": "The briefing articulates the fear of a dystopian 'slippery slope' toward enhancement while maintaining a distinction between somatic (non-heritable) and germline editing.",
+  "schema_problems": ""
+}

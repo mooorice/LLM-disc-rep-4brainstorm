@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 2,
+  "discourse": "A",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:41:34.018837+00:00",
+  "judge_id": "gen-1787049691-owQFc22J91eGg7yjpObk",
+  "provider": "Groq",
+  "usage": {
+    "completion_tokens": 762,
+    "prompt_tokens": 2136,
+    "total_tokens": 2898,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 580,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 256,
+      "video_tokens": 0
+    },
+    "cost": 0.0007584,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.0007584,
+      "upstream_inference_prompt_cost": 0.0003012,
+      "upstream_inference_completions_cost": 0.0004572
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"The most powerful hope animating this field is the relief of suffering. Families who carry serious inherited conditions—Huntington's disease, cystic fibrosis, muscular dystrophy, the thalassaemias that affect many Australians of Mediterranean, Middle Eastern and Asian heritage—know what it means to watch illness pass from parent to child. Somatic editing offers treatments for people already living with such conditions; heritable editing, its advocates argue, could prevent transmission altogether, sparing future children from diseases that no existing therapy can cure.\",\n  \"reason\": \"The briefing mentions enthusiasm for medical benefits and hope to reduce disease burden, but does not develop the full low‑concern, permissive‑policy reasoning described.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "The most powerful hope animating this field is the relief of suffering. Families who carry serious inherited conditions—Huntington's disease, cystic fibrosis, muscular dystrophy, the thalassaemias that affect many Australians of Mediterranean, Middle Eastern and Asian heritage—know what it means to watch illness pass from parent to child. Somatic editing offers treatments for people already living with such conditions; heritable editing, its advocates argue, could prevent transmission altogether, sparing future children from diseases that no existing therapy can cure.",
+  "reason": "The briefing mentions enthusiasm for medical benefits and hope to reduce disease burden, but does not develop the full low‑concern, permissive‑policy reasoning described.",
+  "schema_problems": ""
+}

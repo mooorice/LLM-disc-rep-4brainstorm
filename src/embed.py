@@ -35,10 +35,13 @@ import config
 
 def load_discourses(path=None) -> pd.DataFrame:
     """
-    Parse the cleaned discourse file into one row per discourse.
+    Parse the cleaned discourse file for the active baseline into one row per
+    discourse.
 
-    The file holds four blocks separated by lines containing '###', each opening
-    with a "Discourse X: Name" header followed by the description body.
+    The file holds one block per discourse separated by lines containing '###',
+    each opening with a "Discourse X: Name" header followed by the description
+    body. Both baseline files use this format: four blocks for the
+    pre-deliberative mapping study, six for the post-deliberative jury map.
     """
     path = path or config.DISCOURSE_FILE
     blocks = [b.strip() for b in path.read_text(encoding="utf-8").split("###")]
@@ -63,10 +66,15 @@ def load_discourses(path=None) -> pd.DataFrame:
         })
 
     discourses = pd.DataFrame(rows).sort_values("code").reset_index(drop=True)
-    if len(discourses) != 4:
+
+    # The baseline declares which codes it should contain. Checking against that
+    # rather than a bare count catches a half-parsed file, a stray separator, or
+    # the wrong baseline file being pointed at.
+    expected = config.baseline()["codes"]
+    if list(discourses["code"]) != expected:
         raise ValueError(
-            f"Expected 4 discourses in {path}, parsed {len(discourses)}: "
-            f"{list(discourses['code'])}"
+            f"Baseline {config.BASELINE!r} expects discourses {expected} in "
+            f"{path}, parsed {list(discourses['code'])}"
         )
     return discourses
 
@@ -142,10 +150,11 @@ def main() -> None:
     )
 
     # The discourse embeddings depend only on the baseline file and the encoder
-    # settings, so they live outside the per-prompt directory.
+    # settings, so they live outside the per-prompt directory -- but they are
+    # suffixed by baseline, so the four and the six coexist.
     config.PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
-    np.save(config.PROCESSED_DIR / "discourse_embeddings.npy", discourse_embeddings)
-    discourses.to_csv(config.PROCESSED_DIR / "discourses.csv", index=False)
+    np.save(config.discourse_embeddings_path(), discourse_embeddings)
+    discourses.to_csv(config.discourse_table_path(), index=False)
     np.save(out_dir / "paragraph_embeddings.npy", paragraph_embeddings)
 
     # Record the encoder settings next to the vectors, so a stale embedding file
@@ -154,6 +163,7 @@ def main() -> None:
         "embedding_model": config.EMBEDDING_MODEL,
         "compression_ratio": config.COMPRESSION_RATIO,
         "use_asymmetric_prompts": config.USE_ASYMMETRIC_PROMPTS,
+        "baseline": config.BASELINE,
         "n_discourses": len(discourses),
         "n_paragraphs": len(paragraphs),
         "embedding_dim": int(paragraph_embeddings.shape[1]),
@@ -165,9 +175,11 @@ def main() -> None:
     print(f"\nEmbedding dimension: {paragraph_embeddings.shape[1]}")
     print(f"Saved to {out_dir}/paragraph_embeddings.npy")
 
-    # A quick sanity check: how similar are the four baselines to each other?
-    # The report gives the human correlations between discourses (B-C highest at
-    # 0.48, A-C lowest at 0.22), so this ordering is worth eyeballing.
+    # A quick sanity check: how similar are the baselines to each other? The
+    # report publishes the human correlations between discourses (Table 3 for
+    # the four, Table 5 for the six), so this ordering is worth eyeballing
+    # against them -- where embedding similarity and human correlation disagree,
+    # the embedding is responding to shared topic rather than shared reasoning.
     similarity = discourse_embeddings @ discourse_embeddings.T
     print("\nBaseline-to-baseline cosine similarity:")
     print(pd.DataFrame(

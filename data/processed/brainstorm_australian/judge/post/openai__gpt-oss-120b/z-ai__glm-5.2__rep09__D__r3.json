@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 9,
+  "discourse": "D",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:49:39.646519+00:00",
+  "judge_id": "gen-1787050168-U483COjy9i2cNKnDrlJV",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 694,
+    "prompt_tokens": 2046,
+    "total_tokens": 2740,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 573,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1984,
+      "video_tokens": 0
+    },
+    "cost": 0.00031028,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00031028,
+      "upstream_inference_prompt_cost": 4.309e-05,
+      "upstream_inference_completions_cost": 0.00026719
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"Proponents argue that we have a moral imperative to use this technology to cure devastating hereditary diseases, such as Huntington’s disease, cystic fibrosis, sickle cell anemia, and muscular dystrophy.\",\n  \"reason\": \"The briefing notes the moral imperative to prevent disease, but does not develop the full configuration of the reasoning (e.g., no value in illness, trust in experts, specific policy preferences).\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "Proponents argue that we have a moral imperative to use this technology to cure devastating hereditary diseases, such as Huntington’s disease, cystic fibrosis, sickle cell anemia, and muscular dystrophy.",
+  "reason": "The briefing notes the moral imperative to prevent disease, but does not develop the full configuration of the reasoning (e.g., no value in illness, trust in experts, specific policy preferences).",
+  "schema_problems": ""
+}

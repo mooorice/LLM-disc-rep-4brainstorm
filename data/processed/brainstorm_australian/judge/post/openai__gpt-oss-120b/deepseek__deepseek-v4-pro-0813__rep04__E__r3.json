@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 4,
+  "discourse": "E",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:37:00.881682+00:00",
+  "judge_id": "gen-1787049278-50WonkP45ZA0ra9UuTHa",
+  "provider": "SiliconFlow",
+  "usage": {
+    "completion_tokens": 1177,
+    "prompt_tokens": 2163,
+    "total_tokens": 3340,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1014,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.0006378,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.0006378,
+      "upstream_inference_prompt_cost": 0.00010815,
+      "upstream_inference_completions_cost": 0.00052965
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"One major worry is that heritable editing could slide into a new form of eugenics. Even if the first uses are limited to serious diseases, the line between prevention and enhancement is not always clear. If society accepts editing embryos to prevent disease, some fear it may gradually accept editing for desirable traits, leading to what is often called designer babies.\",\n  \"reason\": \"The briefing notes concerns about societal harms and eugenics and acknowledges acceptance of somatic (non‑heritable) editing, but does not fully articulate the nuanced policy stance (rejecting blanket bans/permissions and preferring non‑profit non‑heritable use) described in the reasoning.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "One major worry is that heritable editing could slide into a new form of eugenics. Even if the first uses are limited to serious diseases, the line between prevention and enhancement is not always clear. If society accepts editing embryos to prevent disease, some fear it may gradually accept editing for desirable traits, leading to what is often called designer babies.",
+  "reason": "The briefing notes concerns about societal harms and eugenics and acknowledges acceptance of somatic (non‑heritable) editing, but does not fully articulate the nuanced policy stance (rejecting blanket bans/permissions and preferring non‑profit non‑heritable use) described in the reasoning.",
+  "schema_problems": ""
+}

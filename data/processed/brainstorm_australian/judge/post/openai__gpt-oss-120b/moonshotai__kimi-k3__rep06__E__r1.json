@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 6,
+  "discourse": "E",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:44:17.934981+00:00",
+  "judge_id": "gen-1787049839-c3KGsvwCUXchtJf52pIf",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 893,
+    "prompt_tokens": 2177,
+    "total_tokens": 3070,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 775,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 320,
+      "video_tokens": 0
+    },
+    "cost": 0.00045234,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00045234,
+      "upstream_inference_prompt_cost": 0.000108535,
+      "upstream_inference_completions_cost": 0.000343805
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"The fear is a future stratified by genetics, where the wealthy buy not just better schools and better postcodes but better genomes, a fear that resonates in a country that prides itself on the fair go.\",\n  \"reason\": \"The briefing develops the worry that genome editing could worsen society (genetic stratification) while also noting that many support non‑heritable (somatic) editing under oversight, matching the described reasoning pattern.\"\n}",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "The fear is a future stratified by genetics, where the wealthy buy not just better schools and better postcodes but better genomes, a fear that resonates in a country that prides itself on the fair go.",
+  "reason": "The briefing develops the worry that genome editing could worsen society (genetic stratification) while also noting that many support non‑heritable (somatic) editing under oversight, matching the described reasoning pattern.",
+  "schema_problems": ""
+}

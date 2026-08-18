@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 2,
+  "discourse": "E",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:42:05.196892+00:00",
+  "judge_id": "gen-1787049710-VXgJxoPQRvWEFvrAyuz2",
+  "provider": "AkashML",
+  "usage": {
+    "completion_tokens": 1251,
+    "prompt_tokens": 2107,
+    "total_tokens": 3358,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1501,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.000690949,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.000690949,
+      "upstream_inference_prompt_cost": 7.7959e-05,
+      "upstream_inference_completions_cost": 0.00061299
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"Some philosophers, including the Australian-born Julian Savulescu, argue that parents have reason to select the traits most likely to give their children the best lives. Others foresee commercialised \\\"designer babies,\\\" competitive pressure to keep up with enhanced peers, and a quiet transformation of what it means to accept a child unconditionally.\",\n  \"reason\": \"The briefing raises dystopian fears and autonomy arguments, but does not develop the specific composite stance of accepting only non‑heritable editing (non‑profit) while rejecting blanket bans or permissions.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "Some philosophers, including the Australian-born Julian Savulescu, argue that parents have reason to select the traits most likely to give their children the best lives. Others foresee commercialised \"designer babies,\" competitive pressure to keep up with enhanced peers, and a quiet transformation of what it means to accept a child unconditionally.",
+  "reason": "The briefing raises dystopian fears and autonomy arguments, but does not develop the specific composite stance of accepting only non‑heritable editing (non‑profit) while rejecting blanket bans or permissions.",
+  "schema_problems": ""
+}

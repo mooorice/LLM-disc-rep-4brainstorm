@@ -17,12 +17,12 @@ Usage:
 import pandas as pd
 
 import config
-from analyse import pct, total_variation_distance
+from analyse import pct, target_distribution, total_variation_distance
 
 
 def load_condition(prompt_name: str) -> pd.DataFrame | None:
     """Load one condition's per-model proportions, or None if it has not been run."""
-    path = config.RESULTS_DIR / prompt_name / "proportions_by_model.csv"
+    path = config.results_dir(prompt_name) / "proportions_by_model.csv"
     if not path.exists():
         return None
     return pd.read_csv(path, index_col=0)
@@ -44,12 +44,11 @@ def pooled_row(by_model: pd.DataFrame, codes: list[str]) -> pd.Series:
 
 
 def main() -> None:
-    # Expected shares, restricted to the active discourses and renormalised the
-    # same way analyse.py does it.
-    weights_table = pd.read_csv(config.WEIGHTS_FILE).set_index("discourse")
-    expected = weights_table["weight_all_loadings"].reindex(config.ACTIVE_DISCOURSES)
-    expected = expected / expected.sum()
-    codes = list(expected.index)
+    # The reference distribution for the active baseline: population prevalence
+    # for the four pre-deliberative discourses, an even split for the six
+    # post-deliberative ones. Same helper analyse.py uses, so the two agree.
+    codes = list(config.ACTIVE_DISCOURSES)
+    expected = target_distribution(codes)
 
     conditions = {name: load_condition(name) for name in config.PROMPTS}
     missing = [name for name, frame in conditions.items() if frame is None]
@@ -125,8 +124,10 @@ def main() -> None:
 
     lines.append("")
 
+    # Named by baseline, since the comparison is only meaningful between two
+    # conditions scored against the same discourse map.
     config.RESULTS_DIR.mkdir(parents=True, exist_ok=True)
-    out_path = config.RESULTS_DIR / "comparison.md"
+    out_path = config.RESULTS_DIR / f"comparison_{config.BASELINE}.md"
     report = "\n".join(lines)
     out_path.write_text(report, encoding="utf-8")
 

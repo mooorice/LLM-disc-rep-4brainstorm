@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 2,
+  "discourse": "A",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:30:04.562444+00:00",
+  "judge_id": "gen-1787049001-IOj14fHWjzeCO0E0sHMF",
+  "provider": "Groq",
+  "usage": {
+    "completion_tokens": 1297,
+    "prompt_tokens": 2046,
+    "total_tokens": 3343,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1151,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.0010851,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.0010851,
+      "upstream_inference_prompt_cost": 0.0003069,
+      "upstream_inference_completions_cost": 0.0007782
+    }
+  },
+  "parse_error": "",
+  "quote_verified": false,
+  "quote_match": 0.281,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"The hopes associated with genome editing are often focused on the relief of serious suffering. For families affected by genetic conditions such as cystic fibrosis, Huntington disease or muscular dystrophy, the ability to correct a single faulty gene could be life‑changing. ... From this perspective, compassion and the desire to reduce suffering support careful development of the technology.\",\n  \"reason\": \"The briefing mentions enthusiasm for medical benefits and reduced suffering, but does not develop the broader stance of being unconcerned about social/ethical issues or advocating permissive policies.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "The hopes associated with genome editing are often focused on the relief of serious suffering. For families affected by genetic conditions such as cystic fibrosis, Huntington disease or muscular dystrophy, the ability to correct a single faulty gene could be life‑changing. ... From this perspective, compassion and the desire to reduce suffering support careful development of the technology.",
+  "reason": "The briefing mentions enthusiasm for medical benefits and reduced suffering, but does not develop the broader stance of being unconcerned about social/ethical issues or advocating permissive policies.",
+  "schema_problems": ""
+}

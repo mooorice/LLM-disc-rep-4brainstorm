@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 1,
+  "discourse": "D",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:46:37.238345+00:00",
+  "judge_id": "gen-1787049978-f0XFAKZaqlLC8FjZgZdy",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 1038,
+    "prompt_tokens": 2105,
+    "total_tokens": 3143,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 928,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 320,
+      "video_tokens": 0
+    },
+    "cost": 0.000504205,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.000504205,
+      "upstream_inference_prompt_cost": 0.000104575,
+      "upstream_inference_completions_cost": 0.00039963
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"From this perspective, withholding a treatment that could end generational cycles of disease is ethically indefensible.\",\n  \"reason\": \"The briefing outlines a strong moral imperative to use genome editing to eradicate disease, expresses optimism about scientific benefit, raises concerns about enhancement and long‑term safety, and suggests careful regulation, matching the core configuration of the described reasoning.\"\n}",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "From this perspective, withholding a treatment that could end generational cycles of disease is ethically indefensible.",
+  "reason": "The briefing outlines a strong moral imperative to use genome editing to eradicate disease, expresses optimism about scientific benefit, raises concerns about enhancement and long‑term safety, and suggests careful regulation, matching the core configuration of the described reasoning.",
+  "schema_problems": ""
+}

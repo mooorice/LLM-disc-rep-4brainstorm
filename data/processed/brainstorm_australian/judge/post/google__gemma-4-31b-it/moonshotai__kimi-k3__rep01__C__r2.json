@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 1,
+  "discourse": "C",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:14:13.439611+00:00",
+  "judge_id": "gen-1787048048-1Q6V5M7IYmwlgnSgjoo2",
+  "provider": "CoreWeave",
+  "usage": {
+    "completion_tokens": 121,
+    "prompt_tokens": 1945,
+    "total_tokens": 2066,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1920,
+      "video_tokens": 0
+    },
+    "cost": 0.00023564,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00023564,
+      "upstream_inference_prompt_cost": 0.0001945,
+      "upstream_inference_completions_cost": 4.114e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"Some people speak of human dignity, of children as gifts to be accepted unconditionally rather than products to be designed, or of the genome as the shared heritage of humanity that no individual should unilaterally alter.\",\n  \"reason\": \"The briefing develops the underlying values of the described position, specifically the belief that children should be accepted as gifts and that the genome is a shared heritage that should not be altered.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "Some people speak of human dignity, of children as gifts to be accepted unconditionally rather than products to be designed, or of the genome as the shared heritage of humanity that no individual should unilaterally alter.",
+  "reason": "The briefing develops the underlying values of the described position, specifically the belief that children should be accepted as gifts and that the genome is a shared heritage that should not be altered.",
+  "schema_problems": ""
+}

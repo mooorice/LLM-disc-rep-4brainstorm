@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 8,
+  "discourse": "A",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:44:47.866060+00:00",
+  "judge_id": "gen-1787049884-7WcxGKY5uAtEkP6Suer5",
+  "provider": "Groq",
+  "usage": {
+    "completion_tokens": 1036,
+    "prompt_tokens": 2195,
+    "total_tokens": 3231,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 840,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 256,
+      "video_tokens": 0
+    },
+    "cost": 0.00093165,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00093165,
+      "upstream_inference_prompt_cost": 0.00031005,
+      "upstream_inference_completions_cost": 0.0006216
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"The most powerful hopes attached to this technology come from medicine and from families. For people who carry serious inherited conditions such as Huntington's disease, cystic fibrosis or muscular dystrophy, and who have watched children, siblings or parents suffer, editing holds out the possibility of raising healthy children who are genetically their own. Supporters speak of compassion, of the relief of preventable suffering, and of parental love, and some argue that there is a positive moral obligation to use safe technologies to spare future children from devastating illness.\",\n  \"reason\": \"The briefing refers to enthusiasm for medical benefits and a desire to alleviate disease, but does not fully articulate the broader reasoning (e.g., low concern for ethical issues, preference for permissive policies, rejection of prohibition) described in the target position.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "The most powerful hopes attached to this technology come from medicine and from families. For people who carry serious inherited conditions such as Huntington's disease, cystic fibrosis or muscular dystrophy, and who have watched children, siblings or parents suffer, editing holds out the possibility of raising healthy children who are genetically their own. Supporters speak of compassion, of the relief of preventable suffering, and of parental love, and some argue that there is a positive moral obligation to use safe technologies to spare future children from devastating illness.",
+  "reason": "The briefing refers to enthusiasm for medical benefits and a desire to alleviate disease, but does not fully articulate the broader reasoning (e.g., low concern for ethical issues, preference for permissive policies, rejection of prohibition) described in the target position.",
+  "schema_problems": ""
+}

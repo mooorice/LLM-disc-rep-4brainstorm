@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 9,
+  "discourse": "C",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:17:29.384641+00:00",
+  "judge_id": "gen-1787048245-tjdUcnauJMy1FvgxaGfq",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 151,
+    "prompt_tokens": 2048,
+    "total_tokens": 2199,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00023566,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00023566,
+      "upstream_inference_prompt_cost": 0.00018432,
+      "upstream_inference_completions_cost": 5.134e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"Beyond secular and pragmatic arguments, the genome editing debate also touches upon fundamental philosophical and religious values. For some, altering the human genome represents an unacceptable overreach, a modern form of playing God that violates the sanctity of the natural order. This view holds that human life has an intrinsic value that should not be subjected to technological manipulation.\",\n  \"reason\": \"The briefing articulates the core of this reasoning: the opposition to genome editing based on the sanctity of the natural order and the belief that human life should not be subjected to such technological manipulation.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "Beyond secular and pragmatic arguments, the genome editing debate also touches upon fundamental philosophical and religious values. For some, altering the human genome represents an unacceptable overreach, a modern form of playing God that violates the sanctity of the natural order. This view holds that human life has an intrinsic value that should not be subjected to technological manipulation.",
+  "reason": "The briefing articulates the core of this reasoning: the opposition to genome editing based on the sanctity of the natural order and the belief that human life should not be subjected to such technological manipulation.",
+  "schema_problems": ""
+}

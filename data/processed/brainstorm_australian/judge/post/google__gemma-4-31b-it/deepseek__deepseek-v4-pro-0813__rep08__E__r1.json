@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 8,
+  "discourse": "E",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:13:42.719578+00:00",
+  "judge_id": "gen-1787048018-q3FpHDuTZQtZ8GbpOVvb",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 153,
+    "prompt_tokens": 2194,
+    "total_tokens": 2347,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00024948,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00024948,
+      "upstream_inference_prompt_cost": 0.00019746,
+      "upstream_inference_completions_cost": 5.202e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"For others, enhancement raises the spectre of “designer babies,” a competitive consumer culture and a new form of eugenics in which certain human traits are ranked as superior. Australia’s history, including eugenic practices that targeted Indigenous people and people with disabilities, makes many wary of any social pressure to produce a particular kind of child.\",\n  \"reason\": \"The briefing articulates the fear of a dystopian, eugenic future driven by enhancement, while maintaining a distinction between the dangers of germline/enhancement and the acceptance of somatic therapy.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "For others, enhancement raises the spectre of “designer babies,” a competitive consumer culture and a new form of eugenics in which certain human traits are ranked as superior. Australia’s history, including eugenic practices that targeted Indigenous people and people with disabilities, makes many wary of any social pressure to produce a particular kind of child.",
+  "reason": "The briefing articulates the fear of a dystopian, eugenic future driven by enhancement, while maintaining a distinction between the dangers of germline/enhancement and the acceptance of somatic therapy.",
+  "schema_problems": ""
+}

@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 4,
+  "discourse": "C",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:14:55.650965+00:00",
+  "judge_id": "gen-1787048091-VqRsQLZJW7oLsFfeC2GO",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 163,
+    "prompt_tokens": 2191,
+    "total_tokens": 2354,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00025261,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00025261,
+      "upstream_inference_prompt_cost": 0.00019719,
+      "upstream_inference_completions_cost": 5.542e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"Some objections reach deeper, to ideas about human dignity and our place in nature. Religious voices and others speak of the genome as a gift, or as the common heritage of humankind, and warn against playing God with something imperfectly understood. Related worries concern the commodification of children, babies designed to specification, and a shift in parental love from unconditional acceptance toward quality control.\",\n  \"reason\": \"The briefing articulates the reasoning of those opposed to editing based on cultural/religious beliefs, the concept of the genome as a gift, and the risk of fundamentally changing the nature of parenthood and human dignity.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "Some objections reach deeper, to ideas about human dignity and our place in nature. Religious voices and others speak of the genome as a gift, or as the common heritage of humankind, and warn against playing God with something imperfectly understood. Related worries concern the commodification of children, babies designed to specification, and a shift in parental love from unconditional acceptance toward quality control.",
+  "reason": "The briefing articulates the reasoning of those opposed to editing based on cultural/religious beliefs, the concept of the genome as a gift, and the risk of fundamentally changing the nature of parenthood and human dignity.",
+  "schema_problems": ""
+}

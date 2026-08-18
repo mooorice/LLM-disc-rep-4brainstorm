@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 9,
+  "discourse": "C",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:45:31.987757+00:00",
+  "judge_id": "gen-1787049920-iL6amVXTQGeJcQ6AJpxe",
+  "provider": "Parasail",
+  "usage": {
+    "completion_tokens": 1330,
+    "prompt_tokens": 2187,
+    "total_tokens": 3517,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1618,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 416,
+      "video_tokens": 0
+    },
+    "cost": 0.00119748,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00119748,
+      "upstream_inference_prompt_cost": 0.00019998,
+      "upstream_inference_completions_cost": 0.0009975
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"Against the hope stands uncertainty. Editing can miss its target or hit unintended sites; a single gene often affects many traits; some harms may not appear for years or may emerge only in the next generation.\",\n  \"reason\": \"The briefing notes safety concerns and cultural/religious objections that reflect the described anti‑editing stance, but it does not develop a unified position with the full policy preferences outlined in the way of reasoning.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "Against the hope stands uncertainty. Editing can miss its target or hit unintended sites; a single gene often affects many traits; some harms may not appear for years or may emerge only in the next generation.",
+  "reason": "The briefing notes safety concerns and cultural/religious objections that reflect the described anti‑editing stance, but it does not develop a unified position with the full policy preferences outlined in the way of reasoning.",
+  "schema_problems": ""
+}

@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 6,
+  "discourse": "C",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:15:18.904629+00:00",
+  "judge_id": "gen-1787048115-BhNxzJUpkQkzE1ld45po",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 207,
+    "prompt_tokens": 2216,
+    "total_tokens": 2423,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00026982,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00026982,
+      "upstream_inference_prompt_cost": 0.00019944,
+      "upstream_inference_completions_cost": 7.038e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"For some, the human genome belongs to the given order of creation, and rewriting it is a form of overreach, sometimes described as playing God; for traditions that accord full moral status to embryos, the destruction of embryos involved in embryo editing is itself a grave wrong. ... Secular thinkers voice parallel concerns: that children should be received as gifts rather than manufactured as products, that a person designed to another's specification may struggle to feel the author of their own life, and that some things about human beings should remain outside the market and the workshop.\",\n  \"reason\": \"The briefing articulates the core of this reasoning, including the belief that editing is an overreach (playing God), the fundamental change to the person (not being the author of one's life), and the objection to treating humans as manufactured products.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "For some, the human genome belongs to the given order of creation, and rewriting it is a form of overreach, sometimes described as playing God; for traditions that accord full moral status to embryos, the destruction of embryos involved in embryo editing is itself a grave wrong. ... Secular thinkers voice parallel concerns: that children should be received as gifts rather than manufactured as products, that a person designed to another's specification may struggle to feel the author of their own life, and that some things about human beings should remain outside the market and the workshop.",
+  "reason": "The briefing articulates the core of this reasoning, including the belief that editing is an overreach (playing God), the fundamental change to the person (not being the author of one's life), and the objection to treating humans as manufactured products.",
+  "schema_problems": ""
+}

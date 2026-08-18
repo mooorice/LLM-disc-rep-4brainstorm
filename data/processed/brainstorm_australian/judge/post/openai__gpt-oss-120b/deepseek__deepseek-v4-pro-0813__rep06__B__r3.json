@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 6,
+  "discourse": "B",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:37:53.499282+00:00",
+  "judge_id": "gen-1787049469-A1HEBVNenz2PaZ3m5ix7",
+  "provider": "BaseTen",
+  "usage": {
+    "completion_tokens": 1004,
+    "prompt_tokens": 2124,
+    "total_tokens": 3128,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 64,
+      "video_tokens": 0
+    },
+    "cost": 0.0007144,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.0007144,
+      "upstream_inference_prompt_cost": 0.0002124,
+      "upstream_inference_completions_cost": 0.000502
+    }
+  },
+  "parse_error": "",
+  "quote_verified": false,
+  "quote_match": 0.0,
+  "raw_response": "{\n  \"presence\": \"absent\",\n  \"treatment\": \"not_applicable\",\n  \"extent\": \"none\",\n  \"quote\": null,\n  \"reason\": \"The briefing mentions fairness, safety, and health benefits, but does not present the specific configuration of concerns about private investment driving enhancements, the view that safety alone is insufficient, nor the detailed policy preferences described in the reasoning.\"\n}",
+  "presence": "absent",
+  "treatment": "not_applicable",
+  "extent": "none",
+  "quote": "",
+  "reason": "The briefing mentions fairness, safety, and health benefits, but does not present the specific configuration of concerns about private investment driving enhancements, the view that safety alone is insufficient, nor the detailed policy preferences described in the reasoning.",
+  "schema_problems": ""
+}

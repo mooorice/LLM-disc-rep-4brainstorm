@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 8,
+  "discourse": "C",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:39:34.521615+00:00",
+  "judge_id": "gen-1787049560-fVDlM7U5fxqP32itkqhl",
+  "provider": "Novita",
+  "usage": {
+    "completion_tokens": 1191,
+    "prompt_tokens": 2312,
+    "total_tokens": 3503,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1493,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00041335,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00041335,
+      "upstream_inference_prompt_cost": 0.0001156,
+      "upstream_inference_completions_cost": 0.00029775
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"Some call for an international moratorium on clinical germline editing while research continues.\",\n  \"reason\": \"The briefing notes opposition to genome editing on safety and ethical grounds and mentions a moratorium, but does not develop the full set of cultural, policy, and personal preferences that define the specified reasoning.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "Some call for an international moratorium on clinical germline editing while research continues.",
+  "reason": "The briefing notes opposition to genome editing on safety and ethical grounds and mentions a moratorium, but does not develop the full set of cultural, policy, and personal preferences that define the specified reasoning.",
+  "schema_problems": ""
+}

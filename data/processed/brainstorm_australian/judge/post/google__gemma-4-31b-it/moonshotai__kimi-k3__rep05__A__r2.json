@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 5,
+  "discourse": "A",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:15:04.108284+00:00",
+  "judge_id": "gen-1787048100-YLCEdlzRjXuMNblQvsec",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 195,
+    "prompt_tokens": 2182,
+    "total_tokens": 2377,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00026268,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00026268,
+      "upstream_inference_prompt_cost": 0.00019638,
+      "upstream_inference_completions_cost": 6.63e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"The strongest current of support flows from patients, families and clinicians confronting serious genetic disease. For people watching children suffer with muscular dystrophy, cystic fibrosis, Huntington's disease or inherited blood disorders, editing represents hope where medicine has long offered only management. The argument here rests on beneficence and compassion: if we can safely relieve suffering, refusing to do so is itself a moral failure. Some extend this to heritable editing, arguing that couples who carry devastating mutations should not have to rely on luck, donor gametes or embryo selection if a direct correction is possible.\",\n  \"reason\": \"The briefing articulates the reasoning of those driven by medical benefit and the reduction of suffering, including their support for heritable editing and their reliance on staged regulation rather than blanket prohibition.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "The strongest current of support flows from patients, families and clinicians confronting serious genetic disease. For people watching children suffer with muscular dystrophy, cystic fibrosis, Huntington's disease or inherited blood disorders, editing represents hope where medicine has long offered only management. The argument here rests on beneficence and compassion: if we can safely relieve suffering, refusing to do so is itself a moral failure. Some extend this to heritable editing, arguing that couples who carry devastating mutations should not have to rely on luck, donor gametes or embryo selection if a direct correction is possible.",
+  "reason": "The briefing articulates the reasoning of those driven by medical benefit and the reduction of suffering, including their support for heritable editing and their reliance on staged regulation rather than blanket prohibition.",
+  "schema_problems": ""
+}

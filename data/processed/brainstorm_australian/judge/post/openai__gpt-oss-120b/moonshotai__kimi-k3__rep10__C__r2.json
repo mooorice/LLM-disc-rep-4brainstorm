@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 10,
+  "discourse": "C",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:45:57.124345+00:00",
+  "judge_id": "gen-1787049953-5QKfEFLiKUauuB3nsWUJ",
+  "provider": "Parasail",
+  "usage": {
+    "completion_tokens": 660,
+    "prompt_tokens": 2121,
+    "total_tokens": 2781,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 784,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 2112,
+      "video_tokens": 0
+    },
+    "cost": 0.00061206,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00061206,
+      "upstream_inference_prompt_cost": 0.00011706,
+      "upstream_inference_completions_cost": 0.000495
+    }
+  },
+  "parse_error": "",
+  "quote_verified": false,
+  "quote_match": 0.0,
+  "raw_response": "{\n  \"presence\": \"absent\",\n  \"treatment\": \"not_applicable\",\n  \"extent\": \"none\",\n  \"quote\": null,\n  \"reason\": \"The briefing does not present the specific cultural‑belief‑driven, all‑encompassing opposition with the outlined policy preferences; it discusses various concerns but not the exact configuration of reasons described.\"\n}",
+  "presence": "absent",
+  "treatment": "not_applicable",
+  "extent": "none",
+  "quote": "",
+  "reason": "The briefing does not present the specific cultural‑belief‑driven, all‑encompassing opposition with the outlined policy preferences; it discusses various concerns but not the exact configuration of reasons described.",
+  "schema_problems": ""
+}

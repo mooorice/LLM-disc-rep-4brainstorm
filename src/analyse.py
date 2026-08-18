@@ -1,18 +1,17 @@
 """
-Step 4: measure how the essays represent the four discourses.
+Step 4: measure how the essays represent the human discourses.
 
 Every paragraph is compared by cosine similarity against each active discourse
 description and assigned to whichever it resembles most. The share of paragraphs
-going to each discourse is the model's *observed* representation; the Australian
-population weights are the *expected* representation. The gap between them is
-the result.
+going to each discourse is the model's *observed* representation, judged against
+a reference distribution that depends on the baseline (see target_distribution).
 
 Four deliberate choices, all revisable in config.py:
 
-  * Discourse D is excluded (config.ACTIVE_DISCOURSES). Its expected share in
-    the Australian population is exactly zero, which is not a proportion any
-    model can be scored against. The analysis therefore runs over A, B and C,
-    whose expected shares already account for the whole distribution.
+  * Which discourses compete is set by the baseline. The pre-deliberative map
+    excludes D, whose expected share in the Australian population is exactly
+    zero and so is not a proportion any model can be scored against. The
+    post-deliberative map keeps all six.
 
   * Assignment is winner-takes-all over the remaining cosine similarities. A
     margin threshold can require the winner to lead the runner-up by some
@@ -38,6 +37,7 @@ discourse a paragraph is *unusually* close to, rather than which is closest.
 
 Usage:
     python src/analyse.py
+    python src/analyse.py --baseline pre
     python src/analyse.py --prompt brainstorm_generic
 """
 
@@ -49,16 +49,47 @@ import pandas as pd
 import config
 
 
+def target_distribution(codes: list[str]) -> pd.Series:
+    """
+    The distribution the observed shares are judged against.
+
+    Which one depends on the baseline, and the difference is theoretical rather
+    than technical:
+
+      * "population" -- the pre-deliberative map's observed prevalence in the
+        Australian population. Asks whether the essays mirror raw opinion.
+
+      * "uniform" -- an even split. Used for the six post-deliberative
+        discourses, where the criterion is not prevalence but availability: a
+        brainstorming tool should not systematically marginalise any relevant
+        way of reasoning. The uniform reference is a yardstick for evenness, not
+        a claim that the six are equally common in the population.
+
+    Either way the result is renormalised over the active discourses, so
+    expected and observed are always distributions over the same categories.
+    """
+    kind = config.baseline()["target"]
+
+    if kind == "uniform":
+        return pd.Series(1.0 / len(codes), index=codes)
+
+    if kind == "population":
+        weights = pd.read_csv(config.WEIGHTS_FILE).set_index("discourse")
+        target = weights["weight_all_loadings"].reindex(codes).astype(float)
+        return target / target.sum()
+
+    raise ValueError(f"Unknown target kind {kind!r} for baseline {config.BASELINE!r}")
+
+
 def load_inputs():
-    """Load paragraphs, embeddings, discourse baselines and target weights."""
+    """Load paragraphs, embeddings, discourse baselines and the target distribution."""
     prompt_name = config.PROMPT_NAME
     processed = config.PROCESSED_DIR / prompt_name
 
     paragraphs = pd.read_csv(processed / "paragraphs.csv")
     paragraph_embeddings = np.load(processed / "paragraph_embeddings.npy")
-    discourses = pd.read_csv(config.PROCESSED_DIR / "discourses.csv")
-    discourse_embeddings = np.load(config.PROCESSED_DIR / "discourse_embeddings.npy")
-    weights = pd.read_csv(config.WEIGHTS_FILE)
+    discourses = pd.read_csv(config.discourse_table_path())
+    discourse_embeddings = np.load(config.discourse_embeddings_path())
 
     if len(paragraphs) != len(paragraph_embeddings):
         raise ValueError(
@@ -78,7 +109,7 @@ def load_inputs():
     excluded = [c for c in discourses["code"] if c not in config.ACTIVE_DISCOURSES]
 
     return (paragraphs, paragraph_embeddings, discourses, discourse_embeddings,
-            weights, excluded)
+            excluded)
 
 
 def assign(similarities: pd.DataFrame, margin: float) -> pd.DataFrame:
@@ -128,11 +159,24 @@ def total_variation_distance(observed: pd.Series, expected: pd.Series) -> float:
     return float(0.5 * np.abs(observed - expected).sum())
 
 
-def pct(value: float, signed: bool = False) -> str:
+def pct(value: float) -> str:
     """Format a share as a percentage, showing an em dash when it is undefined."""
     if pd.isna(value):
         return "—"
-    return f"{value:+.1%}" if signed else f"{value:.1%}"
+    return f"{value:.1%}"
+
+
+def points(value: float) -> str:
+    """
+    Format the difference between two shares in percentage points.
+
+    Kept distinct from pct() on purpose: a gap between two percentages is
+    measured in points, not per cent, and writing "-17.1%" for a 17.1-point
+    shortfall invites the reader to take it as a relative change.
+    """
+    if pd.isna(value):
+        return "—"
+    return f"{value * 100:+.1f}"
 
 
 def build_summary(results: dict, discourses: pd.DataFrame, weights: pd.Series,
@@ -141,8 +185,27 @@ def build_summary(results: dict, discourses: pd.DataFrame, weights: pd.Series,
     codes = list(weights.index)
     names = dict(zip(discourses["code"], discourses["name"]))
 
+    settings = config.baseline()
+    target_heading = (
+        "Expected representation (Australian population)"
+        if settings["target"] == "population"
+        else "Reference distribution (even split)"
+    )
+    target_note = (
+        "Observed prevalence of each discourse in the Australian population, "
+        "renormalised over the active discourses."
+        if settings["target"] == "population"
+        else "The six post-deliberative discourses have no usable population "
+             "weights, and on the brainstorming criterion they should not be "
+             "judged by prevalence anyway. The reference is an even split: a "
+             "yardstick for whether any way of reasoning is systematically "
+             "marginalised, not a claim that the six are equally common."
+    )
+
     lines = [
         "# Discursive representation results",
+        "",
+        f"Baseline: **{settings['label']}**",
         "",
         f"Prompt: `{config.PROMPT_NAME}`  |  "
         f"Embedding model: `{config.EMBEDDING_MODEL}`  |  "
@@ -152,7 +215,9 @@ def build_summary(results: dict, discourses: pd.DataFrame, weights: pd.Series,
         f"{paragraphs['run_id'].nunique()} essays across "
         f"{paragraphs['model'].nunique()} models.",
         "",
-        "## Expected representation (Australian population)",
+        f"## {target_heading}",
+        "",
+        target_note,
         "",
         "| Discourse | Name | Expected share |",
         "|---|---|---|",
@@ -186,13 +251,14 @@ def build_summary(results: dict, discourses: pd.DataFrame, weights: pd.Series,
 
     lines += [
         "",
-        "Deviation from the expected share (positive = over-represented):",
+        "Deviation from the expected share, in percentage points "
+        "(positive = over-represented):",
         "",
-        "| Model | " + " | ".join(codes) + " |",
+        "| Model | " + " | ".join(f"{c} (pp)" for c in codes) + " |",
         "|---" * (len(codes) + 1) + "|",
     ]
     for model, row in results["by_model"].iterrows():
-        deviations = " | ".join(pct(row[c] - weights[c], signed=True) for c in codes)
+        deviations = " | ".join(points(row[c] - weights[c]) for c in codes)
         lines.append(f"| `{model}` | {deviations} |")
 
     lines += [
@@ -257,12 +323,11 @@ def build_summary(results: dict, discourses: pd.DataFrame, weights: pd.Series,
         "",
         "## Caveats",
         "",
-        "- Excluding a discourse redistributes rather than removes its "
-        "paragraphs: anything closest to D now counts towards A, B or C. If the "
-        "models voice Agnosticism often, that inflates whichever discourse sits "
-        "nearest to it in embedding space. `paragraph_similarities.csv` keeps "
-        "the raw similarity to every baseline, so the size of that effect is "
-        "recoverable.",
+        (f"- Excluding a discourse redistributes rather than removes its "
+         f"paragraphs: anything closest to {', '.join(excluded)} now counts "
+         f"towards {', '.join(codes)}. `paragraph_similarities.csv` keeps the "
+         "raw similarity to every baseline, so the size of that effect is "
+         "recoverable.") if excluded else None,
         "- The baselines are not equally distinctive. Check the "
         "baseline-to-baseline similarities printed by `src/embed.py`: if two "
         "baselines are very close, the split between them is not reliable.",
@@ -270,7 +335,8 @@ def build_summary(results: dict, discourses: pd.DataFrame, weights: pd.Series,
         "whole paragraphs. The margin sensitivity table above is the check on that.",
         "",
     ]
-    return "\n".join(lines)
+    # Some caveats are baseline-specific and render as None when they do not apply.
+    return "\n".join(line for line in lines if line is not None)
 
 
 def main() -> None:
@@ -279,18 +345,11 @@ def main() -> None:
     config.apply_overrides(parser.parse_args())
 
     (paragraphs, paragraph_emb, discourses, discourse_emb,
-     weights_table, excluded) = load_inputs()
+     excluded) = load_inputs()
 
     all_codes = discourses["code"].tolist()
     codes = [c for c in all_codes if c in config.ACTIVE_DISCOURSES]
-    weights = weights_table.set_index("discourse")["weight_all_loadings"].reindex(codes)
-
-    # Renormalise the target over the active discourses, so that expected and
-    # observed are distributions over exactly the same categories. With D
-    # excluded this changes nothing -- D's expected share is zero, so A, B and C
-    # already sum to 1 -- but it keeps the comparison correct if the active set
-    # ever changes.
-    weights = weights / weights.sum()
+    weights = target_distribution(codes)
 
     # Both embedding sets are unit-normalised, so the dot product is the cosine.
     # similarity_all keeps every baseline for the record; `similarities` is the
@@ -369,7 +428,7 @@ def main() -> None:
     sensitivity = pd.DataFrame(sensitivity_rows)
 
     # --- write everything out ---------------------------------------------
-    out_dir = config.RESULTS_DIR / config.PROMPT_NAME
+    out_dir = config.results_dir()
     out_dir.mkdir(parents=True, exist_ok=True)
 
     per_paragraph.to_csv(out_dir / "paragraph_similarities.csv", index=False)

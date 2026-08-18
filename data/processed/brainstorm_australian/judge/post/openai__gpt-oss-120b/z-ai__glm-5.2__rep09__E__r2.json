@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 9,
+  "discourse": "E",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:49:47.778241+00:00",
+  "judge_id": "gen-1787050173-n0sohwK2Ptkxl43F12om",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 818,
+    "prompt_tokens": 2011,
+    "total_tokens": 2829,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 722,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 320,
+      "video_tokens": 0
+    },
+    "cost": 0.000414335,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.000414335,
+      "upstream_inference_prompt_cost": 9.9405e-05,
+      "upstream_inference_completions_cost": 0.00031493
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"Many express deep unease about crossing this line, fearing a world of designer babies where children are engineered to meet parental specifications.\",\n  \"reason\": \"The briefing develops the view that genome editing could adversely reshape society, citing fears of designer babies and a dystopian future, while also distinguishing acceptability of non‑heritable (somatic) editing.\"\n}",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "Many express deep unease about crossing this line, fearing a world of designer babies where children are engineered to meet parental specifications.",
+  "reason": "The briefing develops the view that genome editing could adversely reshape society, citing fears of designer babies and a dystopian future, while also distinguishing acceptability of non‑heritable (somatic) editing.",
+  "schema_problems": ""
+}

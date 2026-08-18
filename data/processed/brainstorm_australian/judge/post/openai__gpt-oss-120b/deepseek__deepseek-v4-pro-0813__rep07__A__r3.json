@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 7,
+  "discourse": "A",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:38:46.324139+00:00",
+  "judge_id": "gen-1787049522-c02n07DPdno2xwXtNF3l",
+  "provider": "Groq",
+  "usage": {
+    "completion_tokens": 1053,
+    "prompt_tokens": 1972,
+    "total_tokens": 3025,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 891,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 256,
+      "video_tokens": 0
+    },
+    "cost": 0.0009084,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.0009084,
+      "upstream_inference_prompt_cost": 0.0002766,
+      "upstream_inference_completions_cost": 0.0006318
+    }
+  },
+  "parse_error": "",
+  "quote_verified": false,
+  "quote_match": 0.297,
+  "raw_response": "{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"A central hope is medical relief. Families affected by conditions such as Huntington’s disease, cystic fibrosis, sickle cell disease or Tay‑Sachs disease have long lived with pain, disability and early death. For them, genome editing can seem like a long‑awaited chance to avoid devastating diagnoses. ... In this view, the ethical imperative is to heal, and editing is simply a more precise form of medicine.\",\n  \"reason\": \"The briefing develops a viewpoint that emphasizes strong enthusiasm for medical benefits, calls for continued research, and favors permissive yet regulated use, matching the described reasoning.\"\n}",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "A central hope is medical relief. Families affected by conditions such as Huntington’s disease, cystic fibrosis, sickle cell disease or Tay‑Sachs disease have long lived with pain, disability and early death. For them, genome editing can seem like a long‑awaited chance to avoid devastating diagnoses. ... In this view, the ethical imperative is to heal, and editing is simply a more precise form of medicine.",
+  "reason": "The briefing develops a viewpoint that emphasizes strong enthusiasm for medical benefits, calls for continued research, and favors permissive yet regulated use, matching the described reasoning.",
+  "schema_problems": ""
+}

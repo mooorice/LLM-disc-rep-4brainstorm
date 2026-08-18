@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 2,
+  "discourse": "B",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "post",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-18T10:16:18.337679+00:00",
+  "judge_id": "gen-1787048169-zhd4VMChT6vwnc9V8I6f",
+  "provider": "Chutes",
+  "usage": {
+    "completion_tokens": 117,
+    "prompt_tokens": 1905,
+    "total_tokens": 2022,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 364,
+      "video_tokens": 0
+    },
+    "cost": 0.000232578,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.000232578,
+      "upstream_inference_prompt_cost": 0.000189288,
+      "upstream_inference_completions_cost": 4.329e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"If only the affluent can afford to eradicate genetic diseases or enhance their offspring, the gap between the rich and the poor could become insurmountable, encoded into the very DNA of the populace.\",\n  \"reason\": \"The briefing details the specific logic of this position: the tension between supporting medical cures and the fear that private/wealthy access to enhancements will create a biological class divide.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "If only the affluent can afford to eradicate genetic diseases or enhance their offspring, the gap between the rich and the poor could become insurmountable, encoded into the very DNA of the populace.",
+  "reason": "The briefing details the specific logic of this position: the tension between supporting medical cures and the fear that private/wealthy access to enhancements will create a biological class divide.",
+  "schema_problems": ""
+}
