@@ -36,8 +36,8 @@
     }
   },
   "parse_error": "",
-  "quote_verified": false,
-  "quote_match": 0.0,
+  "quote_verified": true,
+  "quote_match": 1.0,
   "raw_response": "{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"On the other side of the debate are deep concerns about safety. Gene editing is still a relatively young technology, and off‑target changes, unintended genetic disruptions, and long‑term health consequences are not fully understood. These risks are especially serious in germline editing, because mistakes could affect not only a single child but that child’s descendants.\",\n  \"reason\": \"the briefing develops safety, moral and cultural concerns as a coherent line of reasoning that explains why some people oppose both clinical and non‑clinical genome editing\"\n}",
   "presence": "articulated",
   "treatment": "neutral",

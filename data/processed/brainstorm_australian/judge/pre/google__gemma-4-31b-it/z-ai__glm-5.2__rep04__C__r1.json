@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 4,
+  "discourse": "C",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:10:42.418034+00:00",
+  "judge_id": "gen-1787739036-ch2O0gIuiNdbtZ8rg96p",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 194,
+    "prompt_tokens": 2073,
+    "total_tokens": 2267,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 96,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00024869,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00024869,
+      "upstream_inference_prompt_cost": 0.00018273,
+      "upstream_inference_completions_cost": 6.596e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"Religious and deeply philosophical perspectives also shape the landscape of genome editing. For some, the human genome possesses a sacred quality, and altering it represents an overstep of human bounds, often described as playing God. This viewpoint holds that the randomness of genetic inheritance is a fundamental aspect of the human condition that should not be overly controlled. Conversely, other traditions argue that humanity has been granted the intellect to shape the world, including our biology, and that failing to use our tools to alleviate suffering would be a moral failing.\",\n  \"reason\": \"The briefing articulates the core tension of the 'culturally cautious' reasoning: the belief that the genome is sacred/natural and shouldn't be overly controlled, balanced against the moral imperative to use tools to alleviate suffering.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "Religious and deeply philosophical perspectives also shape the landscape of genome editing. For some, the human genome possesses a sacred quality, and altering it represents an overstep of human bounds, often described as playing God. This viewpoint holds that the randomness of genetic inheritance is a fundamental aspect of the human condition that should not be overly controlled. Conversely, other traditions argue that humanity has been granted the intellect to shape the world, including our biology, and that failing to use our tools to alleviate suffering would be a moral failing.",
+  "reason": "The briefing articulates the core tension of the 'culturally cautious' reasoning: the belief that the genome is sacred/natural and shouldn't be overly controlled, balanced against the moral imperative to use tools to alleviate suffering.",
+  "schema_problems": ""
+}

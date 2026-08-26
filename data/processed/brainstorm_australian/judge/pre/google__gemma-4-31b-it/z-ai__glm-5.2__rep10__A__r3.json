@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 10,
+  "discourse": "A",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:11:16.383330+00:00",
+  "judge_id": "gen-1787739070-6o9dPAPbf3V3h9ZnqmQ4",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 134,
+    "prompt_tokens": 1950,
+    "total_tokens": 2084,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1920,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00014426,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00014426,
+      "upstream_inference_prompt_cost": 9.87e-05,
+      "upstream_inference_completions_cost": 4.556e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a sentence or two\",\n  \"quote\": \"In this light, the technology is seen as a moral imperative: if we have the power to prevent a child from enduring a life of pain or a premature death, we arguably have a duty to use it.\",\n  \"reason\": \"While the briefing captures the desire to alleviate suffering and the obligation to cure disease, it fails to articulate the specific configuration of 'scientific optimism,' such as trust in experts, dismissal of social risks, and openness to enhancement.\"\n}\n```",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a sentence or two",
+  "quote": "In this light, the technology is seen as a moral imperative: if we have the power to prevent a child from enduring a life of pain or a premature death, we arguably have a duty to use it.",
+  "reason": "While the briefing captures the desire to alleviate suffering and the obligation to cure disease, it fails to articulate the specific configuration of 'scientific optimism,' such as trust in experts, dismissal of social risks, and openness to enhancement.",
+  "schema_problems": ""
+}

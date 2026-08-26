@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 9,
+  "discourse": "B",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:16:29.714581+00:00",
+  "judge_id": "gen-1787739363-0Wqz5YAlraS1ky5r7gbd",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 929,
+    "prompt_tokens": 2249,
+    "total_tokens": 3178,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 823,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 448,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00046568,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00046568,
+      "upstream_inference_prompt_cost": 0.000108015,
+      "upstream_inference_completions_cost": 0.000357665
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"Some fear a \\\"genetic divide\\\" in which wealth purchases heritable advantage, converting social inequality into biology.\",\n  \"reason\": \"The briefing develops a discourse concerned with equity, access, and the risks of non‑medical (enhancement) uses, presenting detailed arguments about social consequences without endorsing them.\"\n}",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "Some fear a \"genetic divide\" in which wealth purchases heritable advantage, converting social inequality into biology.",
+  "reason": "The briefing develops a discourse concerned with equity, access, and the risks of non‑medical (enhancement) uses, presenting detailed arguments about social consequences without endorsing them.",
+  "schema_problems": ""
+}

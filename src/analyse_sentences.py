@@ -108,6 +108,13 @@ def load_inputs(prompt_name: str, form: str, context: bool = False):
             f"Run: python src/embed_sentences.py --baseline {config.BASELINE}"
         )
     airtime = np.load(airtime_path)
+    # Row-position join: the matrix has no keys of its own, so the only thing
+    # standing between us and silently mislabelled discourses is this check.
+    if len(airtime) != len(sentences):
+        raise ValueError(
+            f"{airtime_path.name} has {len(airtime)} rows but sentences.csv has "
+            f"{len(sentences)}. Re-run src/embed_sentences.py."
+        )
 
     suffix = f"_{form}" + ("_context" if context else "")
     stance_path = processed / f"sentence_stance{suffix}.npy"
@@ -216,9 +223,20 @@ def main() -> None:
     adjusted = (kept["airtime_discourse"].value_counts(normalize=True)
                 .reindex(codes).fillna(0))
 
+    # Output from the anaphora pass is a diagnostic, not a result: see
+    # analyse_context.py for the validity check it failed.
+    context_warning = (
+        "> **Status: diagnostic only — not used for scoring.** This file is "
+        "output from the anaphora context pass, which failed its own validity "
+        "check (the combined premise tracks the prepended sentence's score more "
+        f"closely than the target's). Report `sentence_summary_{args.form}.md` "
+        "instead."
+    ) if args.context else None
+
     lines = [
         "# Sentence-level representation: airtime, stance and availability",
         "",
+    ] + ([context_warning, ""] if context_warning else []) + [
         f"Baseline: **{settings['label']}**",
         "",
         f"Prompt: `{prompt_name}`  |  Statement form: `{args.form}`  |  "
@@ -523,20 +541,32 @@ def main() -> None:
     ]
 
     # --- how much of this is just the marginal distribution? ---------------
-    # If a discourse takes 5% of a 54-sentence essay it averages under three
-    # sentences, and will fall below the floor by chance alone a fair share of
-    # the time. This asks how much coverage the pooled shares would produce on
-    # their own, with sentences allocated at random within each essay.
+    # If a discourse takes 5% of an essay's scored sentences it averages under
+    # three of them, and will fall below the floor by chance alone a fair share
+    # of the time. This asks how much coverage the pooled shares would produce
+    # on their own, with sentences allocated at random within each essay.
+    #
+    # The draw size must be the number of sentences the OBSERVED counts were
+    # computed from, which is the non-dismissed total, not the essay's full
+    # sentence count. An earlier version drew `n_sentences` and so handed each
+    # simulated essay ~12% more sentences than the real one had to allocate
+    # (1,610 against 1,442 corpus-wide). That inflated the null by 0.15
+    # discourses and pushed the observed mean just outside the interval,
+    # manufacturing an essay-level concentration effect that does not exist.
     pooled_counts = np.array([per_essay[f"n_{c}"].sum() for c in codes], dtype=float)
     pooled_shares = pooled_counts / pooled_counts.sum()
+    # Per essay: how many sentences actually entered the coverage counts.
+    scored_per_essay = per_essay[[f"n_{c}" for c in codes]].sum(axis=1)
     generator = np.random.default_rng(0)
     simulated = []
     for _ in range(config.PRESENCE_NULL_DRAWS):
         total = 0
-        for n_sentences in per_essay["n_sentences"]:
+        for n_scored, n_sentences in zip(scored_per_essay, per_essay["n_sentences"]):
+            # The floor is unchanged: it is defined against the essay's full
+            # length, exactly as in the observed calculation above.
             floor = max(config.PRESENCE_MIN_SENTENCES,
                         config.PRESENCE_MIN_SHARE * n_sentences)
-            draw = generator.multinomial(int(n_sentences), pooled_shares)
+            draw = generator.multinomial(int(n_scored), pooled_shares)
             total += int((draw >= floor).sum())
         simulated.append(total / len(per_essay))
     simulated = np.array(simulated)
@@ -546,12 +576,19 @@ def main() -> None:
         "",
         "### Null model — how much of this is arithmetic",
         "",
-        "Coverage is bounded by balance. A discourse holding a small share of a "
-        f"~{per_essay['n_sentences'].median():.0f}-sentence essay will drop "
-        "below the floor by chance alone some of the time, whatever the essay "
-        "is doing. This allocates each essay's sentences at random in the "
-        "corpus-wide proportions and recomputes coverage, "
-        f"{config.PRESENCE_NULL_DRAWS:,} times.",
+        "Coverage is bounded by balance. A discourse holding a small share of "
+        f"the ~{scored_per_essay.median():.0f} scored sentences in an essay "
+        "will drop below the floor by chance alone some of the time, whatever "
+        "the essay is doing. This reallocates each essay's non-dismissed "
+        "sentences at random in the corpus-wide proportions and recomputes "
+        f"coverage, {config.PRESENCE_NULL_DRAWS:,} times.",
+        "",
+        "Note what the reference is: the pooled shares come from this corpus, "
+        "not from the human study. The null therefore asks whether any single "
+        "essay is unusually concentrated *given how often the models write "
+        "each discourse overall* -- it cannot ask whether those overall rates "
+        "are themselves adequate. That question belongs to the uniform "
+        "reference in section 6.",
         "",
         "| | Mean coverage |",
         "|---|---|",
@@ -677,6 +714,14 @@ def main() -> None:
         f"- {sentences['anaphoric'].mean():.1%} of sentences open with an "
         "unresolved reference. Run `python src/stance.py --context` for the "
         "robustness pass that gives those sentences their predecessor.",
+        "- The null model in section 5 assumes sentences fall independently. "
+        "They do not: a paragraph tends to stay with one discourse, so real "
+        "essays are more clustered than a multinomial draw. Clustering makes "
+        "low counts for a rare discourse *more* likely than the null implies, "
+        "so the true mechanical baseline probably sits a little below the "
+        "figure reported there, and the essay-level effect a little above. "
+        "Resampling paragraphs rather than sentences would settle it and is "
+        "not run.",
     ]
     if config.BASELINE == "post":
         lines += [

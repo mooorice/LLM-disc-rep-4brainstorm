@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 9,
+  "discourse": "A",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:11:37.036219+00:00",
+  "judge_id": "gen-1787739071-Xp9hsKJ297D9fxf83tOh",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 829,
+    "prompt_tokens": 2103,
+    "total_tokens": 2932,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 655,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 128,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00043035,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00043035,
+      "upstream_inference_prompt_cost": 0.000111185,
+      "upstream_inference_completions_cost": 0.000319165
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"Many people approach genome editing with hope. For those living with genetic disorders, and for their families, the technology can look like a long-awaited form of medicine. Somatic editing is already being trialled or approved for conditions such as sickle cell disease, some forms of blindness, and certain cancers. From this perspective, genome editing is simply the next step in a long history of medical progress, an extension of the compassion that drives us to heal the sick and relieve suffering.\",\n  \"reason\": \"The briefing explicitly outlines a hopeful, science‑trusting perspective that emphasizes benefits and the moral imperative to use genome editing once it is safe, matching the scientific optimism discourse.\"\n}",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "Many people approach genome editing with hope. For those living with genetic disorders, and for their families, the technology can look like a long-awaited form of medicine. Somatic editing is already being trialled or approved for conditions such as sickle cell disease, some forms of blindness, and certain cancers. From this perspective, genome editing is simply the next step in a long history of medical progress, an extension of the compassion that drives us to heal the sick and relieve suffering.",
+  "reason": "The briefing explicitly outlines a hopeful, science‑trusting perspective that emphasizes benefits and the moral imperative to use genome editing once it is safe, matching the scientific optimism discourse.",
+  "schema_problems": ""
+}

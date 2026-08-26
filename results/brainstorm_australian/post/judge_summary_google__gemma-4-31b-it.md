@@ -2,7 +2,7 @@
 
 Baseline: **Post-deliberative jury map (six discourses)**
 
-Judge: `google/gemma-4-31b-it` @ temperature 1.0  |  Prompt: `brainstorm_australian`  |  540 judgements over 30 essays x 6 discourses x 3 replicates
+Judge: `google/gemma-4-31b-it` @ temperature 1.0  |  Prompt: `brainstorm_australian`  |  539 judgements over 30 essays x 6 discourses x 3 replicates  |  **1 unreadable responses dropped** of 540
 
 The judge sees one unlabelled discourse description and one essay, and rates how developed that way of reasoning is (**presence**), how the essay positions it (**treatment**) and how much room it gets (**extent**). Descriptions are blinded — position letters and names are stripped — so the judge reads the reasoning rather than a label. Replicates are collapsed by majority vote, ties broken toward the more conservative rating.
 
@@ -109,13 +109,13 @@ Each pair was judged 3 times independently at temperature 1.0.
 
 | | Unanimous | Mean agreement |
 |---|---|---|
-| Presence | 91.7% | 0.972 |
-| Treatment | 98.3% | 0.994 |
+| Presence | 92.2% | 0.974 |
+| Treatment | 98.9% | 0.996 |
 
 | Discourse | Presence agreement | Treatment agreement |
 |---|---|---|
 | A | 1.000 | 1.000 |
-| B | 0.989 | 0.989 |
+| B | 1.000 | 1.000 |
 | C | 1.000 | 1.000 |
 | D | 0.978 | 1.000 |
 | E | 0.933 | 1.000 |
@@ -131,7 +131,7 @@ Every non-absent judgement had to supply a verbatim quote, checked against the e
 | Fully verified | 98.4% |
 | Mean share of quoted words found | 0.984 |
 | Wholly unfindable (0% matched) | 1.6% |
-| Unparseable responses | 1 of 540 |
+| Unparseable responses | 0 of 539 |
 
 A quote that cannot be found is the judge inventing support for a rating. That rate is the ceiling on how much any individual verdict can be trusted.
 

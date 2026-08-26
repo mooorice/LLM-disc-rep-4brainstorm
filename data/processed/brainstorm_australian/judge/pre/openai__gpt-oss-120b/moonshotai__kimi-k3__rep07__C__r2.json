@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 7,
+  "discourse": "C",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:15:35.280430+00:00",
+  "judge_id": "gen-1787739302-2x3azhY9wou9x9IbuQga",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 1032,
+    "prompt_tokens": 2442,
+    "total_tokens": 3474,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 886,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 2432,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00044651,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00044651,
+      "upstream_inference_prompt_cost": 4.919e-05,
+      "upstream_inference_completions_cost": 0.00039732
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"Religious and cultural viewpoints are similarly diverse. Some traditions see the human genome as part of a created order that humans should steward but not rewrite, and worry about \\\"playing God\\\"; many place moral weight on the status of the embryo, since heritable editing typically involves creating and sometimes destroying embryos.\",\n  \"reason\": \"The briefing notes cultural/religious caution about genome editing but does not fully develop the specific bundle of reasons (e.g., decision‑making not left to experts, openness to medical benefits) characteristic of the culturally cautious discourse.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "Religious and cultural viewpoints are similarly diverse. Some traditions see the human genome as part of a created order that humans should steward but not rewrite, and worry about \"playing God\"; many place moral weight on the status of the embryo, since heritable editing typically involves creating and sometimes destroying embryos.",
+  "reason": "The briefing notes cultural/religious caution about genome editing but does not fully develop the specific bundle of reasons (e.g., decision‑making not left to experts, openness to medical benefits) characteristic of the culturally cautious discourse.",
+  "schema_problems": ""
+}

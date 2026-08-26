@@ -36,8 +36,8 @@
     }
   },
   "parse_error": "",
-  "quote_verified": false,
-  "quote_match": 0.0,
+  "quote_verified": true,
+  "quote_match": 1.0,
   "raw_response": "{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"The strongest current of support flows from medicine's oldest impulse: relieving suffering. Diseases caused by a single faulty gene include sickle cell disease, beta thalassaemia, Huntington's disease, cystic fibrosis and many muscular dystrophies. The first CRISPR‑based treatments have now been approved in several countries for blood disorders, and researchers are exploring applications from inherited blindness to dangerously high cholesterol. Advocates argue that editing is continuous with vaccination, surgery and IVF: a tool for sparing children pain and early death.\",\n  \"reason\": \"The briefing develops a supportive, medically‑enthusiastic viewpoint that favours both somatic and heritable editing under oversight, presenting its rationale without endorsing or dismissing it.\"\n}",
   "presence": "articulated",
   "treatment": "neutral",

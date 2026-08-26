@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 5,
+  "discourse": "A",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:14:18.036620+00:00",
+  "judge_id": "gen-1787739227-oKRfNNZm7TCcixBg3eJD",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 928,
+    "prompt_tokens": 2299,
+    "total_tokens": 3227,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 864,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 384,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.000470285,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.000470285,
+      "upstream_inference_prompt_cost": 0.000113005,
+      "upstream_inference_completions_cost": 0.00035728
+    }
+  },
+  "parse_error": "",
+  "quote_verified": false,
+  "quote_match": 0.0,
+  "raw_response": "{\n  \"presence\": \"absent\",\n  \"treatment\": \"not_applicable\",\n  \"extent\": \"none\",\n  \"quote\": null,\n  \"reason\": \"The briefing does not articulate the scientific‑optimist discourse that unconditionally trusts experts, rejects cultural cautions, and says safety alone justifies genome editing.\"\n}",
+  "presence": "absent",
+  "treatment": "not_applicable",
+  "extent": "none",
+  "quote": "",
+  "reason": "The briefing does not articulate the scientific‑optimist discourse that unconditionally trusts experts, rejects cultural cautions, and says safety alone justifies genome editing.",
+  "schema_problems": ""
+}

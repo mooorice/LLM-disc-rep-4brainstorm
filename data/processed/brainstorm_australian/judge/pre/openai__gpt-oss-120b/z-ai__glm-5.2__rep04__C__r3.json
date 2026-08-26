@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 4,
+  "discourse": "C",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:18:35.596643+00:00",
+  "judge_id": "gen-1787739509-qTHkCs0m5NYvOmrXQeOy",
+  "provider": "Parasail",
+  "usage": {
+    "completion_tokens": 1066,
+    "prompt_tokens": 2107,
+    "total_tokens": 3173,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1264,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 2096,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00091588,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00091588,
+      "upstream_inference_prompt_cost": 0.00011638,
+      "upstream_inference_completions_cost": 0.0007995
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"For some, the human genome possesses a sacred quality, and altering it represents an overstep of human bounds, often described as playing God.\",\n  \"reason\": \"The briefing includes elements of cultural caution (naturalness, sacredness, opposition to non‑medical uses) but does not develop the full reasoning pattern of the culturally cautious discourse.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "For some, the human genome possesses a sacred quality, and altering it represents an overstep of human bounds, often described as playing God.",
+  "reason": "The briefing includes elements of cultural caution (naturalness, sacredness, opposition to non‑medical uses) but does not develop the full reasoning pattern of the culturally cautious discourse.",
+  "schema_problems": ""
+}

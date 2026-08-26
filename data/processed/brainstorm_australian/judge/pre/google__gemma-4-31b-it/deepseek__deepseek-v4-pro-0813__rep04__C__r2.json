@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 4,
+  "discourse": "C",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:08:45.899099+00:00",
+  "judge_id": "gen-1787738921-fj8wCCSrTzp96soDtSE6",
+  "provider": "Parasail",
+  "usage": {
+    "completion_tokens": 136,
+    "prompt_tokens": 2259,
+    "total_tokens": 2395,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 2258,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00019003,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00019003,
+      "upstream_inference_prompt_cost": 0.00013563,
+      "upstream_inference_completions_cost": 5.44e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"Some religious and spiritual traditions hold that human life is sacred from conception and that altering the human germline interferes with a role reserved for God or violates the natural order.\",\n  \"reason\": \"The briefing articulates the 'culturally cautious' configuration of reasoning by linking a desire to preserve the natural order/divine role with the specific concern that germline editing interferes too far, while elsewhere acknowledging the hope for treating disease and the fear of the slippery slope to enhancement.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "Some religious and spiritual traditions hold that human life is sacred from conception and that altering the human germline interferes with a role reserved for God or violates the natural order.",
+  "reason": "The briefing articulates the 'culturally cautious' configuration of reasoning by linking a desire to preserve the natural order/divine role with the specific concern that germline editing interferes too far, while elsewhere acknowledging the hope for treating disease and the fear of the slippery slope to enhancement.",
+  "schema_problems": ""
+}

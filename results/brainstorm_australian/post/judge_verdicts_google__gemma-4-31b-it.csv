@@ -30,7 +30,7 @@ deepseek/deepseek-v4-pro-0813,5,D,articulated,neutral,a paragraph,3,1.0,1.0,1.0,
 deepseek/deepseek-v4-pro-0813,5,E,articulated,neutral,several paragraphs,3,1.0,1.0,1.0,1.0,0,2,3,True,True
 deepseek/deepseek-v4-pro-0813,5,F,articulated,neutral,a sentence or two,3,1.0,1.0,1.0,1.0,0,2,1,True,True
 deepseek/deepseek-v4-pro-0813,6,A,articulated,neutral,a paragraph,3,1.0,1.0,1.0,1.0,0,2,2,True,True
-deepseek/deepseek-v4-pro-0813,6,B,articulated,neutral,a paragraph,3,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666,1,2,2,True,True
+deepseek/deepseek-v4-pro-0813,6,B,articulated,neutral,a paragraph,2,1.0,1.0,1.0,1.0,0,2,2,True,True
 deepseek/deepseek-v4-pro-0813,6,C,articulated,neutral,a paragraph,3,1.0,1.0,1.0,1.0,0,2,2,True,True
 deepseek/deepseek-v4-pro-0813,6,D,articulated,neutral,a paragraph,3,1.0,1.0,1.0,1.0,0,2,2,True,True
 deepseek/deepseek-v4-pro-0813,6,E,articulated,neutral,a paragraph,3,1.0,1.0,1.0,1.0,0,2,2,True,True

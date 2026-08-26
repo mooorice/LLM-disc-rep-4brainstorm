@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 10,
+  "discourse": "C",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:17:15.109003+00:00",
+  "judge_id": "gen-1787739398-QhXEAw3HRzLrEW0pjAC7",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 1200,
+    "prompt_tokens": 2173,
+    "total_tokens": 3373,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1099,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 448,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.000565835,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.000565835,
+      "upstream_inference_prompt_cost": 0.000103835,
+      "upstream_inference_completions_cost": 0.000462
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"others insist that because heritable editing changes the human commonwealth, it is a democratic question in which every citizen has standing.\",\n  \"reason\": \"The briefing develops the culturally cautious stance by linking safety, naturalness, slippery‑slope worries, cultural/Indigenous concerns, and the view that decisions should not be left solely to experts.\"\n}",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "others insist that because heritable editing changes the human commonwealth, it is a democratic question in which every citizen has standing.",
+  "reason": "The briefing develops the culturally cautious stance by linking safety, naturalness, slippery‑slope worries, cultural/Indigenous concerns, and the view that decisions should not be left solely to experts.",
+  "schema_problems": ""
+}

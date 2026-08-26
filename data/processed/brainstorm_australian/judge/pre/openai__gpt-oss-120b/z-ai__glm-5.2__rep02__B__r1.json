@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 2,
+  "discourse": "B",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:17:43.315382+00:00",
+  "judge_id": "gen-1787739438-ix3vD80IHuW2a5nTJwBJ",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 777,
+    "prompt_tokens": 2014,
+    "total_tokens": 2791,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 686,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 448,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.000394235,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.000394235,
+      "upstream_inference_prompt_cost": 9.509e-05,
+      "upstream_inference_completions_cost": 0.000299145
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"If genome editing therapies become available, will they be accessible to all, or will they become luxury goods reserved for the privileged few?\",\n  \"reason\": \"The briefing develops concerns about equity, access, and non‑medical uses, matching the described reasoning about social consequences and inequality.\"\n}",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "If genome editing therapies become available, will they be accessible to all, or will they become luxury goods reserved for the privileged few?",
+  "reason": "The briefing develops concerns about equity, access, and non‑medical uses, matching the described reasoning about social consequences and inequality.",
+  "schema_problems": ""
+}

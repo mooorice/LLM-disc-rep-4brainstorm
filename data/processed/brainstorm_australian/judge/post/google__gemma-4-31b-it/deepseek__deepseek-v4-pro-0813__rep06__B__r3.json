@@ -39,10 +39,11 @@
   "quote_verified": false,
   "quote_match": 0.0,
   "raw_response": null,
-  "presence": "absent",
-  "treatment": "not_applicable",
+  "presence": "error",
+  "treatment": "error",
   "extent": "none",
   "quote": "",
   "reason": "",
-  "schema_problems": "unparseable"
+  "schema_problems": "unparseable",
+  "relabelled": "empty completion cached before the empty-response fix; was \"absent\""
 }

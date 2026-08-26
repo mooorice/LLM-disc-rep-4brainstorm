@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 2,
+  "discourse": "B",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:09:33.696343+00:00",
+  "judge_id": "gen-1787738969-AkUodAsr1poWgh1gSXkR",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 121,
+    "prompt_tokens": 2204,
+    "total_tokens": 2325,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 2176,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00015246,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00015246,
+      "upstream_inference_prompt_cost": 0.00011132,
+      "upstream_inference_completions_cost": 4.114e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"Gene therapies are among the most expensive treatments ever developed, raising the prospect that genetic health becomes a luxury good, deepening divides between rich and poor, between cities and the bush, and between nations.\",\n  \"reason\": \"The briefing develops the core components of this reasoning, including the tension between curing disease and the risks of inequality, the distinction between therapy and enhancement, and concerns about future generations.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "Gene therapies are among the most expensive treatments ever developed, raising the prospect that genetic health becomes a luxury good, deepening divides between rich and poor, between cities and the bush, and between nations.",
+  "reason": "The briefing develops the core components of this reasoning, including the tension between curing disease and the risks of inequality, the distinction between therapy and enhancement, and concerns about future generations.",
+  "schema_problems": ""
+}

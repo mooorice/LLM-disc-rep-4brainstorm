@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 4,
+  "discourse": "A",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:09:40.977607+00:00",
+  "judge_id": "gen-1787738977-sFEm3fRjWpk4xLJtgYeZ",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 147,
+    "prompt_tokens": 2206,
+    "total_tokens": 2353,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 352,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00023444,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00023444,
+      "upstream_inference_prompt_cost": 0.00018446,
+      "upstream_inference_completions_cost": 4.998e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"Some go further and speak of a duty, not merely a permission, holding that withholding a safe and effective means of preventing serious disease would itself be a moral failure, and that every generation has an obligation to reduce avoidable suffering where it can.\",\n  \"reason\": \"The briefing articulates the key components of scientific optimism, including the view of genome editing as a moral obligation to eradicate disease, the trust in safety as the primary threshold for acceptance, and the defense of using technology to provide children with the best possible genetic start.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "Some go further and speak of a duty, not merely a permission, holding that withholding a safe and effective means of preventing serious disease would itself be a moral failure, and that every generation has an obligation to reduce avoidable suffering where it can.",
+  "reason": "The briefing articulates the key components of scientific optimism, including the view of genome editing as a moral obligation to eradicate disease, the trust in safety as the primary threshold for acceptance, and the defense of using technology to provide children with the best possible genetic start.",
+  "schema_problems": ""
+}

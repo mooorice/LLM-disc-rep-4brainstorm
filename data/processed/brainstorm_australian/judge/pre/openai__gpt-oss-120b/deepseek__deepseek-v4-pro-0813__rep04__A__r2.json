@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 4,
+  "discourse": "A",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:09:45.371441+00:00",
+  "judge_id": "gen-1787738956-mSsWzSy6TJlvcJD2gj0F",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 959,
+    "prompt_tokens": 2253,
+    "total_tokens": 3212,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 872,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 2240,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00041473,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00041473,
+      "upstream_inference_prompt_cost": 4.5515e-05,
+      "upstream_inference_completions_cost": 0.000369215
+    }
+  },
+  "parse_error": "",
+  "quote_verified": false,
+  "quote_match": 0.0,
+  "raw_response": "{\n  \"presence\": \"absent\",\n  \"treatment\": \"not_applicable\",\n  \"extent\": \"none\",\n  \"quote\": null,\n  \"reason\": \"The briefing does not present the scientific‑optimist stance that safety guarantees acceptance, that experts should decide, or that cultural beliefs are irrelevant; it offers a balanced view with both hope and caution.\"\n}",
+  "presence": "absent",
+  "treatment": "not_applicable",
+  "extent": "none",
+  "quote": "",
+  "reason": "The briefing does not present the scientific‑optimist stance that safety guarantees acceptance, that experts should decide, or that cultural beliefs are irrelevant; it offers a balanced view with both hope and caution.",
+  "schema_problems": ""
+}

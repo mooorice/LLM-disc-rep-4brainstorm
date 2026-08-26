@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 6,
+  "discourse": "A",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:19:27.161013+00:00",
+  "judge_id": "gen-1787739529-1hgeREqXFEznOkNjCAbG",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 1120,
+    "prompt_tokens": 1990,
+    "total_tokens": 3110,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1002,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 384,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00052721,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00052721,
+      "upstream_inference_prompt_cost": 9.601e-05,
+      "upstream_inference_completions_cost": 0.0004312
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"At the heart of enthusiastic support for genome editing is a profound hope for healing. Proponents argue that we have a moral imperative to alleviate human suffering when we possess the technological means to do so.\",\n  \"reason\": \"The briefing notes a supportive view emphasizing moral imperative and benefits, but does not develop the full scientific‑optimist reasoning about trust in experts, cultural beliefs, or opposition to doubts.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "At the heart of enthusiastic support for genome editing is a profound hope for healing. Proponents argue that we have a moral imperative to alleviate human suffering when we possess the technological means to do so.",
+  "reason": "The briefing notes a supportive view emphasizing moral imperative and benefits, but does not develop the full scientific‑optimist reasoning about trust in experts, cultural beliefs, or opposition to doubts.",
+  "schema_problems": ""
+}

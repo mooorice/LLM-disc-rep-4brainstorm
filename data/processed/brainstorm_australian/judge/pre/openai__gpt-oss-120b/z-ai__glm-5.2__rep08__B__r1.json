@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 8,
+  "discourse": "B",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:20:29.556108+00:00",
+  "judge_id": "gen-1787739601-wCl84oLfkvcBEJ4szY1U",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 873,
+    "prompt_tokens": 2197,
+    "total_tokens": 3070,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 728,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 448,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00044126,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00044126,
+      "upstream_inference_prompt_cost": 0.000105155,
+      "upstream_inference_completions_cost": 0.000336105
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"The prospect of genetic enhancement also brings acute concerns about social justice and equity to the forefront. Genome editing is an incredibly complex and expensive medical procedure. Many citizens worry that if enhancements become possible, they will initially be accessible only to the wealthy. This could lead to a genetic divide, where socio-economic inequality is permanently entrenched in the biology of the population.\",\n  \"reason\": \"The briefing develops the same concerns about equity, non‑medical uses, and social consequences, presenting them as a distinct perspective without endorsing or dismissing it.\"\n}",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "The prospect of genetic enhancement also brings acute concerns about social justice and equity to the forefront. Genome editing is an incredibly complex and expensive medical procedure. Many citizens worry that if enhancements become possible, they will initially be accessible only to the wealthy. This could lead to a genetic divide, where socio-economic inequality is permanently entrenched in the biology of the population.",
+  "reason": "The briefing develops the same concerns about equity, non‑medical uses, and social consequences, presenting them as a distinct perspective without endorsing or dismissing it.",
+  "schema_problems": ""
+}

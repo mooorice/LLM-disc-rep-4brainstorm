@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 1,
+  "discourse": "A",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:09:26.635895+00:00",
+  "judge_id": "gen-1787738962-zVtKB1DNNZKjM9SJ5XEw",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 143,
+    "prompt_tokens": 1960,
+    "total_tokens": 2103,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 352,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00021094,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00021094,
+      "upstream_inference_prompt_cost": 0.00016232,
+      "upstream_inference_completions_cost": 4.862e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"Others emphasise the long view: that humanity has always used knowledge to reduce suffering, from vaccination to IVF, and that each of those advances was once feared as unnatural. On this view, refusing to act is itself a choice with moral weight, because it consigns future children to preventable pain.\",\n  \"reason\": \"The briefing articulates the scientific optimist's logic by framing the technology as a continuation of medical progress and arguing that the moral obligation to prevent suffering outweighs fears of it being 'unnatural'.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "Others emphasise the long view: that humanity has always used knowledge to reduce suffering, from vaccination to IVF, and that each of those advances was once feared as unnatural. On this view, refusing to act is itself a choice with moral weight, because it consigns future children to preventable pain.",
+  "reason": "The briefing articulates the scientific optimist's logic by framing the technology as a continuation of medical progress and arguing that the moral obligation to prevent suffering outweighs fears of it being 'unnatural'.",
+  "schema_problems": ""
+}

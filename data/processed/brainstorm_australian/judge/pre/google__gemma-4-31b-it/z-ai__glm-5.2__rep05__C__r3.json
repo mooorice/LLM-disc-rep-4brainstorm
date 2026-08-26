@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 5,
+  "discourse": "C",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:10:50.096700+00:00",
+  "judge_id": "gen-1787739044-zEzJlVYkbxZxJ252dTJo",
+  "provider": "Parasail",
+  "usage": {
+    "completion_tokens": 192,
+    "prompt_tokens": 1967,
+    "total_tokens": 2159,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 428,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00033333,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00033333,
+      "upstream_inference_prompt_cost": 0.00025653,
+      "upstream_inference_completions_cost": 7.68e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"Philosophical and religious viewpoints also deeply inform the public’s stance on human genome editing. For some, the idea of altering the fundamental building blocks of human life represents an unacceptable overreach, a modern-day version of playing God. These perspectives often emphasize the sanctity of the natural order and the inherent dignity of human life in its unmodified state. They caution against the hubris of believing we can improve upon nature, warning that such attempts often lead to unforeseen moral and societal decay.\",\n  \"reason\": \"The briefing articulates the 'culturally cautious' reasoning by explaining the belief in the sanctity of the natural order and the view that gene editing is an overreach/playing God, while elsewhere balancing this with the moral imperative to cure disease.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "Philosophical and religious viewpoints also deeply inform the public’s stance on human genome editing. For some, the idea of altering the fundamental building blocks of human life represents an unacceptable overreach, a modern-day version of playing God. These perspectives often emphasize the sanctity of the natural order and the inherent dignity of human life in its unmodified state. They caution against the hubris of believing we can improve upon nature, warning that such attempts often lead to unforeseen moral and societal decay.",
+  "reason": "The briefing articulates the 'culturally cautious' reasoning by explaining the belief in the sanctity of the natural order and the view that gene editing is an overreach/playing God, while elsewhere balancing this with the moral imperative to cure disease.",
+  "schema_problems": ""
+}

@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 9,
+  "discourse": "C",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:20:42.332774+00:00",
+  "judge_id": "gen-1787739630-Wj0b3RHIJJjulP7bpOL9",
+  "provider": "Parasail",
+  "usage": {
+    "completion_tokens": 1327,
+    "prompt_tokens": 2139,
+    "total_tokens": 3466,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1587,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 464,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00118827,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00118827,
+      "upstream_inference_prompt_cost": 0.00019302,
+      "upstream_inference_completions_cost": 0.00099525
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"This perspective emphasizes humility and urges caution, suggesting that our scientific capabilities have outpaced our ethical maturity.\",\n  \"reason\": \"The briefing touches on caution, naturalness, and concerns about overreach, but does not fully develop the specific culturally cautious discourse (e.g., rejecting expert control, mitochondrial donation stance).\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "This perspective emphasizes humility and urges caution, suggesting that our scientific capabilities have outpaced our ethical maturity.",
+  "reason": "The briefing touches on caution, naturalness, and concerns about overreach, but does not fully develop the specific culturally cautious discourse (e.g., rejecting expert control, mitochondrial donation stance).",
+  "schema_problems": ""
+}

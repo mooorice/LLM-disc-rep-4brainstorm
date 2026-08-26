@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 8,
+  "discourse": "C",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:11:06.399110+00:00",
+  "judge_id": "gen-1787739060-mB5zQ2yvPwMhQ9gQHq18",
+  "provider": "Parasail",
+  "usage": {
+    "completion_tokens": 135,
+    "prompt_tokens": 2148,
+    "total_tokens": 2283,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 427,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00033777,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00033777,
+      "upstream_inference_prompt_cost": 0.00028377,
+      "upstream_inference_completions_cost": 5.4e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a sentence or two\",\n  \"quote\": \"This perspective is rooted in a desire to preserve the givenness of human nature, valuing the authenticity of unscripted human life and the unconditional acceptance of children as they are, rather than as they are engineered to be.\",\n  \"reason\": \"The briefing mentions the desire to remain natural and the fear of the slippery slope to enhancement, but it fails to articulate the specific combination of being open to life-saving medicine and rejecting expert-led decision-making.\"\n}\n```",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a sentence or two",
+  "quote": "This perspective is rooted in a desire to preserve the givenness of human nature, valuing the authenticity of unscripted human life and the unconditional acceptance of children as they are, rather than as they are engineered to be.",
+  "reason": "The briefing mentions the desire to remain natural and the fear of the slippery slope to enhancement, but it fails to articulate the specific combination of being open to life-saving medicine and rejecting expert-led decision-making.",
+  "schema_problems": ""
+}

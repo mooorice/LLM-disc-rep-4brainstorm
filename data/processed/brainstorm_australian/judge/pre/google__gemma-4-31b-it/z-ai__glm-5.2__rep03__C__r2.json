@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 3,
+  "discourse": "C",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:10:42.877895+00:00",
+  "judge_id": "gen-1787739032-DcV14lk8IKuo4kkDxwKG",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 132,
+    "prompt_tokens": 2097,
+    "total_tokens": 2229,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 416,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00021697,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00021697,
+      "upstream_inference_prompt_cost": 0.00017209,
+      "upstream_inference_completions_cost": 4.488e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a sentence or two\",\n  \"quote\": \"For some, the human genome is sacred, and altering it represents an unacceptable overreach into the natural order.\",\n  \"reason\": \"While the briefing mentions the desire to remain 'natural' and the 'overreach into the natural order,' it fails to capture the specific configuration of the 'Culturally Cautious' reasoning, namely the combination of being open to life-saving medicine and the explicit rejection of expert-led decision-making.\"\n}\n```",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a sentence or two",
+  "quote": "For some, the human genome is sacred, and altering it represents an unacceptable overreach into the natural order.",
+  "reason": "While the briefing mentions the desire to remain 'natural' and the 'overreach into the natural order,' it fails to capture the specific configuration of the 'Culturally Cautious' reasoning, namely the combination of being open to life-saving medicine and the explicit rejection of expert-led decision-making.",
+  "schema_problems": ""
+}

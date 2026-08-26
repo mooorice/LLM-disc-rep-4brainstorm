@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 8,
+  "discourse": "B",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:15:58.724996+00:00",
+  "judge_id": "gen-1787739331-f4AuWImwuFIingszHE6S",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 962,
+    "prompt_tokens": 2304,
+    "total_tokens": 3266,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 814,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 448,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00048141,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00048141,
+      "upstream_inference_prompt_cost": 0.00011104,
+      "upstream_inference_completions_cost": 0.00037037
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"Questions of justice cut in both directions. The gene therapies approved overseas cost millions of dollars per patient, raising hard questions about who would gain access in Australia, whether through Medicare and the public system or only through private wealth, and whether regional and remote communities would be left behind. If heritable enhancement ever became available to the affluent, some fear a durable genetic stratification of society.\",\n  \"reason\": \"The briefing develops concerns about safety, non‑medical (enhancement) uses, and equity/access—key elements of the described reasoning—across multiple paragraphs without endorsing them.\"\n}",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "Questions of justice cut in both directions. The gene therapies approved overseas cost millions of dollars per patient, raising hard questions about who would gain access in Australia, whether through Medicare and the public system or only through private wealth, and whether regional and remote communities would be left behind. If heritable enhancement ever became available to the affluent, some fear a durable genetic stratification of society.",
+  "reason": "The briefing develops concerns about safety, non‑medical (enhancement) uses, and equity/access—key elements of the described reasoning—across multiple paragraphs without endorsing them.",
+  "schema_problems": ""
+}

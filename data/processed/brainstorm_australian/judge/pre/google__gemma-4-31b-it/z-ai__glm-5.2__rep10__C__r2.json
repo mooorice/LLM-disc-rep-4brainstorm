@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 10,
+  "discourse": "C",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:11:21.114406+00:00",
+  "judge_id": "gen-1787739075-u2B4z33wiNYrg6vVglkO",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 163,
+    "prompt_tokens": 1995,
+    "total_tokens": 2158,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 416,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00021833,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00021833,
+      "upstream_inference_prompt_cost": 0.00016291,
+      "upstream_inference_completions_cost": 5.542e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"For some, the human genome possesses an intrinsic sanctity, and altering it represents an unacceptable overreach into the natural order. This playing God argument suggests that humanity lacks the wisdom to safely and ethically manage the power to rewrite our own genetic code. Various faith traditions may view the genome as a divine creation that should not be tampered with, while secular philosophies might caution against a hubristic faith in technological progress.\",\n  \"reason\": \"The briefing articulates the 'culturally cautious' reasoning by linking the desire to preserve the natural order and divine creation with a caution against hubristic technological overreach.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "For some, the human genome possesses an intrinsic sanctity, and altering it represents an unacceptable overreach into the natural order. This playing God argument suggests that humanity lacks the wisdom to safely and ethically manage the power to rewrite our own genetic code. Various faith traditions may view the genome as a divine creation that should not be tampered with, while secular philosophies might caution against a hubristic faith in technological progress.",
+  "reason": "The briefing articulates the 'culturally cautious' reasoning by linking the desire to preserve the natural order and divine creation with a caution against hubristic technological overreach.",
+  "schema_problems": ""
+}

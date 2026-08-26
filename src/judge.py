@@ -63,6 +63,7 @@ import json
 import os
 import random
 import re
+import unicodedata
 import time
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -247,10 +248,31 @@ def normalise(payload: dict) -> dict:
 
 
 def normalise_whitespace(text: str) -> str:
-    """For quote checking: collapse whitespace and normalise quote characters."""
-    text = (text.replace("’", "'").replace("‘", "'")
-                .replace("“", '"').replace("”", '"')
-                .replace("—", "-").replace("–", "-"))
+    """
+    For quote checking: collapse whitespace and normalise typography.
+
+    Judges retypeset as they copy. A quote can be a faithful transcription of
+    the essay and still fail an exact-match test because the model emitted a
+    non-breaking hyphen (U+2011) where the essay has an ordinary one, or a
+    non-breaking space inside a numeral. Checked on this corpus, 27 of the 44
+    apparent quote failures for one judge differed from the source in nothing
+    but punctuation codepoints -- one of them in a single character out of 184.
+
+    Treating those as fabricated support would overstate the fabrication rate
+    by a factor of about 2.6, so normalisation runs first: NFKC to fold
+    compatibility forms, then every dash-like and apostrophe-like codepoint
+    mapped to its ASCII equivalent. This is deliberately generous about
+    typography and remains strict about words -- a paraphrase still fails.
+    """
+    text = unicodedata.normalize("NFKC", text)
+    # The Unicode dash block (U+2010-U+2015), plus minus sign and non-breaking
+    # hyphen, all become the ASCII hyphen.
+    text = re.sub(r"[\u2010-\u2015\u2212]", "-", text)
+    # Curly and modifier apostrophes, and curly double quotes.
+    text = re.sub(r"[\u2018\u2019\u02bc\u02bb]", "'", text)
+    text = re.sub(r"[\u201c\u201d]", '"', text)
+    # Non-breaking and other exotic spaces; \s misses some of these.
+    text = re.sub(r"[\u00a0\u2007\u202f\u2009\u200a]", " ", text)
     return re.sub(r"\s+", " ", text).strip().lower()
 
 

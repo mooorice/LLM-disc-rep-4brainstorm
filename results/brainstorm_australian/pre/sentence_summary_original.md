@@ -122,12 +122,14 @@ The *ordering* is stable — B, C and D are available in every essay at every th
 
 ### Null model — how much of this is arithmetic
 
-Coverage is bounded by balance. A discourse holding a small share of a ~54-sentence essay will drop below the floor by chance alone some of the time, whatever the essay is doing. This allocates each essay's sentences at random in the corpus-wide proportions and recomputes coverage, 5,000 times.
+Coverage is bounded by balance. A discourse holding a small share of the ~46 scored sentences in an essay will drop below the floor by chance alone some of the time, whatever the essay is doing. This reallocates each essay's non-dismissed sentences at random in the corpus-wide proportions and recomputes coverage, 5,000 times.
+
+Note what the reference is: the pooled shares come from this corpus, not from the human study. The null therefore asks whether any single essay is unusually concentrated *given how often the models write each discourse overall* -- it cannot ask whether those overall rates are themselves adequate. That question belongs to the uniform reference in section 6.
 
 | | Mean coverage |
 |---|---|
 | Observed | **3.00** / 3 |
-| Random allocation, same pooled shares | 3.00 (95% 3.00–3.00) |
+| Random allocation, same pooled shares | 3.00 (95% 2.97–3.00) |
 
 Observed coverage sits inside the null interval, so it adds nothing beyond the imbalance already reported in section 6: the shortfall from 3/3 is what the pooled shares produce on their own.
 
@@ -160,3 +162,4 @@ Within-essay balance (mean over essays, so a model that covers everything by ave
 - Assignment is winner-takes-all over baselines that are all about the same topic. Mean gap between the winning and runner-up discourse is 0.0179 on a cosine scale where the discourses sit at 0.608 from the average sentence. Small differences therefore decide whole sentences. Section 4 reports the margin per discourse; where it is thin, the split between that discourse and its nearest neighbour is not reliable.
 - Airtime is stance-blind by construction. A sentence that engages a discourse's themes counts towards it whatever it says about them; that is what section 3 corrects for.
 - 14.8% of sentences open with an unresolved reference. Run `python src/stance.py --context` for the robustness pass that gives those sentences their predecessor.
+- The null model in section 5 assumes sentences fall independently. They do not: a paragraph tends to stay with one discourse, so real essays are more clustered than a multinomial draw. Clustering makes low counts for a rare discourse *more* likely than the null implies, so the true mechanical baseline probably sits a little below the figure reported there, and the essay-level effect a little above. Resampling paragraphs rather than sentences would settle it and is not run.

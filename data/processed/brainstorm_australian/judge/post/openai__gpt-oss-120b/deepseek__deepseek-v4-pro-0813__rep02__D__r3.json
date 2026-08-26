@@ -37,7 +37,7 @@
   },
   "parse_error": "",
   "quote_verified": false,
-  "quote_match": 0.0,
+  "quote_match": 0.387,
   "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"The hopes associated with genome editing are often focused on the relief of serious suffering. For families affected by genetic conditions such as cystic fibrosis, Huntington disease or muscular dystrophy, the ability to correct a single faulty gene could be life‑changing. ... Researchers and patient advocates often emphasise that editing is not about creating perfect people, but about preventing devastating illness and expanding reproductive choices.\\n\\nThe distinction between treating disease and enhancing human traits is much discussed. Many people are comfortable with editing to treat or prevent serious medical conditions but oppose using it to select or improve traits such as intelligence, height, appearance or athletic ability.\",\n  \"reason\": \"The briefing mentions support for medical genome editing to prevent disease and concerns about enhancements, but does not articulate the singular, obligation‑focused reasoning described.\"\n}",
   "presence": "mentioned",
   "treatment": "neutral",

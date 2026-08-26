@@ -1,5 +1,7 @@
 # Anaphora robustness: does resolving references change the result?
 
+> **Status: diagnostic only — this pass is NOT used for scoring.** It failed its own validity check. The combined premise correlates more strongly with the *prepended context sentence's* own solo score (r = 0.787) than with the target sentence's (r = 0.635), and 43.5% of the assertions it newly detects were already assertions of the context sentence alone, i.e. double-counted. Every `*_context` file in this directory is output from that pass. They exist to show that the main results are robust to the anaphora problem (3.7% of verdicts change; TVD moves 0.333 to 0.334), not to be reported.
+
 Baseline: **Pre-deliberative mapping study (four discourses)**  |  Prompt: `brainstorm_australian`  |  Statement form: `depersonalised`
 
 230 of 1610 sentences (14.3%) were re-scored with their preceding sentence prepended, because they open with a bare demonstrative or pronoun. 8 further flagged sentences were left alone, having no predecessor inside their paragraph.

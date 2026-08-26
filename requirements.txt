@@ -11,3 +11,10 @@ accelerate
 # Analysis
 pandas
 numpy
+
+# Sentence segmentation
+pysbd
+
+# Figures (src/figures.py)
+matplotlib
+scipy

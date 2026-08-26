@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 3,
+  "discourse": "A",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:09:37.106794+00:00",
+  "judge_id": "gen-1787738972-Tn5wnZjHC3rWcpQ5YVvp",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 214,
+    "prompt_tokens": 2287,
+    "total_tokens": 2501,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 352,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00026451,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00026451,
+      "upstream_inference_prompt_cost": 0.00019175,
+      "upstream_inference_completions_cost": 7.276e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"The most powerful argument in favour of editing is compassion. Serious inherited conditions such as Huntington's disease, cystic fibrosis and muscular dystrophy cause real suffering, and families who have watched a condition pass through generations often describe an overwhelming wish to spare the next child. On this view, medicine has always intervened in processes once called natural, from vaccination to IVF, and deliberately withholding a safe means of preventing suffering would be perverse. Some philosophers go further, arguing that parents have a duty to give children the best possible start in life, and that if safe prevention exists, refusing it is itself a moral choice with consequences.\",\n  \"reason\": \"The briefing articulates the core tenets of scientific optimism: the belief in a moral obligation to use safe technology to prevent disease, the view that medical intervention is a natural progression, and the desire to give children the best possible start.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "The most powerful argument in favour of editing is compassion. Serious inherited conditions such as Huntington's disease, cystic fibrosis and muscular dystrophy cause real suffering, and families who have watched a condition pass through generations often describe an overwhelming wish to spare the next child. On this view, medicine has always intervened in processes once called natural, from vaccination to IVF, and deliberately withholding a safe means of preventing suffering would be perverse. Some philosophers go further, arguing that parents have a duty to give children the best possible start in life, and that if safe prevention exists, refusing it is itself a moral choice with consequences.",
+  "reason": "The briefing articulates the core tenets of scientific optimism: the belief in a moral obligation to use safe technology to prevent disease, the view that medical intervention is a natural progression, and the desire to give children the best possible start.",
+  "schema_problems": ""
+}

@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 10,
+  "discourse": "A",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:12:08.621781+00:00",
+  "judge_id": "gen-1787739097-HuuopBEsNKVGS3D2OFEV",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 783,
+    "prompt_tokens": 2127,
+    "total_tokens": 2910,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 699,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 384,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.000405,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.000405,
+      "upstream_inference_prompt_cost": 0.000103545,
+      "upstream_inference_completions_cost": 0.000301455
+    }
+  },
+  "parse_error": "",
+  "quote_verified": false,
+  "quote_match": 0.0,
+  "raw_response": "{\n  \"presence\": \"absent\",\n  \"treatment\": \"not_applicable\",\n  \"extent\": \"none\",\n  \"quote\": null,\n  \"reason\": \"The briefing presents a balanced set of perspectives and does not articulate a distinct scientific‑optimist discourse characterized by trust in experts, dismissal of cultural cautions, and an uncritical endorsement of personal or parental genome editing.\"\n}",
+  "presence": "absent",
+  "treatment": "not_applicable",
+  "extent": "none",
+  "quote": "",
+  "reason": "The briefing presents a balanced set of perspectives and does not articulate a distinct scientific‑optimist discourse characterized by trust in experts, dismissal of cultural cautions, and an uncritical endorsement of personal or parental genome editing.",
+  "schema_problems": ""
+}

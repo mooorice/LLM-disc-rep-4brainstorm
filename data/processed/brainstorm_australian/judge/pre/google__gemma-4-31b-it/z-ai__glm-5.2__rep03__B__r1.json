@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 3,
+  "discourse": "B",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:10:34.683903+00:00",
+  "judge_id": "gen-1787739031-UPXdxOj3FGYqQAfNFs4e",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 148,
+    "prompt_tokens": 2107,
+    "total_tokens": 2255,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 416,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00022331,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00022331,
+      "upstream_inference_prompt_cost": 0.00017299,
+      "upstream_inference_completions_cost": 5.032e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"Critics worry that these technologies will be expensive and initially accessible only to the wealthy. If only the rich can afford to edit out genetic diseases or enhance the traits of their children, society could become increasingly stratified. This could lead to a genetic divide where socioeconomic inequalities are literally written into our DNA.\",\n  \"reason\": \"The briefing explicitly develops the reasoning regarding the tension between the desire to cure disease and the fears of social inequality, the 'slippery slope' from therapy to non-medical enhancement, and the risk of unintended consequences.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "Critics worry that these technologies will be expensive and initially accessible only to the wealthy. If only the rich can afford to edit out genetic diseases or enhance the traits of their children, society could become increasingly stratified. This could lead to a genetic divide where socioeconomic inequalities are literally written into our DNA.",
+  "reason": "The briefing explicitly develops the reasoning regarding the tension between the desire to cure disease and the fears of social inequality, the 'slippery slope' from therapy to non-medical enhancement, and the risk of unintended consequences.",
+  "schema_problems": ""
+}

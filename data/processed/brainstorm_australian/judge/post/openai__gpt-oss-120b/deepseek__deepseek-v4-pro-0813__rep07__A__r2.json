@@ -36,8 +36,8 @@
     }
   },
   "parse_error": "",
-  "quote_verified": false,
-  "quote_match": 0.0,
+  "quote_verified": true,
+  "quote_match": 1.0,
   "raw_response": "{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"Many patient advocates argue that too much caution would deny people life‑saving treatment.\",\n  \"reason\": \"The briefing develops a view that emphasizes medical benefits, supports continued research, and favors permissive policies while not strongly emphasizing ethical concerns, matching the described reasoning.\"\n}",
   "presence": "articulated",
   "treatment": "neutral",

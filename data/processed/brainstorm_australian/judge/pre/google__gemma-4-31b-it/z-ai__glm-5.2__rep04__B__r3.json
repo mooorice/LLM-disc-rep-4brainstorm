@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 4,
+  "discourse": "B",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:10:41.126297+00:00",
+  "judge_id": "gen-1787739036-cWWAB297c1u59tt242k3",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 129,
+    "prompt_tokens": 2083,
+    "total_tokens": 2212,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 2080,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00014813,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00014813,
+      "upstream_inference_prompt_cost": 0.00010427,
+      "upstream_inference_completions_cost": 4.386e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"In a society that values egalitarianism, there is deep apprehension that genome editing could exacerbate existing disparities, creating a genetic divide between the rich and the poor. If therapies are prohibitively expensive, they may only be available to the wealthy.\",\n  \"reason\": \"The briefing explicitly develops the reasoning regarding the tension between medical hopes and the risks of social inequality, the distinction between therapy and enhancement, and the dangers of creating a genetic divide.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "In a society that values egalitarianism, there is deep apprehension that genome editing could exacerbate existing disparities, creating a genetic divide between the rich and the poor. If therapies are prohibitively expensive, they may only be available to the wealthy.",
+  "reason": "The briefing explicitly develops the reasoning regarding the tension between medical hopes and the risks of social inequality, the distinction between therapy and enhancement, and the dangers of creating a genetic divide.",
+  "schema_problems": ""
+}

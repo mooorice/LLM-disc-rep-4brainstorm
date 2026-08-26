@@ -36,8 +36,8 @@
     }
   },
   "parse_error": "",
-  "quote_verified": false,
-  "quote_match": 0.0,
+  "quote_verified": true,
+  "quote_match": 1.0,
   "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"Proponents argue that we have a moral imperative to use this technology to cure devastating hereditary diseases, such as Huntington’s disease, cystic fibrosis, sickle cell anemia, and muscular dystrophy. From this perspective, failing to use a safe and effective tool to prevent a child from being born with a painful, life‑shortening condition is itself ethically questionable.\",\n  \"reason\": \"The briefing cites the moral imperative to eradicate disease and notes concerns about enhancement and long‑term risks, but does not present a cohesive, singularly focused position with the policy preferences and trust‑in‑experts emphasis described.\"\n}",
   "presence": "mentioned",
   "treatment": "neutral",

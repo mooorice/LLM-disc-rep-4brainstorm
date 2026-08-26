@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 2,
+  "discourse": "B",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:10:31.165074+00:00",
+  "judge_id": "gen-1787739025-KIgs9N44c9QgalK1GdhG",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 161,
+    "prompt_tokens": 1977,
+    "total_tokens": 2138,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1952,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00015459,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00015459,
+      "upstream_inference_prompt_cost": 9.985e-05,
+      "upstream_inference_completions_cost": 5.474e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"Many worry that allowing any form of enhancement could exacerbate societal inequalities, creating a world where the wealthy can literally buy better genetics for their children. ... If only the affluent can afford to eradicate genetic diseases or enhance their offspring, the gap between the rich and the poor could become insurmountable, encoded into the very DNA of the populace.\",\n  \"reason\": \"The briefing explicitly develops the reasoning regarding the tension between medical hope and the social risks of enhancement, specifically focusing on equity, access, the 'slippery slope' to non-medical use, and the danger of widening the gap between social classes.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "Many worry that allowing any form of enhancement could exacerbate societal inequalities, creating a world where the wealthy can literally buy better genetics for their children. ... If only the affluent can afford to eradicate genetic diseases or enhance their offspring, the gap between the rich and the poor could become insurmountable, encoded into the very DNA of the populace.",
+  "reason": "The briefing explicitly develops the reasoning regarding the tension between medical hope and the social risks of enhancement, specifically focusing on equity, access, the 'slippery slope' to non-medical use, and the danger of widening the gap between social classes.",
+  "schema_problems": ""
+}

@@ -1,4 +1,6 @@
-# Discursive representation results
+# Discursive representation results (paragraph level — SECONDARY)
+
+> **Status: secondary.** The reported analysis is sentence-level and lives in `sentence_summary_*.md`. This file assigns whole *paragraphs* to a single discourse, which is a coarser unit and gives materially different numbers: argmax on a ~5-sentence block erases every minority discourse inside a mixed paragraph, so the distribution here is far more concentrated (TVD ~0.42 against ~0.27 at sentence level, with one model assigning no paragraphs at all to discourse F). These essays mix discourses *within* paragraphs, which is why the paragraph is the wrong unit for this question. Kept as a robustness check on the choice of unit — the ordering of discourses survives it — and not as a result to quote. Do not take figures from this file.
 
 Baseline: **Post-deliberative jury map (six discourses)**
 
@@ -63,7 +65,7 @@ The same proportions after each discourse's similarity column is centred on its 
 |---|---|---|---|---|---|---|---|
 | `deepseek/deepseek-v4-pro-0813` | 12.3% | 27.4% | 13.2% | 18.9% | 16.0% | 12.3% | 0.129 |
 | `moonshotai/kimi-k3` | 10.8% | 15.7% | 11.8% | 12.7% | 13.7% | 35.3% | 0.186 |
-| `z-ai/glm-5.2` | 9.0% | 34.8% | 11.2% | 31.5% | 12.4% | 1.1% | 0.330 |
+| `z-ai/glm-5.2` | 9.0% | 33.7% | 11.2% | 31.5% | 13.5% | 1.1% | 0.318 |
 
 ## Sensitivity to the assignment margin
 

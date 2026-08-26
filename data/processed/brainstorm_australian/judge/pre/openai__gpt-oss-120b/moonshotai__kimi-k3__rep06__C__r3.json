@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 6,
+  "discourse": "C",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:14:49.777853+00:00",
+  "judge_id": "gen-1787739277-ZUzMrczWmPs2EbCqwYjP",
+  "provider": "Parasail",
+  "usage": {
+    "completion_tokens": 1328,
+    "prompt_tokens": 2305,
+    "total_tokens": 3633,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1464,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 464,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00120562,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00120562,
+      "upstream_inference_prompt_cost": 0.00020962,
+      "upstream_inference_completions_cost": 0.000996
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"Alongside this hope runs a strong current of scientific caution, and it is important to understand that most cautious voices are not hostile to the technology. Many researchers celebrate the first approved gene‑editing treatments for blood disorders overseas, and support somatic research under tight oversight. Their caution concentrates on heritable editing, where mistakes would be permanent and transmissible. They point to the risk of unintended edits elsewhere in the genome, to embryos in which only some cells are corrected, to single genes that have multiple effects we do not fully understand, and to the simple fact that no experiment can reveal consequences appearing two generations later.\",\n  \"reason\": \"The briefing references a cautious, culturally aware stance but does not develop the full configuration of reasons (e.g., opposition to expert‑only decision‑making, naturalness, mitochondrial donation as organ transplant), so the reasoning is only mentioned.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "Alongside this hope runs a strong current of scientific caution, and it is important to understand that most cautious voices are not hostile to the technology. Many researchers celebrate the first approved gene‑editing treatments for blood disorders overseas, and support somatic research under tight oversight. Their caution concentrates on heritable editing, where mistakes would be permanent and transmissible. They point to the risk of unintended edits elsewhere in the genome, to embryos in which only some cells are corrected, to single genes that have multiple effects we do not fully understand, and to the simple fact that no experiment can reveal consequences appearing two generations later.",
+  "reason": "The briefing references a cautious, culturally aware stance but does not develop the full configuration of reasons (e.g., opposition to expert‑only decision‑making, naturalness, mitochondrial donation as organ transplant), so the reasoning is only mentioned.",
+  "schema_problems": ""
+}

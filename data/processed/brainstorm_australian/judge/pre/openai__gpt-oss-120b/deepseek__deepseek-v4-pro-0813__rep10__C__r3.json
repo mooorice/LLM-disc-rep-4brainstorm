@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 10,
+  "discourse": "C",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:12:17.073168+00:00",
+  "judge_id": "gen-1787739125-rFJVc3YIdyvy9ADv9Sfu",
+  "provider": "Parasail",
+  "usage": {
+    "completion_tokens": 1443,
+    "prompt_tokens": 2165,
+    "total_tokens": 3608,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1790,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 2160,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00120155,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00120155,
+      "upstream_inference_prompt_cost": 0.0001193,
+      "upstream_inference_completions_cost": 0.00108225
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"Some see nature as having moral significance and are cautious about altering the human genome.\",\n  \"reason\": \"The briefing presents cultural and religious reasons for caution toward genome editing, articulating why some citizens view it as interfering with nature, even though it lacks several specific points of the described discourse.\"\n}",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "Some see nature as having moral significance and are cautious about altering the human genome.",
+  "reason": "The briefing presents cultural and religious reasons for caution toward genome editing, articulating why some citizens view it as interfering with nature, even though it lacks several specific points of the described discourse.",
+  "schema_problems": ""
+}

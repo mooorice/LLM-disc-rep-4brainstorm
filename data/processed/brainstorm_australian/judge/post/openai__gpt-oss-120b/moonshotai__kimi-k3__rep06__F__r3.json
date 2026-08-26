@@ -36,8 +36,8 @@
     }
   },
   "parse_error": "",
-  "quote_verified": false,
-  "quote_match": 0.0,
+  "quote_verified": true,
+  "quote_match": 1.0,
   "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"Liberal societies generally let parents make far‑reaching choices for their children, through diet, schooling, religion and medical care, so why should genetic influence be singled out as uniquely illegitimate? If prenatal screening and embryo testing are already accepted, some ask, is editing not simply a more effective step along the same road?\",\n  \"reason\": \"The briefing cites a “freedom” argument that supports parental rights to edit embryos and treats the stance as one of several views without endorsing or dismissing it.\"\n}",
   "presence": "mentioned",
   "treatment": "neutral",

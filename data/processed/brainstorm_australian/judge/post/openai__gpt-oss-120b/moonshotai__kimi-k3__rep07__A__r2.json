@@ -36,8 +36,8 @@
     }
   },
   "parse_error": "",
-  "quote_verified": false,
-  "quote_match": 0.0,
+  "quote_verified": true,
+  "quote_match": 1.0,
   "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"The strongest hopeful voices come from families and communities affected by serious genetic disease. For parents who have watched a child die of Tay‑Sachs disease or Duchenne muscular dystrophy, or who carry Huntington's disease and face a one‑in‑two chance of passing it on, genome editing can represent not an abstraction but the possibility of sparing children and grandchildren from suffering.\",\n  \"reason\": \"The briefing notes enthusiastic, benefit‑focused supporters who favor research and view editing positively, but it does not develop the full stance of being relatively unconcerned about social/ethical issues or explicitly endorse permissive policy.\"\n}",
   "presence": "mentioned",
   "treatment": "neutral",

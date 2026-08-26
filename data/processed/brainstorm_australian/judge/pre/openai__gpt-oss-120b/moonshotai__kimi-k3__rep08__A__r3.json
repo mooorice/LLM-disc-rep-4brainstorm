@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 8,
+  "discourse": "A",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:16:03.623178+00:00",
+  "judge_id": "gen-1787739323-pWxkdcg02J0YkkrQk4rd",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 1291,
+    "prompt_tokens": 2256,
+    "total_tokens": 3547,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1100,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 2240,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.000542715,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.000542715,
+      "upstream_inference_prompt_cost": 4.568e-05,
+      "upstream_inference_completions_cost": 0.000497035
+    }
+  },
+  "parse_error": "",
+  "quote_verified": false,
+  "quote_match": 0.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"The most powerful hopes attached to this technology come from medicine and from families. For people who carry serious inherited conditions such as Huntington's disease, cystic fibrosis or muscular dystrophy, and who have watched children, siblings or parents suffer, editing holds out the possibility of raising healthy children who are genetically their own. Supporters speak of compassion, of the relief of preventable suffering, and some argue that there is a positive moral obligation to use safe technologies to spare future children from devastating illness.\",\n  \"reason\": \"The briefing notes optimism about medical benefits and a moral duty to use safe editing, but does not develop the full trust‑in‑experts, anti‑skeptic, and culturally‑uninfluenced reasoning described.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "The most powerful hopes attached to this technology come from medicine and from families. For people who carry serious inherited conditions such as Huntington's disease, cystic fibrosis or muscular dystrophy, and who have watched children, siblings or parents suffer, editing holds out the possibility of raising healthy children who are genetically their own. Supporters speak of compassion, of the relief of preventable suffering, and some argue that there is a positive moral obligation to use safe technologies to spare future children from devastating illness.",
+  "reason": "The briefing notes optimism about medical benefits and a moral duty to use safe editing, but does not develop the full trust‑in‑experts, anti‑skeptic, and culturally‑uninfluenced reasoning described.",
+  "schema_problems": ""
+}

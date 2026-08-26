@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 9,
+  "discourse": "A",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:10:08.656132+00:00",
+  "judge_id": "gen-1787739004-mbNuIvfAKpzmnx4w3RaX",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 156,
+    "prompt_tokens": 2154,
+    "total_tokens": 2310,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 352,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00023282,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00023282,
+      "upstream_inference_prompt_cost": 0.00017978,
+      "upstream_inference_completions_cost": 5.304e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"The hopeful case rests on suffering that might be prevented. Families living with Huntington's disease, Duchenne muscular dystrophy, cystic fibrosis or fatal childhood conditions speak of a moral imperative to heal, and argue that refusing to develop safe therapies is itself a choice with victims. Australia has strong biomedical research capacity, and proponents see an opportunity to lead in responsible translation.\",\n  \"reason\": \"The briefing articulates the scientific optimist's core logic by framing the pursuit of genome editing as a 'moral imperative to heal' and emphasizing the goal of preventing suffering through medical translation.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "The hopeful case rests on suffering that might be prevented. Families living with Huntington's disease, Duchenne muscular dystrophy, cystic fibrosis or fatal childhood conditions speak of a moral imperative to heal, and argue that refusing to develop safe therapies is itself a choice with victims. Australia has strong biomedical research capacity, and proponents see an opportunity to lead in responsible translation.",
+  "reason": "The briefing articulates the scientific optimist's core logic by framing the pursuit of genome editing as a 'moral imperative to heal' and emphasizing the goal of preventing suffering through medical translation.",
+  "schema_problems": ""
+}

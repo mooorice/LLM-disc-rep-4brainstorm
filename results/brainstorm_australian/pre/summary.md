@@ -1,4 +1,6 @@
-# Discursive representation results
+# Discursive representation results (paragraph level — SECONDARY)
+
+> **Status: secondary.** The reported analysis is sentence-level and lives in `sentence_summary_*.md`. This file assigns whole *paragraphs* to a single discourse, which is a coarser unit and gives materially different numbers: argmax on a ~5-sentence block erases every minority discourse inside a mixed paragraph, so the distribution here is far more concentrated (TVD ~0.42 against ~0.27 at sentence level, with one model assigning no paragraphs at all to discourse F). These essays mix discourses *within* paragraphs, which is why the paragraph is the wrong unit for this question. Kept as a robustness check on the choice of unit — the ordering of discourses survives it — and not as a result to quote. Do not take figures from this file.
 
 Baseline: **Pre-deliberative mapping study (four discourses)**
 

@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 10,
+  "discourse": "B",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:11:18.968683+00:00",
+  "judge_id": "gen-1787739071-7I4F6x82GStntYuGWwKP",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 162,
+    "prompt_tokens": 2005,
+    "total_tokens": 2167,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 416,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00021889,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00021889,
+      "upstream_inference_prompt_cost": 0.00016381,
+      "upstream_inference_completions_cost": 5.508e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"Closely tied to the enhancement debate are profound concerns about social equity and justice. In a society that prides itself on a fair go, the prospect of genetic advantages being available only to the wealthy strikes at the heart of Australian egalitarianism. If genome editing therapies are exorbitantly expensive, they could exacerbate existing inequalities, creating a biological divide between the genetically enhanced rich and the unenhanced poor.\",\n  \"reason\": \"The briefing explicitly develops the reasoning regarding the distinction between therapy and enhancement, the fear of social stratification/inequality, and the potential for genetic advantages to widen the gap between rich and poor.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "Closely tied to the enhancement debate are profound concerns about social equity and justice. In a society that prides itself on a fair go, the prospect of genetic advantages being available only to the wealthy strikes at the heart of Australian egalitarianism. If genome editing therapies are exorbitantly expensive, they could exacerbate existing inequalities, creating a biological divide between the genetically enhanced rich and the unenhanced poor.",
+  "reason": "The briefing explicitly develops the reasoning regarding the distinction between therapy and enhancement, the fear of social stratification/inequality, and the potential for genetic advantages to widen the gap between rich and poor.",
+  "schema_problems": ""
+}

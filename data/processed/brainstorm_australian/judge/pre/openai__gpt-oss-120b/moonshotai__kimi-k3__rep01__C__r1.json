@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 1,
+  "discourse": "C",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:12:40.732395+00:00",
+  "judge_id": "gen-1787739138-99ofSBgENNY4MUiw6cdm",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 796,
+    "prompt_tokens": 2040,
+    "total_tokens": 2836,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 709,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 128,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00041418,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00041418,
+      "upstream_inference_prompt_cost": 0.00010772,
+      "upstream_inference_completions_cost": 0.00030646
+    }
+  },
+  "parse_error": "",
+  "quote_verified": false,
+  "quote_match": 0.0,
+  "raw_response": "{\n  \"presence\": \"absent\",\n  \"treatment\": \"not_applicable\",\n  \"extent\": \"none\",\n  \"quote\": null,\n  \"reason\": \"The briefing does not contain the specific configuration of cultural caution, naturalness, openness to medical benefits, rejection of expert‑only decision making, or the detailed stance on mitochondrial donation, appearance changes, and slippery‑slope concerns described.\"\n}",
+  "presence": "absent",
+  "treatment": "not_applicable",
+  "extent": "none",
+  "quote": "",
+  "reason": "The briefing does not contain the specific configuration of cultural caution, naturalness, openness to medical benefits, rejection of expert‑only decision making, or the detailed stance on mitochondrial donation, appearance changes, and slippery‑slope concerns described.",
+  "schema_problems": ""
+}

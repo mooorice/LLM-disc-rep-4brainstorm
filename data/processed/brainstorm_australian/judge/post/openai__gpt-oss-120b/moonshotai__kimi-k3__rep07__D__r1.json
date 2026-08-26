@@ -36,8 +36,8 @@
     }
   },
   "parse_error": "",
-  "quote_verified": false,
-  "quote_match": 0.0,
+  "quote_verified": true,
+  "quote_match": 1.0,
   "raw_response": "{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"For parents who have watched a child die of Tay‑Sachs disease or Duchenne muscular dystrophy, or who carry Huntington's disease and face a one‑in‑two chance of passing it on, genome editing can represent not an abstraction but the possibility of sparing children and grandchildren from suffering.\",\n  \"reason\": \"The briefing develops a viewpoint that centers on using genome editing to prevent genetic disease for future generations, trusts scientific progress, worries about enhancements and long‑term risks, and favors regulated permissive policies rather than blanket bans or unrestricted permission.\"\n}",
   "presence": "articulated",
   "treatment": "neutral",

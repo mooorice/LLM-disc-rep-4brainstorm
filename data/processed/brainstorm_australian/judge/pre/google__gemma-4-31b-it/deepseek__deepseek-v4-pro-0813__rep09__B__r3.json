@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 9,
+  "discourse": "B",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:09:18.557939+00:00",
+  "judge_id": "gen-1787738954-rXPKxnSzJjOBO90nzXpI",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 142,
+    "prompt_tokens": 2126,
+    "total_tokens": 2268,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 2112,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00015514,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00015514,
+      "upstream_inference_prompt_cost": 0.00010686,
+      "upstream_inference_completions_cost": 4.828e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"There are also fears that genome editing could widen existing inequalities. If genetic enhancements or even therapeutic edits are expensive, they may be available only to the wealthy, creating new forms of biological privilege... Many people support editing to treat or prevent disease but oppose its use for non-medical enhancement, such as increasing height, altering appearance, or boosting intelligence.\",\n  \"reason\": \"The briefing develops the reasoning regarding social inequality, the distinction between therapy and enhancement, and the ethical concerns regarding future generations' consent.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "There are also fears that genome editing could widen existing inequalities. If genetic enhancements or even therapeutic edits are expensive, they may be available only to the wealthy, creating new forms of biological privilege... Many people support editing to treat or prevent disease but oppose its use for non-medical enhancement, such as increasing height, altering appearance, or boosting intelligence.",
+  "reason": "The briefing develops the reasoning regarding social inequality, the distinction between therapy and enhancement, and the ethical concerns regarding future generations' consent.",
+  "schema_problems": ""
+}

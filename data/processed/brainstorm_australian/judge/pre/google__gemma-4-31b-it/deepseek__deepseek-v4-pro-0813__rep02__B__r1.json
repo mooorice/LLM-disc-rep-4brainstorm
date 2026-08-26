@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 2,
+  "discourse": "B",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:08:30.388017+00:00",
+  "judge_id": "gen-1787738907-XDuUGduVSM6MU8eTW0hi",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 123,
+    "prompt_tokens": 2124,
+    "total_tokens": 2247,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 256,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00022274,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00022274,
+      "upstream_inference_prompt_cost": 0.00018092,
+      "upstream_inference_completions_cost": 4.182e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"If genome editing becomes available, it may be expensive, and access might be limited to those who can pay. This could create a new form of inequality in which genetic protections or advantages are available to some but not others.\",\n  \"reason\": \"The briefing explicitly develops the reasoning regarding equity and access, the distinction between therapy and non-medical enhancement, and the risks of making irreversible decisions for future generations.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "If genome editing becomes available, it may be expensive, and access might be limited to those who can pay. This could create a new form of inequality in which genetic protections or advantages are available to some but not others.",
+  "reason": "The briefing explicitly develops the reasoning regarding equity and access, the distinction between therapy and non-medical enhancement, and the risks of making irreversible decisions for future generations.",
+  "schema_problems": ""
+}

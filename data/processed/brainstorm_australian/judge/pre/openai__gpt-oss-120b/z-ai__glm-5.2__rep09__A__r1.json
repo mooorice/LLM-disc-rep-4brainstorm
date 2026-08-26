@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 9,
+  "discourse": "A",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:20:40.896252+00:00",
+  "judge_id": "gen-1787739611-WfzV2bxvIUWONZwEl53r",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 889,
+    "prompt_tokens": 2101,
+    "total_tokens": 2990,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 753,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 384,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00044438,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00044438,
+      "upstream_inference_prompt_cost": 0.000102115,
+      "upstream_inference_completions_cost": 0.000342265
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"others argue that humans have always altered their environment and themselves to survive and flourish, and that using our intellect to cure genetic disease is simply the next step in human evolution. This viewpoint frames scientific progress as a noble expression of human ingenuity and a moral duty to ease the burdens of mortal life.\",\n  \"reason\": \"the briefing presents a brief pro‑science perspective but does not develop the full scientific‑optimist reasoning (trust in experts, endorsement of enhancement, dismissal of cultural concerns, etc.).\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "others argue that humans have always altered their environment and themselves to survive and flourish, and that using our intellect to cure genetic disease is simply the next step in human evolution. This viewpoint frames scientific progress as a noble expression of human ingenuity and a moral duty to ease the burdens of mortal life.",
+  "reason": "the briefing presents a brief pro‑science perspective but does not develop the full scientific‑optimist reasoning (trust in experts, endorsement of enhancement, dismissal of cultural concerns, etc.).",
+  "schema_problems": ""
+}

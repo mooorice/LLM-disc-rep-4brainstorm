@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 6,
+  "discourse": "C",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:15:17.967560+00:00",
+  "judge_id": "gen-1787739276-cuBbD5FA4Q7FqVNZaVoj",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 1074,
+    "prompt_tokens": 2305,
+    "total_tokens": 3379,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 934,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 448,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.000524585,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.000524585,
+      "upstream_inference_prompt_cost": 0.000111095,
+      "upstream_inference_completions_cost": 0.00041349
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"For some, the human genome belongs to the given order of creation, and rewriting it is a form of overreach, sometimes described as playing God; for traditions that accord full moral status to embryos, the destruction of embryos involved in embryo editing is itself a grave wrong.\",\n  \"reason\": \"The briefing develops a cautious, culturally‑informed line of reasoning that cites religious/philosophical objections, scientific risks, and calls for broader public participation rather than expert‑only decision‑making.\"\n}",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "For some, the human genome belongs to the given order of creation, and rewriting it is a form of overreach, sometimes described as playing God; for traditions that accord full moral status to embryos, the destruction of embryos involved in embryo editing is itself a grave wrong.",
+  "reason": "The briefing develops a cautious, culturally‑informed line of reasoning that cites religious/philosophical objections, scientific risks, and calls for broader public participation rather than expert‑only decision‑making.",
+  "schema_problems": ""
+}

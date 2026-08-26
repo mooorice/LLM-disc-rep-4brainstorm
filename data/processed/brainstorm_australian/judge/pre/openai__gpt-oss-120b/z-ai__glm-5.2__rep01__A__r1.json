@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 1,
+  "discourse": "A",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:17:17.553193+00:00",
+  "judge_id": "gen-1787739411-8slTGLFWTaOZo6aUwrlj",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 827,
+    "prompt_tokens": 2160,
+    "total_tokens": 2987,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 689,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 384,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.000423755,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.000423755,
+      "upstream_inference_prompt_cost": 0.00010536,
+      "upstream_inference_completions_cost": 0.000318395
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"There is also a strong current of scientific optimism within the Australian community. Many citizens take pride in our nation’s history of medical innovation and believe that carefully regulated research can yield enormous public health benefits, reducing the long-term burden on the healthcare system and allowing individuals to live fuller, healthier lives.\",\n  \"reason\": \"The briefing presents a distinct scientific‑optimist viewpoint, explaining why people hold it (pride in national innovation and belief in health benefits), thus articulating the reasoning described.\"\n}",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "There is also a strong current of scientific optimism within the Australian community. Many citizens take pride in our nation’s history of medical innovation and believe that carefully regulated research can yield enormous public health benefits, reducing the long-term burden on the healthcare system and allowing individuals to live fuller, healthier lives.",
+  "reason": "The briefing presents a distinct scientific‑optimist viewpoint, explaining why people hold it (pride in national innovation and belief in health benefits), thus articulating the reasoning described.",
+  "schema_problems": ""
+}

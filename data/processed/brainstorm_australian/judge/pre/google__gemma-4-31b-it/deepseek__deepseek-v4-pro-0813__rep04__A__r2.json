@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 4,
+  "discourse": "A",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:08:44.606898+00:00",
+  "judge_id": "gen-1787738917-PYZSCb9aO1Yf89q0LQu7",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 267,
+    "prompt_tokens": 2214,
+    "total_tokens": 2481,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 2208,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00020172,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00020172,
+      "upstream_inference_prompt_cost": 0.00011094,
+      "upstream_inference_completions_cost": 9.078e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"Many people come to this conversation with hope. They see genome editing as a natural extension of medicine, a way to correct the genetic mutations that cause serious diseases such as cystic fibrosis, sickle cell disease, Huntington\\u2019s disease, certain inherited cancers and some forms of blindness. For families affected by genetic conditions, the technology may offer the possibility of having healthy biological children and sparing future generations from severe pain and early death. Even somatic editing, which is already being trialled for some blood disorders and other conditions, is seen by many as a compassionate response to suffering. On this view, society has a moral duty to pursue safe and effective technologies that reduce disease, just as it does with vaccines, surgery and medicines. Reproductive freedom is also central here: many people believe parents should be able to use the best available medical options to give their children a healthy start in life.\",\n  \"reason\": \"The briefing articulates the scientific optimism perspective by detailing the belief in the moral duty to reduce disease, the view of editing as a natural extension of medicine, and the desire to provide children with a healthy start.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "a paragraph",
+  "quote": "Many people come to this conversation with hope. They see genome editing as a natural extension of medicine, a way to correct the genetic mutations that cause serious diseases such as cystic fibrosis, sickle cell disease, Huntington’s disease, certain inherited cancers and some forms of blindness. For families affected by genetic conditions, the technology may offer the possibility of having healthy biological children and sparing future generations from severe pain and early death. Even somatic editing, which is already being trialled for some blood disorders and other conditions, is seen by many as a compassionate response to suffering. On this view, society has a moral duty to pursue safe and effective technologies that reduce disease, just as it does with vaccines, surgery and medicines. Reproductive freedom is also central here: many people believe parents should be able to use the best available medical options to give their children a healthy start in life.",
+  "reason": "The briefing articulates the scientific optimism perspective by detailing the belief in the moral duty to reduce disease, the view of editing as a natural extension of medicine, and the desire to provide children with a healthy start.",
+  "schema_problems": ""
+}

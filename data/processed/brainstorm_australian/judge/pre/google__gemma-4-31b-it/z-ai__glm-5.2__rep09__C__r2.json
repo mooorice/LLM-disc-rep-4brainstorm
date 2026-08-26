@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 9,
+  "discourse": "C",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:11:10.954153+00:00",
+  "judge_id": "gen-1787739067-okCdKZOGmkvHJ6Z8tLjk",
+  "provider": "Parasail",
+  "usage": {
+    "completion_tokens": 126,
+    "prompt_tokens": 2108,
+    "total_tokens": 2234,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 426,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00032826,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00032826,
+      "upstream_inference_prompt_cost": 0.00027786,
+      "upstream_inference_completions_cost": 5.04e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a sentence or two\",\n  \"quote\": \"For some, altering the human genome represents an unacceptable overreach, a modern form of playing God that violates the sanctity of the natural order.\",\n  \"reason\": \"While the briefing mentions the desire to remain 'natural' and avoid 'playing God,' it fails to articulate the specific combination of reasons characteristic of this group, such as being open to life-saving medicine while simultaneously rejecting expert-led decision-making.\"\n}\n```",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a sentence or two",
+  "quote": "For some, altering the human genome represents an unacceptable overreach, a modern form of playing God that violates the sanctity of the natural order.",
+  "reason": "While the briefing mentions the desire to remain 'natural' and avoid 'playing God,' it fails to articulate the specific combination of reasons characteristic of this group, such as being open to life-saving medicine while simultaneously rejecting expert-led decision-making.",
+  "schema_problems": ""
+}

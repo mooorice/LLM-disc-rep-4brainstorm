@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 1,
+  "discourse": "C",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:08:29.929341+00:00",
+  "judge_id": "gen-1787738905-WcZsBAiGuYJMUCLpQVPj",
+  "provider": "CoreWeave",
+  "usage": {
+    "completion_tokens": 138,
+    "prompt_tokens": 2163,
+    "total_tokens": 2301,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00026322,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00026322,
+      "upstream_inference_prompt_cost": 0.0002163,
+      "upstream_inference_completions_cost": 4.692e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a sentence or two\",\n  \"quote\": \"Some religious traditions regard the human genome as sacred or as a gift from God, and view deliberate alteration of the germline as overstepping human authority.\",\n  \"reason\": \"While the briefing mentions the idea of 'overstepping human authority' and the genome as 'sacred' (aligning with the 'interfering too far' and 'natural' aspects), it does not articulate the specific configuration of being open to science/medicine while rejecting expert-only governance.\"\n}\n```",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a sentence or two",
+  "quote": "Some religious traditions regard the human genome as sacred or as a gift from God, and view deliberate alteration of the germline as overstepping human authority.",
+  "reason": "While the briefing mentions the idea of 'overstepping human authority' and the genome as 'sacred' (aligning with the 'interfering too far' and 'natural' aspects), it does not articulate the specific configuration of being open to science/medicine while rejecting expert-only governance.",
+  "schema_problems": ""
+}

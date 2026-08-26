@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 1,
+  "discourse": "A",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:08:41.873360+00:00",
+  "judge_id": "gen-1787738910-t1GsiGarh7yk0smc9KSi",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 422,
+    "prompt_tokens": 2146,
+    "total_tokens": 2568,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 445,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.000151142,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.000151142,
+      "upstream_inference_prompt_cost": 7.9402e-05,
+      "upstream_inference_completions_cost": 7.174e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a sentence or two\",\n  \"quote\": \"early results have generated cautious optimism.\",\n  \"reason\": \"The briefing only briefly notes cautious optimism without developing the deeper trust‑in‑experts, safety‑conditional support, or dismissal of cultural concerns characteristic of the scientific‑optimist discourse.\"\n}",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a sentence or two",
+  "quote": "early results have generated cautious optimism.",
+  "reason": "The briefing only briefly notes cautious optimism without developing the deeper trust‑in‑experts, safety‑conditional support, or dismissal of cultural concerns characteristic of the scientific‑optimist discourse.",
+  "schema_problems": ""
+}

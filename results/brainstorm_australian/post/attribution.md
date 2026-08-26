@@ -16,7 +16,7 @@ A discourse can be given airtime and left uncontradicted while still never being
 
 The paragraph figures are higher than the sentence figure by construction: a paragraph counts as attributed if any part of it is, and paragraphs here average 5.4 sentences.
 
-The narrow row is the one comparable to the **53.5%** recorded in `pre-delib_q_statements_depersonalised.CHANGES.md`, which came from a narrower ad-hoc pattern run before this script existed. The two are measuring the same thing at different sensitivities, so they should be in the same region rather than identical.
+A figure of **53.5%** is recorded in `pre-delib_q_statements_depersonalised.CHANGES.md` from a narrower ad-hoc pattern used before this script existed. It sits in the same region as the narrow row above, but the script that produced it no longer exists and the number cannot be regenerated, so it is a historical note and **not** a validation of this detector. The detector's precision and recall have never been measured against hand-labelled sentences; `--samples` prints matched and unmatched cases for inspection, which catches systematic error but does not quantify what is left. Read the rates below as comparative between discourses, not as calibrated levels.
 
 Breakdown of the sentence-level classification:
 

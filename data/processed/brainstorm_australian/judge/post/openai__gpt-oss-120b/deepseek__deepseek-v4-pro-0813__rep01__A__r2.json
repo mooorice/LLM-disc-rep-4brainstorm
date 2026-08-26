@@ -36,8 +36,8 @@
     }
   },
   "parse_error": "",
-  "quote_verified": false,
-  "quote_match": 0.0,
+  "quote_verified": true,
+  "quote_match": 1.0,
   "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"From this perspective, refusing to develop safe and effective editing technologies could be seen as withholding a potentially life‑changing therapy from people who desperately need it.\",\n  \"reason\": \"The briefing notes enthusiasm for medical benefits and desire to reduce disease, but does not articulate the broader stance of low concern for social/ethical issues or a permissive policy preference.\"\n}",
   "presence": "mentioned",
   "treatment": "neutral",

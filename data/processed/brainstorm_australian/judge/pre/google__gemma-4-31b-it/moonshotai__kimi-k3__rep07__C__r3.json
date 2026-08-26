@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 7,
+  "discourse": "C",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:10:03.229849+00:00",
+  "judge_id": "gen-1787738999-Bsd09FQJM7PZn5CHcftO",
+  "provider": "Parasail",
+  "usage": {
+    "completion_tokens": 134,
+    "prompt_tokens": 2403,
+    "total_tokens": 2537,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 426,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00037571,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00037571,
+      "upstream_inference_prompt_cost": 0.00032211,
+      "upstream_inference_completions_cost": 5.36e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a sentence or two\",\n  \"quote\": \"Some traditions see the human genome as part of a created order that humans should steward but not rewrite, and worry about \\\"playing God\\\"\",\n  \"reason\": \"The briefing mentions the 'playing God' and 'created order' sentiments which align with the culturally cautious view of interfering with human creation, but it does not articulate the specific configuration of values (e.g., openness to life-saving medicine combined with distrust of experts) described in the reasoning.\"\n}\n```",
+  "presence": "mentioned",
+  "treatment": "neutral",
+  "extent": "a sentence or two",
+  "quote": "Some traditions see the human genome as part of a created order that humans should steward but not rewrite, and worry about \"playing God\"",
+  "reason": "The briefing mentions the 'playing God' and 'created order' sentiments which align with the culturally cautious view of interfering with human creation, but it does not articulate the specific configuration of values (e.g., openness to life-saving medicine combined with distrust of experts) described in the reasoning.",
+  "schema_problems": ""
+}

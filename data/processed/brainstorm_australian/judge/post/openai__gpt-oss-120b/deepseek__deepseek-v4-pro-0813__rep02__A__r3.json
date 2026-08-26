@@ -36,8 +36,8 @@
     }
   },
   "parse_error": "",
-  "quote_verified": false,
-  "quote_match": 0.281,
+  "quote_verified": true,
+  "quote_match": 1.0,
   "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"The hopes associated with genome editing are often focused on the relief of serious suffering. For families affected by genetic conditions such as cystic fibrosis, Huntington disease or muscular dystrophy, the ability to correct a single faulty gene could be life‑changing. ... From this perspective, compassion and the desire to reduce suffering support careful development of the technology.\",\n  \"reason\": \"The briefing mentions enthusiasm for medical benefits and reduced suffering, but does not develop the broader stance of being unconcerned about social/ethical issues or advocating permissive policies.\"\n}",
   "presence": "mentioned",
   "treatment": "neutral",

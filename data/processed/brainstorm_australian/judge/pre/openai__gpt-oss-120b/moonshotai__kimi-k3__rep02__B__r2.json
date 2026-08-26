@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 2,
+  "discourse": "B",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:13:06.696996+00:00",
+  "judge_id": "gen-1787739161-c2ozlKGTYVHQ1Mhlr26x",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 788,
+    "prompt_tokens": 2245,
+    "total_tokens": 3033,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 679,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 2240,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.000348455,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.000348455,
+      "upstream_inference_prompt_cost": 4.5075e-05,
+      "upstream_inference_completions_cost": 0.00030338
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"Questions of fairness run through every part of this debate. Gene therapies are among the most expensive treatments ever developed, raising the prospect that genetic health becomes a luxury good, deepening divides between rich and poor, between cities and the bush, and between nations.\",\n  \"reason\": \"The briefing develops concerns about equity, non‑medical uses, safety and social consequences, matching the described reasoning.\"\n}",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "Questions of fairness run through every part of this debate. Gene therapies are among the most expensive treatments ever developed, raising the prospect that genetic health becomes a luxury good, deepening divides between rich and poor, between cities and the bush, and between nations.",
+  "reason": "The briefing develops concerns about equity, non‑medical uses, safety and social consequences, matching the described reasoning.",
+  "schema_problems": ""
+}

@@ -36,8 +36,8 @@
     }
   },
   "parse_error": "",
-  "quote_verified": false,
-  "quote_match": 0.0,
+  "quote_verified": true,
+  "quote_match": 1.0,
   "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"a paragraph\",\n  \"quote\": \"The hopes invested in this technology are powerful and often personal. Families who have watched children suffer with cystic fibrosis, muscular dystrophy or Tay‑Sachs disease see the possibility that such suffering could be prevented altogether, not just managed.\",\n  \"reason\": \"The briefing notes enthusiastic hopes for medical benefit but does not fully develop the specific reasoning about permissive heritable editing, low ethical concern, or rejection of a blanket prohibition.\"\n}",
   "presence": "mentioned",
   "treatment": "neutral",

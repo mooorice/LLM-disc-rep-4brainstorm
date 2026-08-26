@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 3,
+  "discourse": "C",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:09:16.712388+00:00",
+  "judge_id": "gen-1787738949-SZUMQIfxCw9tZOrCulMv",
+  "provider": "Parasail",
+  "usage": {
+    "completion_tokens": 945,
+    "prompt_tokens": 2388,
+    "total_tokens": 3333,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1128,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 464,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00092667,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00092667,
+      "upstream_inference_prompt_cost": 0.00021792,
+      "upstream_inference_completions_cost": 0.00070875
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"Many people are wary of scientists, companies or governments making decisions behind closed doors. They want processes that are inclusive, accountable and capable of listening to ordinary citizens, not only experts.\",\n  \"reason\": \"The briefing develops a culturally cautious perspective, citing religious/spiritual worries, a desire to stay natural, openness to medical benefits, and explicit disagreement with leaving decisions solely to experts.\"\n}",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "Many people are wary of scientists, companies or governments making decisions behind closed doors. They want processes that are inclusive, accountable and capable of listening to ordinary citizens, not only experts.",
+  "reason": "The briefing develops a culturally cautious perspective, citing religious/spiritual worries, a desire to stay natural, openness to medical benefits, and explicit disagreement with leaving decisions solely to experts.",
+  "schema_problems": ""
+}

@@ -36,8 +36,8 @@
     }
   },
   "parse_error": "",
-  "quote_verified": false,
-  "quote_match": 0.0,
+  "quote_verified": true,
+  "quote_match": 1.0,
   "raw_response": "{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"Genome editing is an incredibly complex and expensive medical procedure. Many citizens worry that if enhancements become possible, they will initially be accessible only to the wealthy. This could lead to a genetic divide, where socio‑economic inequality is permanently entrenched in the biology of the population.\",\n  \"reason\": \"The briefing develops the concerns about unequal access, supports health‑benefiting uses, calls for more research and precaution, reflecting the core reasoning described.\"\n}",
   "presence": "articulated",
   "treatment": "neutral",

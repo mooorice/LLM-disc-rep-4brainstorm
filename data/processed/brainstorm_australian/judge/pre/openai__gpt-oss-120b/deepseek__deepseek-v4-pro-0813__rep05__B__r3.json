@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 5,
+  "discourse": "B",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:10:14.732667+00:00",
+  "judge_id": "gen-1787738984-w91QMOmJUEbuAr8HSLSp",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 884,
+    "prompt_tokens": 2285,
+    "total_tokens": 3169,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 748,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 64,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.000463775,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.000463775,
+      "upstream_inference_prompt_cost": 0.000123435,
+      "upstream_inference_completions_cost": 0.00034034
+    }
+  },
+  "parse_error": "",
+  "quote_verified": false,
+  "quote_match": 0.321,
+  "raw_response": "{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"Beyond treating disease, the possibility of using genome editing for enhancement raises some of the deepest concerns. Enhancement could create new forms of genetic inequality, commodify children and repeat the injustices of the past in new biological forms. ... If genome editing becomes available only to those who can afford it, it could deepen existing health inequalities.\",\n  \"reason\": \"The briefing develops a line of reasoning that stresses social and ethical risks, non‑medical uses, and equity concerns, matching the described discourse.\"\n}",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "Beyond treating disease, the possibility of using genome editing for enhancement raises some of the deepest concerns. Enhancement could create new forms of genetic inequality, commodify children and repeat the injustices of the past in new biological forms. ... If genome editing becomes available only to those who can afford it, it could deepen existing health inequalities.",
+  "reason": "The briefing develops a line of reasoning that stresses social and ethical risks, non‑medical uses, and equity concerns, matching the described discourse.",
+  "schema_problems": ""
+}

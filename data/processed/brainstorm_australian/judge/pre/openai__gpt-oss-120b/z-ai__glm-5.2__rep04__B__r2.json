@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 4,
+  "discourse": "B",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:18:44.712605+00:00",
+  "judge_id": "gen-1787739499-YJNmNNv6SIzBFXcesi3l",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 825,
+    "prompt_tokens": 2117,
+    "total_tokens": 2942,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 634,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 2112,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00036014,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00036014,
+      "upstream_inference_prompt_cost": 4.2515e-05,
+      "upstream_inference_completions_cost": 0.000317625
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"A major thread running through the public discourse is the concern for equity, access, and social justice. In a society that values egalitarianism, there is deep apprehension that genome editing could exacerbate existing disparities, creating a genetic divide between the rich and the poor. If therapies are prohibitively expensive, they may only be available to the wealthy. This concern extends to germline editing, where fears of designer babies are prevalent. If the wealthy can purchase genetic enhancements for their children—increasing intelligence, physical prowess, or cosmetic traits—the resulting social stratification could be unprecedented.\",\n  \"reason\": \"The briefing develops the same concerns about equity, access, and non‑medical (enhancement) uses, emphasizing potential social inequality and the need for universal availability.\"\n}",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "A major thread running through the public discourse is the concern for equity, access, and social justice. In a society that values egalitarianism, there is deep apprehension that genome editing could exacerbate existing disparities, creating a genetic divide between the rich and the poor. If therapies are prohibitively expensive, they may only be available to the wealthy. This concern extends to germline editing, where fears of designer babies are prevalent. If the wealthy can purchase genetic enhancements for their children—increasing intelligence, physical prowess, or cosmetic traits—the resulting social stratification could be unprecedented.",
+  "reason": "The briefing develops the same concerns about equity, access, and non‑medical (enhancement) uses, emphasizing potential social inequality and the need for universal availability.",
+  "schema_problems": ""
+}

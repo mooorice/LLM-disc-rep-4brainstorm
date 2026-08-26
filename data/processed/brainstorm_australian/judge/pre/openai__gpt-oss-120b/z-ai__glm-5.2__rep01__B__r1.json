@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 1,
+  "discourse": "B",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:17:18.159187+00:00",
+  "judge_id": "gen-1787739417-pYlpDGANeUMeQF2DTGoI",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 670,
+    "prompt_tokens": 2208,
+    "total_tokens": 2878,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 569,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 448,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00036371,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00036371,
+      "upstream_inference_prompt_cost": 0.00010576,
+      "upstream_inference_completions_cost": 0.00025795
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"Many citizens worry that genome editing could become a luxury available only to the wealthy, creating a permanent biological divide between the rich and the poor.\",\n  \"reason\": \"The briefing develops the same concerns about non‑medical uses, equity, access, and social consequences, presenting them as a distinct line of reasoning.\"\n}",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "Many citizens worry that genome editing could become a luxury available only to the wealthy, creating a permanent biological divide between the rich and the poor.",
+  "reason": "The briefing develops the same concerns about non‑medical uses, equity, access, and social consequences, presenting them as a distinct line of reasoning.",
+  "schema_problems": ""
+}

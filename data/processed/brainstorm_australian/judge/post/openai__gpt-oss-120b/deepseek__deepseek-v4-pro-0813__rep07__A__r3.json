@@ -36,8 +36,8 @@
     }
   },
   "parse_error": "",
-  "quote_verified": false,
-  "quote_match": 0.297,
+  "quote_verified": true,
+  "quote_match": 1.0,
   "raw_response": "{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"A central hope is medical relief. Families affected by conditions such as Huntington’s disease, cystic fibrosis, sickle cell disease or Tay‑Sachs disease have long lived with pain, disability and early death. For them, genome editing can seem like a long‑awaited chance to avoid devastating diagnoses. ... In this view, the ethical imperative is to heal, and editing is simply a more precise form of medicine.\",\n  \"reason\": \"The briefing develops a viewpoint that emphasizes strong enthusiasm for medical benefits, calls for continued research, and favors permissive yet regulated use, matching the described reasoning.\"\n}",
   "presence": "articulated",
   "treatment": "neutral",

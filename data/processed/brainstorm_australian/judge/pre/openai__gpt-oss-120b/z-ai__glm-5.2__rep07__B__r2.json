@@ -1,0 +1,48 @@
+{
+  "model": "z-ai/glm-5.2",
+  "repetition": 7,
+  "discourse": "B",
+  "replicate": 2,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:20:00.643589+00:00",
+  "judge_id": "gen-1787739578-5LGS9QRGL00dq5nq7w9X",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 664,
+    "prompt_tokens": 2063,
+    "total_tokens": 2727,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 555,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 2048,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.000297425,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.000297425,
+      "upstream_inference_prompt_cost": 4.1785e-05,
+      "upstream_inference_completions_cost": 0.00025564
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"Equity and access represent another major pillar of the debate. In a society that already grapples with socioeconomic disparities, the introduction of highly sophisticated and likely expensive genetic technologies threatens to widen the gap.\",\n  \"reason\": \"The briefing develops the same concerns about non‑medical use, equity, access, and widening social gaps, providing the underlying reasoning of the described discourse.\"\n}",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "Equity and access represent another major pillar of the debate. In a society that already grapples with socioeconomic disparities, the introduction of highly sophisticated and likely expensive genetic technologies threatens to widen the gap.",
+  "reason": "The briefing develops the same concerns about non‑medical use, equity, access, and widening social gaps, providing the underlying reasoning of the described discourse.",
+  "schema_problems": ""
+}

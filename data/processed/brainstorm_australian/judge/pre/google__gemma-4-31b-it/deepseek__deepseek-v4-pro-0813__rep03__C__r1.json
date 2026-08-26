@@ -1,0 +1,48 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "repetition": 3,
+  "discourse": "C",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:08:39.023920+00:00",
+  "judge_id": "gen-1787738915-inWfY83B2XRc29d4dykS",
+  "provider": "Venice",
+  "usage": {
+    "completion_tokens": 146,
+    "prompt_tokens": 2356,
+    "total_tokens": 2502,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00033528,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00033528,
+      "upstream_inference_prompt_cost": 0.00028272,
+      "upstream_inference_completions_cost": 5.256e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"Some religious traditions see the human genome as a gift or sacred inheritance and worry that editing amounts to overstepping human limits. Others within the same traditions might emphasise healing and stewardship, saying that using human creativity to relieve suffering is itself a moral obligation.\",\n  \"reason\": \"The briefing articulates the core tension of the 'Culturally Cautious'—balancing the desire to remain natural/respect limits with the drive to save lives—while also explicitly mentioning the preference for public deliberation over expert-led decision-making.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "Some religious traditions see the human genome as a gift or sacred inheritance and worry that editing amounts to overstepping human limits. Others within the same traditions might emphasise healing and stewardship, saying that using human creativity to relieve suffering is itself a moral obligation.",
+  "reason": "The briefing articulates the core tension of the 'Culturally Cautious'—balancing the desire to remain natural/respect limits with the drive to save lives—while also explicitly mentioning the preference for public deliberation over expert-led decision-making.",
+  "schema_problems": ""
+}

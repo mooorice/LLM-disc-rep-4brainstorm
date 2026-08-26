@@ -129,9 +129,9 @@ Every non-absent judgement had to supply a verbatim quote, checked against the e
 | | Value |
 |---|---|
 | Judgements requiring a quote | 264 |
-| Fully verified | 83.3% |
-| Mean share of quoted words found | 0.838 |
-| Wholly unfindable (0% matched) | 15.5% |
+| Fully verified | 93.6% |
+| Mean share of quoted words found | 0.941 |
+| Wholly unfindable (0% matched) | 5.3% |
 | Unparseable responses | 0 of 539 |
 
 A quote that cannot be found is the judge inventing support for a rating. That rate is the ceiling on how much any individual verdict can be trusted.

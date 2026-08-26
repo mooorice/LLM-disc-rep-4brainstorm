@@ -36,8 +36,8 @@
     }
   },
   "parse_error": "",
-  "quote_verified": false,
-  "quote_match": 0.0,
+  "quote_verified": true,
+  "quote_match": 1.0,
   "raw_response": "{\n  \"presence\": \"mentioned\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"History shadows the debate. Twentieth‑century eugenics—including in Australia, where racist science, institutionalisation and policies targeting Indigenous people caused lasting harm—makes any talk of improving the human stock radioactive.\",\n  \"reason\": \"The briefing references dystopian/eugenic fears and also notes that adults may consent to non‑heritable (somatic) editing, but it does not present the full coherent stance combining those concerns with a specific policy of approving non‑heritable editing and mitochondrial donation only if not for profit.\"\n}",
   "presence": "mentioned",
   "treatment": "neutral",

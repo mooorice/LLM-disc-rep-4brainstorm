@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 8,
+  "discourse": "B",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:10:08.209979+00:00",
+  "judge_id": "gen-1787739003-o9rcQ6UzeINfyi205aLr",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 150,
+    "prompt_tokens": 2270,
+    "total_tokens": 2420,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 2240,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.0001657,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.0001657,
+      "upstream_inference_prompt_cost": 0.0001147,
+      "upstream_inference_completions_cost": 5.1e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"The gene therapies approved overseas cost millions of dollars per patient, raising hard questions about who would gain access in Australia, whether through Medicare and the public system or only through private wealth, and whether regional and remote communities would be left behind. If heritable enhancement ever became available to the affluent, some fear a durable genetic stratification of society.\",\n  \"reason\": \"The briefing explicitly develops the reasoning regarding the tension between curing disease and the risks of social inequality, the distinction between therapy and non-medical enhancement, and the potential for genetic stratification.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "The gene therapies approved overseas cost millions of dollars per patient, raising hard questions about who would gain access in Australia, whether through Medicare and the public system or only through private wealth, and whether regional and remote communities would be left behind. If heritable enhancement ever became available to the affluent, some fear a durable genetic stratification of society.",
+  "reason": "The briefing explicitly develops the reasoning regarding the tension between curing disease and the risks of social inequality, the distinction between therapy and non-medical enhancement, and the potential for genetic stratification.",
+  "schema_problems": ""
+}

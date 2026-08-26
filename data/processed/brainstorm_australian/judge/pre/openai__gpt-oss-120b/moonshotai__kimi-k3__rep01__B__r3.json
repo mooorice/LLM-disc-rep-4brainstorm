@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 1,
+  "discourse": "B",
+  "replicate": 3,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "openai/gpt-oss-120b",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:12:37.564134+00:00",
+  "judge_id": "gen-1787739136-zzy0piK4yz0wpfB1jMA3",
+  "provider": "DigitalOcean",
+  "usage": {
+    "completion_tokens": 646,
+    "prompt_tokens": 2050,
+    "total_tokens": 2696,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 529,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 2048,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00028978,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00028978,
+      "upstream_inference_prompt_cost": 4.107e-05,
+      "upstream_inference_completions_cost": 0.00024871
+    }
+  },
+  "parse_error": "",
+  "quote_verified": false,
+  "quote_match": 0.0,
+  "raw_response": "{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"If editing becomes available only to the wealthy, some fear a society stratified not just by money but by biology, in which advantages are literally inherited. Editing for taller stature or chosen eye colour seems plainly enhancement.\",\n  \"reason\": \"The briefing develops concerns about equity, non‑medical (enhancement) uses, and broader social consequences, explaining why people would hold this stance.\"\n}",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "If editing becomes available only to the wealthy, some fear a society stratified not just by money but by biology, in which advantages are literally inherited. Editing for taller stature or chosen eye colour seems plainly enhancement.",
+  "reason": "The briefing develops concerns about equity, non‑medical (enhancement) uses, and broader social consequences, explaining why people would hold this stance.",
+  "schema_problems": ""
+}

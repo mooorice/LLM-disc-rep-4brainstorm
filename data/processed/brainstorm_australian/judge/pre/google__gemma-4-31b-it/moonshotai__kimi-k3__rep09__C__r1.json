@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 9,
+  "discourse": "C",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:10:22.493565+00:00",
+  "judge_id": "gen-1787739008-C33GvCeNRXeoPBAjQwfZ",
+  "provider": "Parasail",
+  "usage": {
+    "completion_tokens": 131,
+    "prompt_tokens": 2199,
+    "total_tokens": 2330,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 426,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00034391,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00034391,
+      "upstream_inference_prompt_cost": 0.00029151,
+      "upstream_inference_completions_cost": 5.24e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"Many argue that processes like this assembly are part of legitimate governance—that on questions touching what it means to be human, technical expertise alone should not decide.\",\n  \"reason\": \"The briefing captures the core tension of the 'culturally cautious' by balancing a desire to heal suffering and allow mitochondrial donation with warnings about 'playing God', concerns over 'consumer eugenics', and the explicit argument that technical experts alone should not make these decisions.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "Many argue that processes like this assembly are part of legitimate governance—that on questions touching what it means to be human, technical expertise alone should not decide.",
+  "reason": "The briefing captures the core tension of the 'culturally cautious' by balancing a desire to heal suffering and allow mitochondrial donation with warnings about 'playing God', concerns over 'consumer eugenics', and the explicit argument that technical experts alone should not make these decisions.",
+  "schema_problems": ""
+}

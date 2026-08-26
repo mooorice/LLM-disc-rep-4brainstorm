@@ -1,0 +1,48 @@
+{
+  "model": "moonshotai/kimi-k3",
+  "repetition": 4,
+  "discourse": "B",
+  "replicate": 1,
+  "prompt_name": "brainstorm_australian",
+  "baseline": "pre",
+  "judge_model": "google/gemma-4-31b-it",
+  "judge_temperature": 1.0,
+  "judged_at": "2026-08-26T10:09:47.924404+00:00",
+  "judge_id": "gen-1787738979-JtUnYe5LQz9LSgBZZlOe",
+  "provider": "DeepInfra",
+  "usage": {
+    "completion_tokens": 135,
+    "prompt_tokens": 2261,
+    "total_tokens": 2396,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 416,
+      "cache_write_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0.00023275,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00023275,
+      "upstream_inference_prompt_cost": 0.00018685,
+      "upstream_inference_completions_cost": 4.59e-05
+    }
+  },
+  "parse_error": "",
+  "quote_verified": true,
+  "quote_match": 1.0,
+  "raw_response": "```json\n{\n  \"presence\": \"articulated\",\n  \"treatment\": \"neutral\",\n  \"extent\": \"several paragraphs\",\n  \"quote\": \"Justice raises a different set of questions. Approved gene therapies currently cost millions of dollars per patient, prompting fears of a divide between those who can afford genetic advantage and those who cannot, within Australia, between cities and regions, and globally between rich and poor countries.\",\n  \"reason\": \"The briefing articulates the core concerns of this discourse, including the distinction between therapy and enhancement, the risks of irreversible mistakes for future generations, and the potential for widening social inequality.\"\n}\n```",
+  "presence": "articulated",
+  "treatment": "neutral",
+  "extent": "several paragraphs",
+  "quote": "Justice raises a different set of questions. Approved gene therapies currently cost millions of dollars per patient, prompting fears of a divide between those who can afford genetic advantage and those who cannot, within Australia, between cities and regions, and globally between rich and poor countries.",
+  "reason": "The briefing articulates the core concerns of this discourse, including the distinction between therapy and enhancement, the risks of irreversible mistakes for future generations, and the potential for widening social inequality.",
+  "schema_problems": ""
+}
